@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="report">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="TemplateName" type="xs:string" />
+				<xs:element name="ReportName" type="xs:string" />
+				<xs:element name="DocumentId" type="xs:string" />
+				<xs:element name="CreateDate" type="xs:dateTime" />
+				<xs:element name="MTOrderNumber" type="xs:string" />
+				<xs:element name="CPOrderNumber" type="xs:string" />
+				<xs:element name="CustomerContact" type="xs:string" />
+				<xs:element name="SystemName" type="xs:string" minOccurs="0" />
+				<xs:element name="UsePageBreaks" type="xs:boolean" />
+				<xs:element maxOccurs="unbounded" name="page">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element maxOccurs="unbounded" name="section">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element maxOccurs="unbounded" name="subsection">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element maxOccurs="unbounded" name="control" minOccurs="0">
+														<xs:complexType>
+															<xs:sequence minOccurs="0">
+																<xs:element minOccurs="0" name="itemHeader0">
+																	<xs:complexType>
+																		<xs:attribute name="grid-col" type="xs:unsignedByte" use="optional" />
+																		<xs:attribute name="name" type="xs:string" use="optional" />
+																		<xs:attribute name="value" type="xs:string" use="required" />
+																	</xs:complexType>
+																</xs:element>
+																<xs:element minOccurs="0" name="itemHeader1">
+																	<xs:complexType>
+																		<xs:attribute name="grid-col" type="xs:unsignedByte" use="optional" />
+																		<xs:attribute name="name" type="xs:string" use="optional" />
+																		<xs:attribute name="value" type="xs:string" use="required" />
+																	</xs:complexType>
+																</xs:element>
+																<xs:element minOccurs="0" name="itemHeader2">
+																	<xs:complexType>
+																		<xs:attribute name="grid-col" type="xs:unsignedByte" use="optional" />
+																		<xs:attribute name="name" type="xs:string" use="optional" />
+																		<xs:attribute name="value" type="xs:string" use="required" />
+																	</xs:complexType>
+																</xs:element>
+																<xs:element minOccurs="0" name="itemHeader3">
+																	<xs:complexType>
+																		<xs:attribute name="grid-col" type="xs:unsignedByte" use="optional" />
+																		<xs:attribute name="name" type="xs:string" use="optional" />
+																		<xs:attribute name="value" type="xs:string" use="required" />
+																	</xs:complexType>
+																</xs:element>
+																<xs:element minOccurs="0" name="itemHeader4">
+																	<xs:complexType>
+																		<xs:attribute name="grid-col" type="xs:unsignedByte" use="optional" />
+																		<xs:attribute name="name" type="xs:string" use="optional" />
+																		<xs:attribute name="value" type="xs:string" use="required" />
+																	</xs:complexType>
+																</xs:element>
+																<xs:element minOccurs="0" name="itemHeader5">
+																	<xs:complexType>
+																		<xs:attribute name="grid-col" type="xs:unsignedByte" use="optional" />
+																		<xs:attribute name="name" type="xs:string" use="optional" />
+																		<xs:attribute name="value" type="xs:string" use="required" />
+																	</xs:complexType>
+																</xs:element>
+																<xs:element minOccurs="0" name="MTSignature" />
+																<xs:element minOccurs="0" name="MTName" />
+																<xs:element minOccurs="0" name="MTFunction" />
+																<xs:element minOccurs="0" name="MTDate" />
+																<xs:element minOccurs="0" name="CustomerSignature" />
+																<xs:element minOccurs="0" name="CustomerName" />
+																<xs:element minOccurs="0" name="CustomerFunction" />
+																<xs:element minOccurs="0" name="CustomerDate" />
+																<xs:element minOccurs="0" name="MTRepresantiveLabel" />
+																<xs:element minOccurs="0" name="CustomerRepresantiveLabel" />
+																<xs:element minOccurs="0" name="SignatureLabel" />
+																<xs:element minOccurs="0" name="NameLabel" />
+																<xs:element minOccurs="0" name="FunctionLabel" />
+																<xs:element minOccurs="0" name="DateLabel" />
+																<xs:element minOccurs="0" maxOccurs="unbounded" name="row">
+																																		<xs:complexType>
+																		<xs:sequence>
+																			<xs:element name="item0" minOccurs="0">
+																				<xs:complexType>
+																					<xs:attribute name="grid-col" type="xs:unsignedByte" use="optional" />
+																					<xs:attribute name="name" type="xs:string" use="optional" />
+																					<xs:attribute name="value" type="xs:string" use="required" />
+																					<xs:attribute name="isoValue" type="xs:string" use="optional" />
+																					<xs:attribute name="dataType" type="xs:string" use="optional" />
+																					<xs:attribute name="controlType" type="xs:string" use="optional" />
+																					<xs:attribute name="type" type="xs:string" use="optional" />
+																					<xs:attribute name="passFail" type="xs:string" use="optional" />
+																				</xs:complexType>
+																			</xs:element>
+																			<xs:element name="item1" minOccurs="0">
+																				<xs:complexType>
+																					<xs:attribute name="grid-col" type="xs:unsignedByte" use="optional" />
+																					<xs:attribute name="name" type="xs:string" use="optional" />
+																					<xs:attribute name="value" type="xs:string" use="required" />
+																					<xs:attribute name="isoValue" type="xs:string" use="optional" />
+																					<xs:attribute name="dataType" type="xs:string" use="optional" />
+																					<xs:attribute name="controlType" type="xs:string" use="optional" />
+																					<xs:attribute name="type" type="xs:string" use="optional" />
+																					<xs:attribute name="passFail" type="xs:string" use="optional" />
+																				</xs:complexType>
+																			</xs:element>
+																			<xs:element name="item2" minOccurs="0">
+																				<xs:complexType>
+																					<xs:attribute name="grid-col" type="xs:unsignedByte" use="optional" />
+																					<xs:attribute name="name" type="xs:string" use="optional" />
+																					<xs:attribute name="value" type="xs:string" use="required" />
+																					<xs:attribute name="isoValue" type="xs:string" use="optional" />
+																					<xs:attribute name="dataType" type="xs:string" use="optional" />
+																					<xs:attribute name="controlType" type="xs:string" use="optional" />
+																					<xs:attribute name="type" type="xs:string" use="optional" />
+																					<xs:attribute name="passFail" type="xs:string" use="optional" />
+																				</xs:complexType>
+																			</xs:element>
+																			<xs:element name="item3" minOccurs="0">
+																				<xs:complexType>
+																					<xs:attribute name="grid-col" type="xs:unsignedByte" use="optional" />
+																					<xs:attribute name="name" type="xs:string" use="optional" />
+																					<xs:attribute name="value" type="xs:string" use="required" />
+																					<xs:attribute name="isoValue" type="xs:string" use="optional" />
+																					<xs:attribute name="dataType" type="xs:string" use="optional" />
+																					<xs:attribute name="controlType" type="xs:string" use="optional" />
+																					<xs:attribute name="type" type="xs:string" use="optional" />
+																					<xs:attribute name="passFail" type="xs:string" use="optional" />
+																				</xs:complexType>
+																			</xs:element>
+																			<xs:element name="item4" minOccurs="0">
+																				<xs:complexType>
+																					<xs:attribute name="grid-col" type="xs:unsignedByte" use="optional" />
+																					<xs:attribute name="name" type="xs:string" use="optional" />
+																					<xs:attribute name="value" type="xs:string" use="required" />
+																					<xs:attribute name="isoValue" type="xs:string" use="optional" />
+																					<xs:attribute name="dataType" type="xs:string" use="optional" />
+																					<xs:attribute name="controlType" type="xs:string" use="optional" />
+																					<xs:attribute name="type" type="xs:string" use="optional" />
+																					<xs:attribute name="passFail" type="xs:string" use="optional" />
+																				</xs:complexType>
+																			</xs:element>
+																			<xs:element name="item5" minOccurs="0">
+																				<xs:complexType>
+																					<xs:attribute name="grid-col" type="xs:unsignedByte" use="optional" />
+																					<xs:attribute name="name" type="xs:string" use="optional" />
+																					<xs:attribute name="value" type="xs:string" use="required" />
+																					<xs:attribute name="isoValue" type="xs:string" use="optional" />
+																					<xs:attribute name="dataType" type="xs:string" use="optional" />
+																					<xs:attribute name="controlType" type="xs:string" use="optional" />
+																					<xs:attribute name="type" type="xs:string" use="optional" />
+																					<xs:attribute name="passFail" type="xs:string" use="optional" />
+																				</xs:complexType>
+																			</xs:element>
+																		</xs:sequence>
+																		<xs:attribute name="grid-row" type="xs:unsignedByte" use="optional" />
+																	</xs:complexType>
+																</xs:element>
+																<xs:element minOccurs="0" maxOccurs="unbounded" name="item">
+																	<xs:complexType>
+																		<xs:attribute name="name" type="xs:string" use="required" />
+																		<xs:attribute name="checked" type="xs:boolean" use="required" />
+																	</xs:complexType>
+																</xs:element>
+															</xs:sequence>
+															<xs:attribute name="label" type="xs:string" use="optional" />
+															<xs:attribute name="grid-col" type="xs:unsignedByte" use="optional" />
+															<xs:attribute name="grid-row" type="xs:unsignedByte" use="optional" />
+															<xs:attribute name="name" type="xs:string" use="optional" />
+															<xs:attribute name="dataType" type="xs:string" use="optional" />
+															<xs:attribute name="controlType" type="xs:string" use="optional" />
+															<xs:attribute name="type" type="xs:string" use="optional" />
+															<xs:attribute name="isoValue" type="xs:string" use="optional" />
+															<xs:attribute name="value" type="xs:string" use="optional" />
+															<xs:attribute name="enabled" type="xs:boolean" use="optional" />
+															<xs:attribute name="gridColsCount" type="xs:int" use="optional" />
+															<xs:attribute name="bold" type="xs:boolean" use="optional" />
+															<xs:attribute name="MTSignaturebyteVal" type="xs:base64Binary" use="optional" />
+															<xs:attribute name="CustomerSignaturebyteVal" type="xs:base64Binary" use="optional" />
+															<xs:attribute name="byteVal" type="xs:base64Binary" use="optional" />
+															<xs:attribute name="useIndent" type="xs:boolean" use="optional" />
+															<xs:attribute name="alwaysLeftBlank" type="xs:boolean" use="optional" />
+															<xs:attribute name="passFail" type="xs:string" use="optional" />
+														</xs:complexType>
+													</xs:element>
+												</xs:sequence>
+												<xs:attribute name="name" type="xs:string" use="required" />
+												<xs:attribute name="label" type="xs:string" use="required" />
+												<xs:attribute name="enabled" type="xs:boolean" use="required" />
+												<xs:attribute name="isemptylabel" type="xs:boolean" use="required" />
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+									<xs:attribute name="name" type="xs:string" use="required" />
+									<xs:attribute name="label" type="xs:string" use="required" />
+									<xs:attribute name="enabled" type="xs:boolean" use="required" />
+									<xs:attribute name="isemptylabel" type="xs:boolean" use="optional" />
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+						<xs:attribute name="name" type="xs:string" use="required" />
+						<xs:attribute name="label" type="xs:string" use="required" />
+						<xs:attribute name="enabled" type="xs:boolean" use="required" />
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

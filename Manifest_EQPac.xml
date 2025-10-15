@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ServiceDocumentConfiguration>
+  <ServiceDocumentDefinition>
+    <AllowMultipleDevices>true</AllowMultipleDevices>
+    <UITemplate Version="1">UI_EQPac.xml</UITemplate>
+    <ReportTemplate Version="2.49.4">rptEQPac.rpt</ReportTemplate>
+	<DocumentTemplate Version="1">EQPac.xml</DocumentTemplate>
+  </ServiceDocumentDefinition>
+  <CommonTranslations>
+	<TranslationFile Language="ENU" Version="1">ENU_Common.xml</TranslationFile>
+	<TranslationFile Language="DEU" Version="1">DEU_Common.xml</TranslationFile>
+	<TranslationFile Language="PLK" Version="1">PLK_Common.xml</TranslationFile>
+	<TranslationFile Language="FRA" Version="1">FRA_Common.xml</TranslationFile>
+	<TranslationFile Language="ESN" Version="1">ESN_Common.xml</TranslationFile>
+	<TranslationFile Language="ESO" Version="1">ESO_Common.xml</TranslationFile>
+	<TranslationFile Language="ITA" Version="1">ITA_Common.xml</TranslationFile>
+	<TranslationFile Language="JPN" Version="1">JPN_Common.xml</TranslationFile>
+	<TranslationFile Language="RUS" Version="1">RUS_Common.xml</TranslationFile>
+	<TranslationFile Language="CHS" Version="1">CHS_Common.xml</TranslationFile>
+  </CommonTranslations>
+  <Translations>
+    <TranslationFile Language="ENU" Version="1">ENU_EQPac.xml</TranslationFile>
+	<TranslationFile Language="FRA" Version="1">FRA_EQPac.xml</TranslationFile>
+	<TranslationFile Language="ESN" Version="1">ESN_EQPac.xml</TranslationFile>
+	<TranslationFile Language="ESO" Version="1">ESO_EQPac.xml</TranslationFile>
+	<TranslationFile Language="DEU" Version="1">DEU_EQPac.xml</TranslationFile>
+	<TranslationFile Language="ITA" Version="1">ITA_EQPac.xml</TranslationFile>
+	<TranslationFile Language="JPN" Version="1">JPN_EQPac.xml</TranslationFile>
+	<TranslationFile Language="RUS" Version="1">RUS_EQPac.xml</TranslationFile>
+	<TranslationFile Language="PLK" Version="1">PLK_EQPac.xml</TranslationFile>
+	<TranslationFile Language="CHS" Version="1">CHS_EQPac.xml</TranslationFile>
+  </Translations>
+  <ReportData>
+    <DataFile Version="1"/>
+    <SchemaFile Version="1">EQPac_Schema.xsd</SchemaFile>
+    <OutputSchemaFile Version="1">OUTPUT_EQPac_Schema.xsd</OutputSchemaFile> 
+	<TranformationFile Version="1">EQPac.xslt</TranformationFile>
+  </ReportData>
+</ServiceDocumentConfiguration>

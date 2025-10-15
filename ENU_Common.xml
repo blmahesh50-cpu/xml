@@ -1,0 +1,15 @@
+<translation>
+	<id>1</id>
+	<ActivityTitle>Service Activities Following Installation</ActivityTitle>
+	<ActivityLabelDesc>The following table may be used to list subsequent activities such as maintenance, calibration, repair, disposal, etc.</ActivityLabelDesc>
+	<ActivityNameHeader>Name</ActivityNameHeader>
+	<ActivityDateHeader>Date</ActivityDateHeader>
+	<activitySignatureHeader>Signature</activitySignatureHeader>
+	<ActivityRemarksHeader>Activity/Remarks</ActivityRemarksHeader>
+	<DocumentNumber>Document Number:</DocumentNumber>
+	<ReportVersion>Report Version:</ReportVersion>
+	<SoftwareVersion>Software Version</SoftwareVersion>
+	<METTLERToledoOrderNumber>METTLER TOLEDO Order Number:</METTLERToledoOrderNumber>
+	<CustomerPurchaseOrderNumber>Customer Purchase Order Number:</CustomerPurchaseOrderNumber>
+	<Page>Page</Page>
+</translation>

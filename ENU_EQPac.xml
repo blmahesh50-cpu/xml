@@ -1,0 +1,2014 @@
+<translation>
+  <ReportName>LabTec Instrument EQPac</ReportName>
+  <Terminal>Terminal</Terminal>
+  <Balance>Balance</Balance>
+  <FloorScale>Floor Scale</FloorScale>
+  <Peripheral>Peripheral Equipment</Peripheral>
+  <Computer>Computer</Computer>
+  <Software>Software Application connected to Balance</Software>
+  <Software_PRINTOUT>Software Application</Software_PRINTOUT>
+  <CPOrderNumber>Customer purchase order number of Installation:</CPOrderNumber>
+  <Remarks>Remarks:</Remarks>
+  <DeviceType>Device Type</DeviceType>
+  <SerialNumber>Serial Number</SerialNumber>
+  <Manufacturer>Manufacturer</Manufacturer>
+  <Model>Model</Model>
+  <Building>Building</Building>
+  <Floor>Floor</Floor>
+  <Room>Room</Room>
+  <Yes>Yes</Yes>
+  <No>No</No>
+  <NA>N/A</NA>
+  <NAforGUIandPrintout>N/A</NAforGUIandPrintout>
+  <NA_PRINTOUT>Not Applicable</NA_PRINTOUT>
+  <Applicable>Applicable</Applicable>
+  <EQPacIntroductionPage>EQPac Introduction</EQPacIntroductionPage>
+  <InitialCondition>Initial Condition</InitialCondition>
+  <InitialCondition_PRINTOUT>Introduction</InitialCondition_PRINTOUT>
+  <Scope>Scope</Scope>
+  <ScopePurposeLabel>This EQPac is intended to ensure compliance with standards, norms and regulations applicable to equipment in regulated environments and to verify that the equipment performs as required in quality-critical applications. Completion of the qualification process using EQPac ensures a professional installation with initial calibration, producing documentation ideally suited for integration into a quality management system. EQPac is designed to meet Installation Qualification (IQ), Operational Qualification (OQ) requirements, Performance Qualification (PQ) guidelines for user-defined standard operating procedure (SOPs) for periodic tests and a Maintenance Qualification (MQ) section for specifying maintenance and test activities during routine operation.</ScopePurposeLabel>
+  <ScopeAuthorizedPersonelLabel>The EQPac equipment qualification will be performed by a trained and authorized METTLER TOLEDO Service technician.</ScopeAuthorizedPersonelLabel>
+  <ProcedureStatement>Procedure Statement</ProcedureStatement>
+  <EquipmentPerformedLabel>The equipment referenced in this document has been installed in accordance with the METTLER TOLEDO "SOP EQPac LabTec" (document number 10000017225).</EquipmentPerformedLabel>
+  <EQPacAbbreviationLabel>&lt;b;&gt;Note:&lt;/b;&gt; The abbreviation N/A in this entire document means "Not Applicable".</EQPacAbbreviationLabel>
+  <Contents>Contents</Contents>
+  <DesignQualifications>Design Qualification (DQ)</DesignQualifications>
+  <DesignQualificationsLabel>As Design Qualification is to be completed prior to purchase and installation, section 2 of this document outlines reference to any DQ documentation and its storage place.</DesignQualificationsLabel>
+  <InstallationQualifications>Installation Qualification (IQ)</InstallationQualifications>
+  <InstallationQualificationsLabel>Section 3 of this document outlines the procedures that are followed on delivery, unpacking and initial installation of the new equipment / system prior to performing OQ. Elements of IQ are the completeness and condition of the device items, identification of the device, accessories and documentation, description of environmental conditions at place of installation as well as documentation of connecting devices.</InstallationQualificationsLabel>
+  <OperationalQualifications>Operational Qualification (OQ)</OperationalQualifications>
+  <OperationalQualificationsLabel>Section 4 of this document details the procedures and tests to be followed by the METTLER TOLEDO service technician to qualify the individual components of the system. Operational Qualification is directly linked to the current location of the weighing system. Therefore finishing the installation qualification is a prerequisite starting the OQ.</OperationalQualificationsLabel>
+  <RoutineTests>Performance Qualification (PQ)</RoutineTests>
+  <RoutineTestsLabel>Section 5 of this document makes reference to the corresponding documentation that details the procedures and tests to be performed during routine operation in order to assure consistent performance and accuracy. Appropriate measures such as periodic tests by user and scheduled calibration are to be defined before the weighing equipment can be released for routine operation.</RoutineTestsLabel>
+  <CompletionRelease>Completion and Release</CompletionRelease>
+  <CompletionRelease_PRINTOUT>Completion and Release to Routine Operation</CompletionRelease_PRINTOUT>
+  <CompletionReleaseLabel>Section 6 of this document confirms that both Installation- and Operational Qualification have been performed successfully, and the balance has been released for routine operation.</CompletionReleaseLabel>
+  <MaintenanceProcedure>Maintenance Procedures</MaintenanceProcedure>
+  <MaintenanceProcedureLabel>Section 7 of this document outlines if ongoing maintenance activities and calibration recommendations of equipment have been defined. It makes reference to the corresponding documentation that details if a service provider has been identified and where service activities are documented.</MaintenanceProcedureLabel>
+  <DocumentationStorage>Documentation Storage</DocumentationStorage>
+  <DocumentationStorageLabel>This section outlines the storage places for all device related documents such as User Manual, Routine test records, Calibration Certificates and others.</DocumentationStorageLabel>
+  <Appendices>Appendices</Appendices>
+  <AppendicesLabel>This section contains applied terms and templates for results of routine operation tests.</AppendicesLabel>
+  <TableOfContents>Contents</TableOfContents>
+  <TableOfContentsPage>Table of Contents</TableOfContentsPage>
+  <CustomerDetails>Customer Details</CustomerDetails>
+  <InstallationSite>Installation Site Verification</InstallationSite>
+  <InstallationDetails>Please detail the address of the installation site, the device is installed</InstallationDetails>
+  <InstallationQualificationPurposeLabel>The purpose of an Installation Qualification is to demonstrate installation conditions are appropriate, equipment has been received as ordered, all documentation, manufacturer certificates and drawings are available, site requirements are appropriate, and equipment can be installed and put into operation successfully.</InstallationQualificationPurposeLabel>
+  <DescriptionOfEquipmentSection>Reason for Qualification</DescriptionOfEquipmentSection>
+  <PurposeQualificationLabel>Please select the reason for the installation and qualification:</PurposeQualificationLabel>
+  <PurposeQualificationDropdown>The installation and qualification of equipment is a/an:</PurposeQualificationDropdown>
+  <InitialInstallation>Initial Installation of a new instrument</InitialInstallation>
+  <QualificationOfExistingScale>Qualification of an existing instrument</QualificationOfExistingScale>
+  <Relocation>Qualification after a relocation of an instrument</Relocation>
+  <PurposeQualificationSection>Purpose of Qualification</PurposeQualificationSection>
+  <IdentificationOfEquipmentSection>Identification of Equipment</IdentificationOfEquipmentSection>
+  <IdentificationOfEquipmentLabel>This section identifies the ordered and received equipment:</IdentificationOfEquipmentLabel>
+  <UnPackingCompletenessSection>Receiving and Unpacking</UnPackingCompletenessSection>
+  <InitialSituation>Initial Situation</InitialSituation>
+  <InstrumentPackedRadio>The instrument was found originally packed?</InstrumentPackedRadio>
+  <InstrumentPackedRadio_PRINTOUT>The instrument was found originally packed?</InstrumentPackedRadio_PRINTOUT>
+  <InstrumentOriginallyPacked>Yes, instrument originally packed</InstrumentOriginallyPacked>
+  <InstrumentAlreadyUnPacked>No, instrument was already unpacked</InstrumentAlreadyUnPacked>
+  <InstrumentPartlyUnPacked>No, instrument was partly unpacked</InstrumentPartlyUnPacked>
+  <InstrumentAlreadyInstalled>Instrument was already installed</InstrumentAlreadyInstalled>
+  <PurchaseOrder>Purchase Order</PurchaseOrder>
+  <PurchaseOrderNumber>Purchase order number from customer of the device</PurchaseOrderNumber>
+  <PurchaseOrderNumber_PRINTOUT>Customer Purchase Order No. of the Balance</PurchaseOrderNumber_PRINTOUT>
+  <InstallationQualificationPage>Installation Qualification (IQ)</InstallationQualificationPage>
+  <ReferenceAll>Reference all documents that are used to verify the completeness of the delivery.</ReferenceAll>
+  <NumberOfRefDocs>Number of Reference documents</NumberOfRefDocs>
+  <Comment>Comment</Comment>
+  <InstrumentIdentification>Instrument Identification</InstrumentIdentification>
+  <AssetNumber>Asset Number</AssetNumber>
+  <AssetNumber2>Asset Number</AssetNumber2>
+  <Firmware>Firmware</Firmware>
+  <SupplierBalanceTerminal>Supplier of Balance &amp; Terminal</SupplierBalanceTerminal>
+  <SupplierBalanceTerminal_PRINTOUT>Supplier of the Device</SupplierBalanceTerminal_PRINTOUT>
+  <SupplierBalanceTerminalLabel>Please confirm the following  supplier details for the balance and/or terminal which will appear on the print out:</SupplierBalanceTerminalLabel>
+  <DeliveredBalanceItems>Delivered Balance Items</DeliveredBalanceItems>
+  <DeliveredBalanceItemsLabel>List all Balance items as defined in the standard delivery and confirm delivery.</DeliveredBalanceItemsLabel>
+  <DeliveredBalanceItemsLabel_PRINTOUT>All items were delivered according to the corresponding documents detailed in section "Documents used for evaluation of completeness".</DeliveredBalanceItemsLabel_PRINTOUT>
+  <DeliveredItemsAdditionalLine>If any of the items is set to "No" then it will be added to the "Missing Items &amp; Documents" list.</DeliveredItemsAdditionalLine>
+  <DeliveredDocumentsAdditionalLine>If any of the documents is set to "No" then it will be added to the "Missing Items &amp; Documents" list.</DeliveredDocumentsAdditionalLine>
+  <VisualInspection>Visual Inspection</VisualInspection>
+  <ConditionDelivery>Condition of Delivery Box</ConditionDelivery>
+  <ConditionDeliveryLabel>Packaging box does not show any  signs of transport damages that could cause harm to the equipment.</ConditionDeliveryLabel>
+  <ConditionDeliveryRadio>No signs of transport damage visible on packaging</ConditionDeliveryRadio>
+  <ConditionDeliveryRadio_PRINTOUT>The packaging the balance was shipped is in appropriate condition and does not have signs of transport damages that could cause harm to the equipment.</ConditionDeliveryRadio_PRINTOUT>
+  <ConditionDeliveryItems>Condition of Delivered Equipment</ConditionDeliveryItems>
+  <ConditionDeliveryItemsLabel>All equipment listed in "delivered Items" above including power cable(s), external power adaptor(s), peripheral(s) or accessories are free of visible physical damage.</ConditionDeliveryItemsLabel>
+  <ConditionDeliveryItemsRadio>No physical damage visible on delivered items.</ConditionDeliveryItemsRadio>
+  <ConditionDeliveryItemsRadio_PRINTOUT>All equipment listed in "delivered Items" above including power cable(s), external power adaptor(s), peripheral(s) or accessories are free of visible physical damage.</ConditionDeliveryItemsRadio_PRINTOUT>
+  <IQChecklist>Visual Verification of Equipment</IQChecklist>
+  <VisualVerification>Visual Verification of Equipment</VisualVerification>
+  <VisualVerificationLabel>As soon as the balance is located at its final position the installation procedure described in the operating instructions must be followed. It must be ensured that the below conditions are met.</VisualVerificationLabel>
+  <VisualVerificationLabel_PRINTOUT>Ensure a complete and error free installation by following the procedure below. As soon as the balance is located at its final position the installation procedure described in the operating instructions must be followed. It must be ensured that the below conditions are met.</VisualVerificationLabel_PRINTOUT>
+  <VisualVerificationColumnLabel>Visual Verification of Equipment</VisualVerificationColumnLabel>
+  <YesNoNALabel>Yes / No/ N/A</YesNoNALabel>
+  <VoltagePower>The voltage on the outlet socket is in accordance with technical data in user manual.</VoltagePower>
+  <PhysicalDamage>No physical damage to equipment, power cable, external power adapter and accessories are visible.</PhysicalDamage>
+  <ConfigurationDetails>Configuration Details</ConfigurationDetails>
+  <ConfigBalanceBridge>Configuration Details Balance Bridge</ConfigBalanceBridge>
+  <ConfigBalanceBridge_PRINTOUT>Equipment Configuration Balance</ConfigBalanceBridge_PRINTOUT>
+  <Department>Department</Department>
+  <Location>Location Notes</Location>
+  <AuthorizedReviewerSection>Authorized reviewer</AuthorizedReviewerSection>
+  <AuthorizedReviewerSub>Authorized Reviewer on behalf of balance owner</AuthorizedReviewerSub>
+  <AuthorizedReviewerSub_PRINTOUT>Authorized Reviewer's Signature on Behalf of Device Owner</AuthorizedReviewerSub_PRINTOUT>
+  <SecondAuthorizedReviewerSub>2nd Authorized Reviewer on behalf of balance owner</SecondAuthorizedReviewerSub>
+  <SecondAuthorizedReviewerSub_PRINTOUT>Authorized 2nd Reviewer's Signature on Behalf of Device Owner</SecondAuthorizedReviewerSub_PRINTOUT>
+  <ConfirmAuthorizedReviewer>Please confirm, edit and complete the data for the person(s) in charge to review, sign and release this equipment qualification.</ConfirmAuthorizedReviewer>
+  <SecondReviewerRadio>2nd Authorized Reviewer</SecondReviewerRadio>
+  <Company>Company</Company>
+  <Name>Name</Name>
+  <Function>Job Title</Function>
+  <PerformerSection>Performer Details</PerformerSection>
+  <PerformerSection_PRINTOUT>Authorized Performer and Reviewer</PerformerSection_PRINTOUT>
+  <ConfirmPerformer>Please confirm the technicians  details that will appear on the print out under "Performer on behalf of METTLER TOLEDO".</ConfirmPerformer>
+  <BelowPerformerText>Below are the records of the person that is performing the qualification on behalf of Mettler Toledo and the person(s) that is (are) doing the review and the sign off of the corresponding sections in the document.</BelowPerformerText>
+  <PerformerSub>Performer</PerformerSub>
+  <PerformerSub_PRINTOUT>Authorized Performer's Signature on Behalf of METTLER TOLEDO</PerformerSub_PRINTOUT>
+  <ServiceTechnician>Service Technician</ServiceTechnician>
+  <Service>Service</Service>
+  <ProofCompetence>Proof of Competence</ProofCompetence>
+  <ProofCompetence_PRINTOUT>Proof of Competence / Training Certificate</ProofCompetence_PRINTOUT>
+  <TrainingCertificates>Certificates</TrainingCertificates>
+  <TrainingCertificates_PRINTOUT>Proof of Competence</TrainingCertificates_PRINTOUT>
+  <Certificate>Certificate</Certificate>
+  <SelectCertsText>Select number of training certificates &amp; enter the Name and ID of Training Certificate.</SelectCertsText>
+  <TrainingCertsNumber>Identify the number of training certificates.</TrainingCertsNumber>
+  <Date>Date</Date>
+  <UnpackingDetailsText>The table below details the verification of all standard items and documentation included in the packaging with the balance. The items are checked for completeness by means of the "Scope of delivey" detailed in the operating instructions. Missing items are recorded in section "Missing Items".</UnpackingDetailsText>
+  <CustomerSop>Customer SOP</CustomerSop>
+  <CustomerSop_PRINTOUT>Equipment Qualification SOP</CustomerSop_PRINTOUT>
+  <MasterSop>Reference to Customer Documents</MasterSop>
+  <MasterSopDetailsText>Detail the reference to the master SOP from Balance Owner that may be applicable to this document.</MasterSopDetailsText>
+  <MasterSopRadio>Master SOP</MasterSopRadio>
+  <MasterSopRadio_PRINTOUT>This section is for documenting if the customer has an internal document that is related to the balance</MasterSopRadio_PRINTOUT>
+  <MasterSopNumber>Identify the number of master SOP documents</MasterSopNumber>
+  <SopDocument>SOP Document</SopDocument>
+  <SopDocumentTitle>SOP Title</SopDocumentTitle>
+  <SopDocumentId>SOP ID</SopDocumentId>
+  <SopDocumentVersion>SOP Version</SopDocumentVersion>
+  <StoragePlace>Storage Location</StoragePlace>
+  <StoragePlace_PRINTOUT>Storage Location</StoragePlace_PRINTOUT>
+  <MTSop>SOP for Mettler Toledo EQ Pac</MTSop>
+  <MTSop_PRINTOUT>Equipment Qualification SOP</MTSop_PRINTOUT>
+  <MTSopSub>Number of Documents</MTSopSub>
+  <MTSopSub_PRINTOUT>SOP to Mettler Toledo EQPac</MTSopSub_PRINTOUT>
+  <MTSopDetailsText>Detail the reference to the SOP from Mettler Toledo to this document.</MTSopDetailsText>
+  <MTSopNumber>Identify the number of SOP documents.</MTSopNumber>
+  <MTSopNumber_PRINTOUT>The following SOP gives instructions to the authorized performer on how to perform and document this EQPac.</MTSopNumber_PRINTOUT>
+  <DocumentRelease>Document Release</DocumentRelease>
+  <DocumentRelease_PRINTOUT>Release of EQPac by Instrument Owner</DocumentRelease_PRINTOUT>
+  <DocumentReleaseSigning>This document with current version is released by the instrument owner for use and MT authorized service technician may start with the qualification procedure.</DocumentReleaseSigning>
+  <DocumentReleaseSigning_PRINTOUT>This document with current report version is released by the instrument owner and the METTLER TOLEDO authorized service technician may start with the qualification procedure.</DocumentReleaseSigning_PRINTOUT>
+  <DocumentReleaseCustomerSignatureSub>Customer Signature</DocumentReleaseCustomerSignatureSub>
+  <CustomerRepresentativeSignature>Capture the Customer Representative signature:</CustomerRepresentativeSignature>
+  <CustomerRepresentativeSignature_PRINTOUT>Signature</CustomerRepresentativeSignature_PRINTOUT>
+  <CustomerRepresentativeSignatureDate>Date</CustomerRepresentativeSignatureDate>
+  <DQReference>DQ Reference</DQReference>
+  <DQDocumentation>DQ documentation from Customer</DQDocumentation>
+  <DQDocumentationText>Design Qualification documents from balance owner may be referenced in the table below.</DQDocumentationText>
+  <DQDocumentRadio>DQ Document</DQDocumentRadio>
+  <DQDocumentRadio_PRINTOUT>If available, Design Qualification documents may be referenced in the table below.</DQDocumentRadio_PRINTOUT>
+  <DQDocumentNumber>Identify the number of master DQ documents</DQDocumentNumber>
+  <Document>Document</Document>
+  <DocumentTitle>Document Name</DocumentTitle>
+  <DocumentId>Document ID</DocumentId>
+  <DocumentVersion>Document Version</DocumentVersion>
+  <MaintenanceQualification>Maintenance Qualification (MQ)</MaintenanceQualification>
+  <MaintenanceQualificationPurpose>The purpose of the Maintenance Qualification section is to detail recommendations for scheduling maintenance, cleaning, and re-qualifying activities after equipment has been released for routine operation. Regulatory and quality requirements mandate that equipment is properly maintained and calibrated to ensure accuracy and traceability results.</MaintenanceQualificationPurpose>
+  <MaintenanceQualificationResponsibility>It is the user's responsibility to define maintenance activities and their frequency. METTLER TOLEDO Service recommends taking care of this definition as part of the initial qualification process. METTLER TOLEDO Service and its authorized service agents offer a variety of maintenance packages and industry-specific calibration services to ensure ongoing compliance and effective cost control.</MaintenanceQualificationResponsibility>
+  <MaintenanceQualificationNote>Note: Results of periodic maintenance and calibrations should be listed.</MaintenanceQualificationNote>
+  <MaintenanceProvider>Maintenance Provider</MaintenanceProvider>
+  <MaintenanceContractSub>Maintenance Contract</MaintenanceContractSub>
+  <MaintenanceContractSub_PRINTOUT>Maintenance Provider</MaintenanceContractSub_PRINTOUT>
+  <Condition>Condition</Condition>
+  <Answer>Answer</Answer>
+  <ServiceProvider>Service Provider</ServiceProvider>
+  <MPCompanyName>Company:</MPCompanyName>
+  <MPAddress1>Address 1:</MPAddress1>
+  <MPAddress2>Address 2:</MPAddress2>
+  <MPAddress3>Address 3:</MPAddress3>
+  <MPAddress4>Address 4:</MPAddress4>
+  <MPContactPerson>Contact Person:</MPContactPerson>
+  <MPSupportPerson>Support Contact:</MPSupportPerson>
+  <MaintenanceAssigned>A maintenance service contract is assigned:</MaintenanceAssigned>
+  <MQCompletionStatement>MQ Completion Statement</MQCompletionStatement>
+  <MQCompletion>MQ Completion</MQCompletion>
+  <Statement>Statement</Statement>
+  <PassFail>Pass/Fail</PassFail>
+  <MonitoringCompleted>The section Monitoring of Equipment during routine operation has been completed by METTLER TOLEDO service technician.</MonitoringCompleted>
+  <Pass>Pass</Pass>
+  <Fail>Fail</Fail>
+  <ApprovalMTRepresentativeSubSection>METTLER TOLEDO Representative:</ApprovalMTRepresentativeSubSection>
+  <ApprovalCustomerRepresantiveSubSection>Customer Review and approval by</ApprovalCustomerRepresantiveSubSection>
+  <MQCompletionMTRepresentative>METTLER TOLEDO Representative</MQCompletionMTRepresentative>
+  <MQCompletionRepresentativeStatement>You hereby confirm that the Maintenance Qualification (MQ) section is completed and correct.</MQCompletionRepresentativeStatement>
+  <MQCompletionRepresentativeStatement_PRINTOUT>The section Monitoring of Equipment during Routine Operation has been completed by METTLER TOLEDO service technician.</MQCompletionRepresentativeStatement_PRINTOUT>
+  <MTRepresentativeSignature>Capture your METTLER TOLEDO Representative signature:</MTRepresentativeSignature>
+  <MTRepresentativeSignature_PRINTOUT>Signature</MTRepresentativeSignature_PRINTOUT>
+  <MTRepresentativeSignatureDate>Date</MTRepresentativeSignatureDate>
+  <CertificateName>Certificate Name</CertificateName>
+  <CertificateNumber>Certificate ID</CertificateNumber>
+  <CertificateNumber_PRINTOUT>Training Certificate ID</CertificateNumber_PRINTOUT>
+  <MTRepresentativeName>Name</MTRepresentativeName>
+  <MTRepresentativeName_PRINTOUT>Name</MTRepresentativeName_PRINTOUT>
+  <MTRepresentativeFunction>Job Title</MTRepresentativeFunction>
+  <CustomerRepresantiveLabel>Customer Representative</CustomerRepresantiveLabel>
+  <CustomerRepresantiveLabel_PRINTOUT>Customer Review and Approval by</CustomerRepresantiveLabel_PRINTOUT>
+  <CustomerRepresentativeName>Name</CustomerRepresentativeName>
+  <CustomerRepresentativeFunction>Job Title</CustomerRepresentativeFunction>
+  <ApprovalSection>Approvals</ApprovalSection>
+  <ApprovalSection_PRINTOUT>Approval of (this section)</ApprovalSection_PRINTOUT>
+  <MettlerToledoRepresantativeLabel>METTLER TOLEDO Representative</MettlerToledoRepresantativeLabel>
+  <SigningPurposeText>By signing you are indicating the identification of the instruments above is complete and correct.</SigningPurposeText>
+  <SigningPurposeText_PRINTOUT>By signing you are indicating that the information in this chapter "Introduction" is correct.</SigningPurposeText_PRINTOUT>
+  <DocumentName>Document Name</DocumentName>
+  <IQDocumentId>Document ID</IQDocumentId>
+  <ReferenceCompletenessCheck>Instrument Identification and Completeness of Delivery</ReferenceCompletenessCheck>
+  <ReferenceCompletenessCheck_PRINTOUT>Instrument Identification and Completeness of Delivery</ReferenceCompletenessCheck_PRINTOUT>
+  <ReferenceDocuments>Documents used for evaluation of completeness</ReferenceDocuments>
+  <ItemApplicable>Applicable</ItemApplicable>
+  <ItemName>Item Name</ItemName>
+  <Delivery>Delivered</Delivery>
+  <Balance1Balance>Balance</Balance1Balance>
+  <Balance1Terminal>Terminal</Balance1Terminal>
+  <Balance1PowerSupply>Power Supply &amp; Cable</Balance1PowerSupply>
+  <Balance1WeighingPan>Weighing Pan</Balance1WeighingPan>
+  <Balance1SmartPan>Smart Pan</Balance1SmartPan>
+  <Balance1SmartGrid>Smart Grid</Balance1SmartGrid>
+  <Balance1SmartGridCover>Smart Grid Cover</Balance1SmartGridCover>
+  <Balance1DripTray>Drip Tray</Balance1DripTray>
+  <Balance1ProtectTerminal>Protective Cover Terminal</Balance1ProtectTerminal>
+  <Balance1ProtectBalance>Protective Cover Balance</Balance1ProtectBalance>
+  <Balance1DraftShield>Draft Shield</Balance1DraftShield>
+  <NumberOfExtraItems>Number of Additional Items</NumberOfExtraItems>
+  <POSubSection>Purchase Order</POSubSection>
+  <PeripheralInstalled>All peripheral equipment, options or accessories listed in "Delivered Items" are installed and connected.</PeripheralInstalled>
+  <BalanceLeveled>The balance is leveled (N/A if balance has electronic level indicator).</BalanceLeveled>
+  <BalancePeripheralClean>The balance and, if applicable, peripheral equipment, is clean.</BalancePeripheralClean>
+  <OtherItemsInstalled>Connectors, in use cover, weighing pan, draft ring and other removable items are installed correctly.</OtherItemsInstalled>
+  <CablesRouted>Cables are routed properly so they are not squeezed and such they cannot be damaged or hinder the daily operations.</CablesRouted>
+  <LocationIdentification>Location Identification</LocationIdentification>
+  <LocationIdentificationLabel>Identify details of the location the device is installed:</LocationIdentificationLabel>
+  <SiteRequirements>Site Requirements</SiteRequirements>
+  <SiteRequirementsLabel>Give Pass / Fail statement to each checkpoint below.</SiteRequirementsLabel>
+  <SiteRequirementsLabel_PRINTOUT>Ensure a complete and error free installation by following the installation procedure described in the operating instructions. The conditions below must be met:</SiteRequirementsLabel_PRINTOUT>
+  <SiteVerification>Site Verification</SiteVerification>
+  <AcceptanceCriteria>Acceptance Criteria</AcceptanceCriteria>
+  <DocumentReference>Document Reference</DocumentReference>
+  <DocumentReference_PRINTOUT>Document Ref.</DocumentReference_PRINTOUT>
+  <AirConditions>Air Conditions</AirConditions>
+  <AirConditionsAcceptanceCriteria>The environment is free of excessive temperature fluctuations, air drafts and within the appropriate air humidity range as outlined in the operating instructions and in "Weighing the Right Way".</AirConditionsAcceptanceCriteria>
+  <ElectricalConditions>Electrical Conditions</ElectricalConditions>
+  <ElectricalConditionsAcceptanceCriteria>Voltage supply meets outlined requirements in the operating instruction.</ElectricalConditionsAcceptanceCriteria>
+  <ConditionsOperations>Conditions of Place of Operation</ConditionsOperations>
+  <ConditionsOperationsAcceptanceCriteria>Floor and table should be level, stable and firm In order to support the total weight of the balance plus its load at max capacity. The table is antimagnetic (no steel plate) and free of vibrations.</ConditionsOperationsAcceptanceCriteria>
+  <StartPowerProcedure>Start-up / Power-up Procedure</StartPowerProcedure>
+  <StartProcVerification>Start Up Procedure Verification</StartProcVerification>
+  <StartProcedureLabel>Apply Power and power on all devices and observe the start up procedure. Give a statement to all check points below.</StartProcedureLabel>
+  <StartUpProcedureColumnLabel>Visual Verification of Start Up Procedure</StartUpProcedureColumnLabel>
+  <StartUpProcedureColumnLabel_PRINTOUT>Start Up Procedure Verification</StartUpProcedureColumnLabel_PRINTOUT>
+  <PowerUpInstruction>During power-up, the instrument successfully performs the self-test routine and shows a stable zero after tare/zeroing.</PowerUpInstruction>
+  <SelfTestDisplay>After self-test the display returns to normal operation and no error messages or warning signs are active.</SelfTestDisplay>
+  <PeripheralsConnected>Peripherals and accessories are connected to the balance. All instruments power up successfully (such as green light, ready status). No errors are indicated.</PeripheralsConnected>
+  <BalanceSub>Balance</BalanceSub>
+  <BalanceSub_PRINTOUT>Main Device</BalanceSub_PRINTOUT>
+  <DeliveredBalanceDocumentsLabel>List all documents as defined in the standard delivery and confirm delivery.</DeliveredBalanceDocumentsLabel>
+  <Balance1OperatingInstruction>Reference Manual</Balance1OperatingInstruction>
+  <Balance1Conformity>Declaration of Conformity</Balance1Conformity>
+  <Balance1ProductionCertificate>Production Certificate</Balance1ProductionCertificate>
+  <Balance1QuickGuide>User Manual (Short Instruction)</Balance1QuickGuide>
+  <Balance1DVDRom>DVD-ROM User Manual</Balance1DVDRom>
+  <DeliveredBalanceDocuments>Delivered Balance Documents</DeliveredBalanceDocuments>
+  <DeliveryCorrectComplete>Delivery (documents &amp; items) is correct and complete</DeliveryCorrectComplete>
+  <MissingDocsItems>Missing Items &amp; Documents</MissingDocsItems>
+  <MissingItemsDocs>Missing Item or Document</MissingItemsDocs>
+  <MissingItemsDocs_PRINTOUT>Missing Item</MissingItemsDocs_PRINTOUT>
+  <MissingItems>Missing Items</MissingItems>
+  <MissingDocuments>Missing Documents</MissingDocuments>
+  <AgreementAction>Agreement of Action</AgreementAction>
+  <Balance1BalanceNo>No</Balance1BalanceNo>
+  <Balance1TerminalNo>No</Balance1TerminalNo>
+  <Balance1PowerSupplyNo>No</Balance1PowerSupplyNo>
+  <Balance1WeighingPanNo>No</Balance1WeighingPanNo>
+  <Balance1SmartPanNo>No</Balance1SmartPanNo>
+  <Balance1SmartGridNo>No</Balance1SmartGridNo>
+  <Balance1SmartGridCoverNo>No</Balance1SmartGridCoverNo>
+  <Balance1DripTrayNo>No</Balance1DripTrayNo>
+  <Balance1ProtectTerminalNo>No</Balance1ProtectTerminalNo>
+  <Balance1ProtectBalanceNo>No</Balance1ProtectBalanceNo>
+  <Balance1DraftShieldNo>No</Balance1DraftShieldNo>
+  <SupplierPeripheral>Supplier of the Peripheral Equipment</SupplierPeripheral>
+  <SupplierPeripheralLabel>Please confirm the following supplier details for the Peripheral above.</SupplierPeripheralLabel>
+  <SupplierComputer>Supplier of the Computer</SupplierComputer>
+  <SupplierComputerLabel>Please confirm the following supplier details for the Computer above which will appear on the printout:</SupplierComputerLabel>
+  <SupplierSoftware>Software Application Supplier</SupplierSoftware>
+  <SupplierSoftware_PRINTOUT>Supplier of the Software Application</SupplierSoftware_PRINTOUT>
+  <SoftwareSub>Software Application</SoftwareSub>
+  <SoftwareSub_PRINTOUT>Software Application connected with Main Device</SoftwareSub_PRINTOUT>
+  <SupplierSoftwareLabel>Please confirm the following supplier details for the Software Application above which will appear on the printout:</SupplierSoftwareLabel>
+  <DiagramDrawn>Diagram is drawn manually after printing</DiagramDrawn>
+  <DeviceConnectionBalance>Document connection relation for devices connected to the balance bridge directly.</DeviceConnectionBalance>
+  <DeviceConnectionBalance_PRINTOUT>Find below the relationship between balance interfaces and the connected component.</DeviceConnectionBalance_PRINTOUT>
+  <BalanceNumberOfConnectedDevices>No. of Connected  devices to balance bridge</BalanceNumberOfConnectedDevices>
+  <ConnectedDeviceBalance>Connected with Device</ConnectedDeviceBalance>
+  <ConnectedDeviceBalance_PRINTOUT>Connected With</ConnectedDeviceBalance_PRINTOUT>
+  <ConnectedDeviceTerminal>Connected with Device</ConnectedDeviceTerminal>
+  <ConnectedDeviceTerminal_PRINTOUT>Connected With</ConnectedDeviceTerminal_PRINTOUT>
+  <Interface>Interface</Interface>
+  <Balance1Peripheral1>Peripheral 1</Balance1Peripheral1>
+  <Balance1Peripheral2>Peripheral 2</Balance1Peripheral2>
+  <Balance1Peripheral3>Peripheral 3</Balance1Peripheral3>
+  <Balance1Computer1>Computer 1</Balance1Computer1>
+  <Balance1Computer2>Computer 2</Balance1Computer2>
+  <Balance1Computer3>Computer 3</Balance1Computer3>
+  <Balance1Software1>Software 1</Balance1Software1>
+  <Balance1Software2>Software 2</Balance1Software2>
+  <Balance1Software3>Software 3</Balance1Software3>
+  <Balance2Peripheral1>Peripheral 1</Balance2Peripheral1>
+  <Balance2Peripheral2>Peripheral 2</Balance2Peripheral2>
+  <Balance2Peripheral3>Peripheral 3</Balance2Peripheral3>
+  <Balance2Computer1>Computer 1</Balance2Computer1>
+  <Balance2Computer2>Computer 2</Balance2Computer2>
+  <Balance2Computer3>Computer 3</Balance2Computer3>
+  <Balance2Software1>Software 1</Balance2Software1>
+  <Balance2Software2>Software 2</Balance2Software2>
+  <Balance2Software3>Software 3</Balance2Software3>
+  <Balance3Peripheral1>Peripheral 1</Balance3Peripheral1>
+  <Balance3Peripheral2>Peripheral 2</Balance3Peripheral2>
+  <Balance3Peripheral3>Peripheral 3</Balance3Peripheral3>
+  <Balance3Computer1>Computer 1</Balance3Computer1>
+  <Balance3Computer2>Computer 2</Balance3Computer2>
+  <Balance3Computer3>Computer 3</Balance3Computer3>
+  <Balance3Software1>Software 1</Balance3Software1>
+  <Balance3Software2>Software 2</Balance3Software2>
+  <Balance3Software3>Software 3</Balance3Software3>
+  <Balance4Peripheral1>Peripheral 1</Balance4Peripheral1>
+  <Balance4Peripheral2>Peripheral 2</Balance4Peripheral2>
+  <Balance4Peripheral3>Peripheral 3</Balance4Peripheral3>
+  <Balance4Computer1>Computer 1</Balance4Computer1>
+  <Balance4Computer2>Computer 2</Balance4Computer2>
+  <Balance4Computer3>Computer 3</Balance4Computer3>
+  <Balance4Software1>Software 1</Balance4Software1>
+  <Balance4Software2>Software 2</Balance4Software2>
+  <Balance4Software3>Software 3</Balance4Software3>
+  <Balance5Peripheral1>Peripheral 1</Balance5Peripheral1>
+  <Balance5Peripheral2>Peripheral 2</Balance5Peripheral2>
+  <Balance5Peripheral3>Peripheral 3</Balance5Peripheral3>
+  <Balance5Computer1>Computer 1</Balance5Computer1>
+  <Balance5Computer2>Computer 2</Balance5Computer2>
+  <Balance5Computer3>Computer 3</Balance5Computer3>
+  <Balance5Software1>Software 1</Balance5Software1>
+  <Balance5Software2>Software 2</Balance5Software2>
+  <Balance5Software3>Software 3</Balance5Software3>
+  <RS232>RS232</RS232>
+  <USBDevice>USB Device</USBDevice>
+  <USBHost>USB Host</USBHost>
+  <Wireless>Wireless</Wireless>
+  <RS232Optional>RS232 Optional</RS232Optional>
+  <USBOptional>USB Optional</USBOptional>
+  <EthernetOptional>Ethernet Optional</EthernetOptional>
+  <BluetoothOptional>Bluetooth Optional</BluetoothOptional>
+  <WirelessOptional>Wireless Optional</WirelessOptional>
+  <Ethernet>Ethernet</Ethernet>
+  <Bluetooth>Bluetooth</Bluetooth>
+  <Auxiliary>Auxiliary</Auxiliary>
+  <InterfaceDetails>Interface Connection Details</InterfaceDetails>
+  <InterfaceDetails_PRINTOUT>Interface Connection</InterfaceDetails_PRINTOUT>
+  <SelectInterface>Select appropriate Interface Type and detail the settings</SelectInterface>
+  <RSFix>RS Fix</RSFix>
+  <BaudeRate>Baude Rate</BaudeRate>
+  <DataBits>Data Bits</DataBits>
+  <Parity>Parity</Parity>
+  <StopBits>Stop Bits</StopBits>
+  <FlowControl>Flow Control</FlowControl>
+  <InterfaceType>Interface Type</InterfaceType>
+  <DevicePort>Device Port</DevicePort>
+  <EthernetDHCP>DHCP</EthernetDHCP>
+  <EthernetIP>IP Address</EthernetIP>
+  <EthernetSubnetMask>Subnet Mask</EthernetSubnetMask>
+  <EthernetGateway>Standard Gateway</EthernetGateway>
+  <EthernetDomainServer>Domain Server</EthernetDomainServer>
+  <EthernetHostName>Hostname</EthernetHostName>
+  <PinCode>Pin Code</PinCode>
+  <Encryption>Encryption</Encryption>
+  <Invisible>Invisible</Invisible>
+  <Authentication>Authentication</Authentication>
+  <ParingInfo>Paring Info</ParingInfo>
+  <ShowConnections>Show Connections</ShowConnections>
+  <SSID>SSID</SSID>
+  <Password>Password</Password>
+  <LocationDescribedVerbally>System Location is described verbally</LocationDescribedVerbally>
+  <LocationPicture>System Location Picture</LocationPicture>
+  <LocationPicturePhoto>Add Photo</LocationPicturePhoto>
+  <SystemLocation>System Location</SystemLocation>
+  <IQDeviationLog>IQ Deviation Log</IQDeviationLog>
+  <DeviationLogNumber>Number of Deviations</DeviationLogNumber>
+  <IQDeviationLogNumberCombo>Number of Deviations</IQDeviationLogNumberCombo>
+  <IQDeviationLogNumberCombo_PRINTOUT>No deviations detected in IQ</IQDeviationLogNumberCombo_PRINTOUT>
+  <OQDeviationLogNumberCombo>Number of Deviations</OQDeviationLogNumberCombo>
+  <OQDeviationLogNumberCombo_PRINTOUT>No deviations detected in OQ</OQDeviationLogNumberCombo_PRINTOUT>
+  <SectionNo>Section</SectionNo>
+  <Action>Action</Action>
+  <StatusHistory>Status History</StatusHistory>
+  <DateStatusHistory>Date Status History</DateStatusHistory>
+  <DeviationLog>Deviation Log</DeviationLog>
+  <Balance1NA>N/A</Balance1NA>
+  <Balance2NA>N/A</Balance2NA>
+  <Balance3NA>N/A</Balance3NA>
+  <Balance4NA>N/A</Balance4NA>
+  <Balance5NA>N/A</Balance5NA>
+  <ConfigTerminalBridge>Configuration Details Balance Terminal</ConfigTerminalBridge>
+  <DeviceConnectionTerminal>Document connection relation for devices connected to the terminal directly</DeviceConnectionTerminal>
+  <Terminal1NA>N/A</Terminal1NA>
+  <Terminal2NA>N/A</Terminal2NA>
+  <Terminal3NA>N/A</Terminal3NA>
+  <Terminal4NA>N/A</Terminal4NA>
+  <Terminal5NA>N/A</Terminal5NA>
+  <Terminal1Peripheral1>Peripheral 1</Terminal1Peripheral1>
+  <Terminal1Peripheral2>Peripheral 2</Terminal1Peripheral2>
+  <Terminal1Peripheral3>Peripheral 3</Terminal1Peripheral3>
+  <Terminal1Computer1>Computer 1</Terminal1Computer1>
+  <Terminal1Computer2>Computer 2</Terminal1Computer2>
+  <Terminal1Computer3>Computer 3</Terminal1Computer3>
+  <Terminal1Software1>Software 1</Terminal1Software1>
+  <Terminal1Software2>Software 2</Terminal1Software2>
+  <Terminal1Software3>Software 3</Terminal1Software3>
+  <Terminal2Peripheral1>Peripheral 1</Terminal2Peripheral1>
+  <Terminal2Peripheral2>Peripheral 2</Terminal2Peripheral2>
+  <Terminal2Peripheral3>Peripheral 3</Terminal2Peripheral3>
+  <Terminal2Computer1>Computer 1</Terminal2Computer1>
+  <Terminal2Computer2>Computer 2</Terminal2Computer2>
+  <Terminal2Computer3>Computer 3</Terminal2Computer3>
+  <Terminal2Software1>Software 1</Terminal2Software1>
+  <Terminal2Software2>Software 2</Terminal2Software2>
+  <Terminal2Software3>Software 3</Terminal2Software3>
+  <Terminal3Peripheral1>Peripheral 1</Terminal3Peripheral1>
+  <Terminal3Peripheral2>Peripheral 2</Terminal3Peripheral2>
+  <Terminal3Peripheral3>Peripheral 3</Terminal3Peripheral3>
+  <Terminal3Computer1>Computer 1</Terminal3Computer1>
+  <Terminal3Computer2>Computer 2</Terminal3Computer2>
+  <Terminal3Computer3>Computer 3</Terminal3Computer3>
+  <Terminal3Software1>Software 1</Terminal3Software1>
+  <Terminal3Software2>Software 2</Terminal3Software2>
+  <Terminal3Software3>Software 3</Terminal3Software3>
+  <Terminal4Peripheral1>Peripheral 1</Terminal4Peripheral1>
+  <Terminal4Peripheral2>Peripheral 2</Terminal4Peripheral2>
+  <Terminal4Peripheral3>Peripheral 3</Terminal4Peripheral3>
+  <Terminal4Computer1>Computer 1</Terminal4Computer1>
+  <Terminal4Computer2>Computer 2</Terminal4Computer2>
+  <Terminal4Computer3>Computer 3</Terminal4Computer3>
+  <Terminal4Software1>Software 1</Terminal4Software1>
+  <Terminal4Software2>Software 2</Terminal4Software2>
+  <Terminal4Software3>Software 3</Terminal4Software3>
+  <Terminal5Peripheral1>Peripheral 1</Terminal5Peripheral1>
+  <Terminal5Peripheral2>Peripheral 2</Terminal5Peripheral2>
+  <Terminal5Peripheral3>Peripheral 3</Terminal5Peripheral3>
+  <Terminal5Computer1>Computer 1</Terminal5Computer1>
+  <Terminal5Computer2>Computer 2</Terminal5Computer2>
+  <Terminal5Computer3>Computer 3</Terminal5Computer3>
+  <Terminal5Software1>Software 1</Terminal5Software1>
+  <Terminal5Software2>Software 2</Terminal5Software2>
+  <Terminal5Software3>Software 3</Terminal5Software3>
+  <FinalizeInstallationMTRepresentativeSubSection>METTLER TOLEDO Representative</FinalizeInstallationMTRepresentativeSubSection>
+  <FinalizeInstallationCustomerApprovalSubSection>Customer review and approval by:</FinalizeInstallationCustomerApprovalSubSection>
+  <Description>Description</Description>
+  <IQCompletion>IQ Completion</IQCompletion>
+  <IQCompletionStatement>IQ Completion Statement</IQCompletionStatement>
+  <IQCompletionStatementLabel>Statement</IQCompletionStatementLabel>
+  <IQCompletionStatementLabelText>The instrument(s) detailed in section "Instrument Identification" has been successfully installed.
+The Installation Qualification has been performed according to the procedures outlines in METTLER TOLEDO "SOP EQPac LabTec".
+All results have met the specified parameters.</IQCompletionStatementLabelText>
+  <IQCompletionStatementLabelText_PRINTOUT>The instrument(s) detailed in section "Instrument Identification" has been successfully installed. The Installation Qualification has been performed according to the procedures outlines in METTLER TOLEDO "SOP EQPac LabTec". All results have met the specified parameters.</IQCompletionStatementLabelText_PRINTOUT>
+  <IQCompletionRepresentativeStatement>You hereby confirm that the Installation Qualification section is completed and correct.</IQCompletionRepresentativeStatement>
+  <IQCompletionCustomerRepresentativeStatement>The customer hereby confirms that the Installation Qualification section is completed and correct.</IQCompletionCustomerRepresentativeStatement>
+  <SystemLocationText>The system location is described below through verbal description, sketch, and/or image.</SystemLocationText>
+  <OperationalQualificationPage>Operational Qualification (OQ)</OperationalQualificationPage>
+  <OperationalQualificationPage_PRINTOUT>Operational Qualification (OQ)</OperationalQualificationPage_PRINTOUT>
+  <OperationalQualificationPurposeSection>Objective/Purpose</OperationalQualificationPurposeSection>
+  <OperationalQualificationPurposeText>The purpose of an Operational Qualification is to demonstrate that the product meets its predetermined specifications and quality attributes. The functional tests required to fulfill this purpose are listed below. Functional procedures that are not applicable for this installation are not recorded in this section.</OperationalQualificationPurposeText>
+  <OperationalReadiness>Operational Readiness</OperationalReadiness>
+  <OperationalReadinessText>Below conditions and tests proofs the readiness of the device to perform function tests and initial calibration.</OperationalReadinessText>
+  <OperationalReadinessText_PRINTOUT>The acclimatization, warm-up and readiness tests in this Section must be performed and passed before performing functional tests and initial calibration.</OperationalReadinessText_PRINTOUT>
+  <Acclimatization>Acclimatization and warm-up</Acclimatization>
+  <AcclimatizationText>Please record below conditions and tests to document the readiness of the device for function tests and initial calibration.</AcclimatizationText>
+  <DeviceConnected>Enter the required acclimatization (if applicable) and the warm-up time (e.g. 24 h / 4 h) according to instruction manual in hours.</DeviceConnected>
+  <DeviceConnected_PRINTOUT>Required  acclimatization time (if applicable) and warm-up time.</DeviceConnected_PRINTOUT>
+  <VoltageMatches>Acclimatization and warm-up time meets the requirements as specified in the operational manual.</VoltageMatches>
+  <VoltageMatches_PRINTOUT>Acclimatization and/or warm-up time meets the requirements as specified in the operation instruction.</VoltageMatches_PRINTOUT>
+  <AcclimatizationStatements>Statements</AcclimatizationStatements>
+  <Readiness>Readiness</Readiness>
+  <ReadinessText>As soon as the balance is acclimatized and warmed-up the below parameters must be checked if they meet the acceptance criterions.</ReadinessText>
+  <Parameter>Parameter</Parameter>
+  <PowerUpStatus>Verify power up status</PowerUpStatus>
+  <PowerUpStatusAcceptanceCriteria>Device and peripheral equipment powers up without error.</PowerUpStatusAcceptanceCriteria>
+  <SetupAndConfiguration>Appropriate setup and configuration of device</SetupAndConfiguration>
+  <SetupAndConfigurationAcceptanceCriteria>Weight parameters, draft shield functions, internal adjustment settings are set according to customer weighing process requirements.</SetupAndConfigurationAcceptanceCriteria>
+  <MenuOperation>Check menu operation / keypad / touch screen</MenuOperation>
+  <MenuOperationAcceptanceCriteria>Menu is accessible and the key operations are working according to the operating instructions.</MenuOperationAcceptanceCriteria>
+  <OperationSensors>Operation sensors (SmartSens)</OperationSensors>
+  <OperationSensorsAcceptanceCriteria>Every sensor can be set up to a dedicated operation and is working accordingly. Each sensor can be separately de-activated.</OperationSensorsAcceptanceCriteria>
+  <InternalAdjustment>Perform internal adjustment</InternalAdjustment>
+  <InternalAdjustmentAcceptanceCriteria>Internal adjustment proceeds successfully and no errors occur. Verification with external weight shows that balance meets manufacturer tolerance.</InternalAdjustmentAcceptanceCriteria>
+  <StandByMode>Stand-by mode</StandByMode>
+  <StandByModeAcceptanceCriteria>Device can be switched into stand-by mode and back as it is described in the operating instructions.</StandByModeAcceptanceCriteria>
+  <DataConnectionTest>Test of data connection with peripherals</DataConnectionTest>
+  <DataConnectionTestAcceptanceCriteria>Every peripheral device connected with the balance behaves in accordance to its dedicated use and communication is established successfully.</DataConnectionTestAcceptanceCriteria>
+  <FunctionalTests>Functional Tests</FunctionalTests>
+  <DisplayFunctionalTest>Display Functionality Test</DisplayFunctionalTest>
+  <FunctionalTestsApplicableYes>Yes</FunctionalTestsApplicableYes>
+  <FunctionalTestsApplicableNo>No</FunctionalTestsApplicableNo>
+  <Objective>Objective</Objective>
+  <DisplayFunctionalTestObjectiveText>Confirm the display is operating free of errors, and showing the expected functionality.</DisplayFunctionalTestObjectiveText>
+  <Procedure>Procedure</Procedure>
+  <DisplayFunctionalTestProcedureText>- Visually inspect the terminal display to ensure it is free of bubbles or micro cracks and is legible in the working environment.
+  - Switch off power and Switch on power again.
+  - For non-touch screen displays check if all digits and symbols are displayed properly during start-up procedure.
+  - For touch screen displays check if initial picture is shown and check for pixel errors.
+  - Check if contrast settings of the display are appropriate.</DisplayFunctionalTestProcedureText>
+  <DisplayFunctionalTestAcceptanceCriteriaText>The display shows no physical damages, all segments / pixels are displayed and legibility is appropriate.</DisplayFunctionalTestAcceptanceCriteriaText>
+  <TestApplicable>Test Applicable</TestApplicable>
+  <DisplayTouchScreenTest>Touch Screen Functionality Test</DisplayTouchScreenTest>
+  <TouchScreenTestsApplicableYes>Yes</TouchScreenTestsApplicableYes>
+  <TouchScreenTestsApplicableNo>No</TouchScreenTestsApplicableNo>
+  <DisplayTouchScreenTestObjectiveText>Confirm the Touch Screen is operating free of errors and showing the expected functionality.</DisplayTouchScreenTestObjectiveText>
+  <DisplayTouchScreenTestProcedureText>Activate buttons in all touch screen corners</DisplayTouchScreenTestProcedureText>
+  <DisplayTouchScreenTestAcceptanceCriteriaText>The touch screen responds accordingly by activating the correct function if a soft key is pressed.</DisplayTouchScreenTestAcceptanceCriteriaText>
+  <DisplayKeyboardTest>Keyboard Functionality Test</DisplayKeyboardTest>
+  <KeyboardTestsApplicableYes>Yes</KeyboardTestsApplicableYes>
+  <KeyboardTestsApplicableNo>No</KeyboardTestsApplicableNo>
+  <DisplayKeyboardTestObjectiveText>Confirm the keyboard is operating free of errors.</DisplayKeyboardTestObjectiveText>
+  <DisplayKeyboardTestProcedureText>- Visually inspect the proper condition and the correct mounting of the keypad.
+  - If applicable, mount protective cover to test keypad response.
+  - Press every key and make sure the reaction is according to key function.</DisplayKeyboardTestProcedureText>
+  <DisplayKeyboardTestAcceptanceCriteriaText>The key pad shows no physical damages, all keys are responding accordingly by activating the correct function if a soft key is pressed.</DisplayKeyboardTestAcceptanceCriteriaText>
+  <DisplayLossPowerTest>Loss of Power Test</DisplayLossPowerTest>
+  <LossPowerTestsApplicableYes>Yes</LossPowerTestsApplicableYes>
+  <LossPowerTestsApplicableNo>No</LossPowerTestsApplicableNo>
+  <DisplayLossPowerTestObjectiveText>Confirm that balance settings are not affected when power is cut off.</DisplayLossPowerTestObjectiveText>
+  <DisplayLossPowerTestProcedureText>  - Print or note the below menu settings:
+  	• Weight parameters.
+  	• Adjustment and Test settings.
+  - Change each of the settings to be different than the default.
+  - Print or note the changed settings.
+  - Remove main power from device.
+  - Leave the device without any power for approx. 20 seconds.
+  - Re-apply power to the device and power up.
+  - Compare the current settings with the previous printed or noted test settings.
+  - Change the menu settings back to the initial setting.</DisplayLossPowerTestProcedureText>
+  <DisplayLossPowerTestAcceptanceCriteriaText>After a power loss the balance will show the defined start-up routine and will return to the initial display. The  balance settings remain unchanged before and after the power loss.</DisplayLossPowerTestAcceptanceCriteriaText>
+  <DisplayUnderLoadTest>Balance Under Load Test</DisplayUnderLoadTest>
+  <UnderLoadTestsApplicableYes>Yes</UnderLoadTestsApplicableYes>
+  <UnderLoadTestsApplicableNo>No</UnderLoadTestsApplicableNo>
+  <DisplayUnderLoadTestObjectiveText>Confirm the response of the balance to under loading of the weighing pan is appropriate as defined in the operating instruction.</DisplayUnderLoadTestObjectiveText>
+  <DisplayUnderLoadTestProcedureText> - Make sure the weighing pan is empty and the display shows zero.
+ - Remove the weighing pan and, if existing, the pan support.</DisplayUnderLoadTestProcedureText>
+  <DisplayUnderLoadTestAcceptanceCriteriaText>The balance shows underload or a stable negative weight value .</DisplayUnderLoadTestAcceptanceCriteriaText>
+  <DisplayOverLoadTest>Balance Overload Test</DisplayOverLoadTest>
+  <OverLoadTestsApplicableYes>Yes</OverLoadTestsApplicableYes>
+  <OverLoadTestsApplicableNo>No</OverLoadTestsApplicableNo>
+  <DisplayOverLoadTestObjectiveText>Confirm the response of the balance to overload on the weighing pan is appropriate as defined in the operating instruction.</DisplayOverLoadTestObjectiveText>
+  <DisplayOverLoadTestProcedureText>- Make sure the weighing pan is empty and the display shows zero.
+  - Overload the weighing pan of the balance with approx. 110% of maximum capacity.
+  - Verify if the display indicates overloading as defined in the operating instruction.
+  - Remove the load.
+  - Verify if the display returns to a stable zero.</DisplayOverLoadTestProcedureText>
+  <DisplayOverLoadTestAcceptanceCriteriaText>Balance indicates overloading when an overload is placed on the pan and then returns to a stable zero when unloaded.</DisplayOverLoadTestAcceptanceCriteriaText>
+  <DisplayAutoDoorTest>Automatic Door Opening Test</DisplayAutoDoorTest>
+  <AutoDoorTestsApplicableYes>Yes</AutoDoorTestsApplicableYes>
+  <AutoDoorTestsApplicableNo>No</AutoDoorTestsApplicableNo>
+  <DisplayAutoDoorTestObjectiveText>Confirm the correct mechanical and electrical functioning of the door opening system.</DisplayAutoDoorTestObjectiveText>
+  <DisplayAutoDoorTestProcedureText>- Open and close doors manually in each possible combination.
+  - Verify the doors are moving smoothly, and they are closing tightly without gap.
+  - Open and close the doors in each possible combination using the door drive function.
+  - Verify that doors are closing tightly and move smoothly into the end position. No banging into the frame of the front glass.</DisplayAutoDoorTestProcedureText>
+  <DisplayAutoDoorTestAcceptanceCriteriaText>Doors are moving smoothly, close without gap and motor end position is reached without banging into front frame.</DisplayAutoDoorTestAcceptanceCriteriaText>
+  <DisplayLevelControlTest>Level Control Test</DisplayLevelControlTest>
+  <LevelControlTestsApplicableYes>Yes</LevelControlTestsApplicableYes>
+  <LevelControlTestsApplicableNo>No</LevelControlTestsApplicableNo>
+  <DisplayLevelControlTestObjectiveText>Confirm the balance leveling system is working correctly and the response of the system to off-level position is appropriate.</DisplayLevelControlTestObjectiveText>
+  <DisplayLevelControlTestProcedureText>- Level the balance by using the level indicator until the level indicator is in its center position.
+  - Activate the LevelControl function in the menu, and select warning text and warning signal "on".
+  - Un-level balance in a way that the level indicator is outside the inner ring.
+  - It is indicated to the user that the balance is out of level.
+  - The indication remains constantly active on display until the balance is leveled again.
+  - Level the balance.
+  - It is indicates to the user that the balance is leveled.</DisplayLevelControlTestProcedureText>
+  <DisplayLevelControlTestAcceptanceCriteriaText>Balance indicates an "out of level" and "in level" position correctly as defined in the operating instruction.</DisplayLevelControlTestAcceptanceCriteriaText>
+  <DisplayStaticDetectTest>StaticDetect Test</DisplayStaticDetectTest>
+  <StaticDetectTestsApplicableYes>Yes</StaticDetectTestsApplicableYes>
+  <StaticDetectTestsApplicableNo>No</StaticDetectTestsApplicableNo>
+  <DisplayStaticDetectTestObjectiveText>Confirm the StaticDetect system is working correctly and the response of the system in terms of detecting static is as defined in the operating instruction.</DisplayStaticDetectTestObjectiveText>
+  <DisplayStaticDetectTestProcedureText>  - Activate the StaticDetect function and set the Detection Threshold to a small value.
+  - Place a weight on the pan and close the door using the motorized door function.
+  - The Static Detect Symbol on the display switches on and after a short time off again.
+  - No warning is shown on the display.
+  - Open the door using the motorized door function and remove the test load.
+  - Load any plastic card (e.g. debit or credit card) by rubbing it on a plastic foil or plastic bag and place it on the weighing pan.
+  - Close the door using the motorized door function.
+  - The balance indicates that the StaticDetect function is checking for static charge.
+  - A warning is shown on the display.
+  - Quit the warning in the display.
+  - The Static Detect Symbol on the display switches off.
+  - No warning is shown on the display.
+  - Remove the card from the pan.
+  - The display returns to a stable zero.</DisplayStaticDetectTestProcedureText>
+  <DisplayStaticDetectTestAcceptanceCriteriaText>The response of the balance according "static is present" and "no static present" was as defined in the operating instructions.</DisplayStaticDetectTestAcceptanceCriteriaText>
+  <DisplayStatusLightTest>StatusLight Test</DisplayStatusLightTest>
+  <StatusLightTestsApplicableYes>Yes</StatusLightTestsApplicableYes>
+  <StatusLightTestsApplicableNo>No</StatusLightTestsApplicableNo>
+  <DisplayStatusLightTestObjectiveText>Confirm the StatusLight is working correctly and the user is warned as defined in the operating instruction.</DisplayStatusLightTestObjectiveText>
+  <DisplayStatusLightTestProcedureText> - Activate the StatusLight function in the balance menu.
+  - Remove balance from power supply for a few seconds and connect it again.
+  	• The StatusLight shows all colors red, yellow and green during start up sequence.
+  - Make sure that the StatusLight is green. In case it is not green perform necessary tasks to bring the balance to a green status.
+  - Activate internal adjustment or FACT function and program it time triggered two minutes from now. Place a weight (close to max. capacity ) on the pan  to hinder balance from performing an internal adjustment.
+  	• After two minutes, the internal adjustment or FACT is requested in the display and the StatusLight changes to yellow.
+  - Remove the weight from the pan and perform an internal adjustment or FACT.
+  	• Adjustment is performed and after the successful completion, the StatusLight changes to green.
+  - Bring the balance out of level.
+  	• StatusLight changes to red and a warning is shown in the display.
+  - Level the balance.
+  	• The StatusLight changes to green and the warning disappears from the display.
+  	• The display shows a stable weight value.</DisplayStatusLightTestProcedureText>
+  <DisplayStatusLightTestAcceptanceCriteriaText>The reaction of the StatusLight was always correct and, when appropriate, the warning was shown in the display.</DisplayStatusLightTestAcceptanceCriteriaText>
+  <InitialCalibration>Initial Calibration</InitialCalibration>
+  <InitialCalibration_PRINTOUT>Initial Calibration Reports</InitialCalibration_PRINTOUT>
+  <InitialCalibrationText>This section identifies the applicable test procedure for the metrological tests of the balance.</InitialCalibrationText>
+  <SetupSettings>Setup Settings</SetupSettings>
+  <SetupSettings_PRINTOUT>Instrument settings for initial calibration</SetupSettings_PRINTOUT>
+  <NumberOfSettings>Select number of set of settings</NumberOfSettings>
+  <Setting>Setting</Setting>
+  <FreeInput>Comments</FreeInput>
+  <PassProtected>Setting protected with Password</PassProtected>
+  <UserProfile>User Profile</UserProfile>
+  <Home>Home</Home>
+  <User1>User 1</User1>
+  <User2>User 2</User2>
+  <User3>User 3</User3>
+  <User4>User 4</User4>
+  <User5>User 5</User5>
+  <User6>User 6</User6>
+  <User7>User 7</User7>
+  <User8>User 8</User8>
+  <Other>Other</Other>
+  <Application>Application</Application>
+  <Weighing>Weighing</Weighing>
+  <Dosing>Dosing</Dosing>
+  <Statistic>Statistic</Statistic>
+  <Counting>Counting</Counting>
+  <Formulation>Formulation</Formulation>
+  <DynamicWeighing>Dynamic Weighing</DynamicWeighing>
+  <Unit>Unit</Unit>
+  <WeighingMode>Weighing Mode</WeighingMode>
+  <Universal>Universal</Universal>
+  <Robust>Robust</Robust>
+  <ValueRelease>Value Release</ValueRelease>
+  <VeryFast>Very Fast</VeryFast>
+  <Fast>Fast</Fast>
+  <Reliable>Reliable</Reliable>
+  <VeryReliable>Very Reliable</VeryReliable>
+  <Environment>Environment</Environment>
+  <VeryUnstable>Very Unstable</VeryUnstable>
+  <Unstable>Unstable</Unstable>
+  <Standard>Standard</Standard>
+  <Stable>Stable</Stable>
+  <VeryStable>Very Stable</VeryStable>
+  <InnerDraft>Inner Draft Shield</InnerDraft>
+  <ShelfPosition>Intermediate Shelf Position</ShelfPosition>
+  <WeighingPanType>Weighing Pan Type</WeighingPanType>
+  <Solid>Solid</Solid>
+  <Grid>Grid</Grid>
+  <Smart>Smart</Smart>
+  <AutoZero>Auto Zero / Zero drift compensation</AutoZero>
+  <On>On</On>
+  <Off>Off</Off>
+  <ReducedReadability>Reduced Readability</ReducedReadability>
+  <InternalAdjustmentSetting>Internal Adjustment or FACT</InternalAdjustmentSetting>
+  <FactTrigger>Trigger Internal Adjustment or FACT</FactTrigger>
+  <Temperature>Temperature</Temperature>
+  <Time>Time</Time>
+  <TimeTemperature>Time &amp; Temperature</TimeTemperature>
+  <AntistaticKit>Antistatic Kit</AntistaticKit>
+  <ActiveAfter>Active After Door Open</ActiveAfter>
+  <InactiveAfter>Inactive After Door Open</InactiveAfter>
+  <StaticDetect>Static Detect</StaticDetect>
+  <SafetyCabinet>Safety Cabinet</SafetyCabinet>
+  <FanOff>Fan Off</FanOff>
+  <FanOn>Fan On</FanOn>
+  <NoFan>No Fan</NoFan>
+  <SettingsSub>Settings</SettingsSub>
+  <SettingName>Setting Name</SettingName>
+  <CalibrationSubsection>Calibration Certificates</CalibrationSubsection>
+  <CalibrationSubsection_PRINTOUT>Calibration Certificates and Test Report</CalibrationSubsection_PRINTOUT>
+  <IdentifyCalibrationLabel>Please import corresponding service events and fill additional information for each event (if available).</IdentifyCalibrationLabel>
+  <ServiceEventBalance1>Certificate</ServiceEventBalance1>
+  <ServiceEventBalance1_PRINTOUT>Calibration Certificate</ServiceEventBalance1_PRINTOUT>
+  <ServiceEventName>Certificate Name</ServiceEventName>
+  <ServiceEventNumber>Certificate ID</ServiceEventNumber>
+  <ServiceEventsCount>Identify the number of service events for current device.</ServiceEventsCount>
+  <AdditionalCalInfo>Additional Calibration Certificate Information</AdditionalCalInfo>
+  <SOPName>SOP Name</SOPName>
+  <SOPId>SOP ID</SOPId>
+  <SOPVersion>SOP Version</SOPVersion>
+  <EquipmentSettings>Instrument settings used for calibration</EquipmentSettings>
+  <UserTraining>User Training</UserTraining>
+  <UserTrainingScopeText>Scope: This section ensures that users are provided with appropriate training to work productively and safely with the equipment referred to in this document. This training covers instruction on basic operation, functionalities and features of the main device and any accessories or peripheral, including routine maintenance and basic care.</UserTrainingScopeText>
+  <TrainingResponsible>Training Responsible on Behalf of Device Owner</TrainingResponsible>
+  <TrainingResponsibleVerify>Verify &amp; enter the name of the training responsible on behalf of the customer.</TrainingResponsibleVerify>
+  <UserTrainingNotNeeded>Training is applicable</UserTrainingNotNeeded>
+  <UserTrainingNotNeededYes>Yes</UserTrainingNotNeededYes>
+  <UserTrainingNotNeededNo>No</UserTrainingNotNeededNo>
+  <TrainingDetails>Training Details</TrainingDetails>
+  <EnterTrainingDetails>Enter Training Details</EnterTrainingDetails>
+  <TrainingDetailsName>Name of the Training</TrainingDetailsName>
+  <TrainingDetailsDate>Date</TrainingDetailsDate>
+  <TrainingDetailsDate_PRINTOUT>Date of Training</TrainingDetailsDate_PRINTOUT>
+  <TrainingDetailsTrainerName>Name of the Trainer</TrainingDetailsTrainerName>
+  <TrainingDetailsTrainerFunction>Job Title of the Trainer</TrainingDetailsTrainerFunction>
+  <WorkInstruction>Training SOP Reference</WorkInstruction>
+  <WorkInstruction_PRINTOUT>Training SOP Reference</WorkInstruction_PRINTOUT>
+  <TrainingCertsIssued>Training Certificates were Issued</TrainingCertsIssued>
+  <TrainingParticipants>Participant Details</TrainingParticipants>
+  <TrainingParticipantsNumber>Select number of participants</TrainingParticipantsNumber>
+  <Participant1>Participant 1</Participant1>
+  <Participant2>Participant 2</Participant2>
+  <Participant3>Participant 3</Participant3>
+  <Participant4>Participant 4</Participant4>
+  <Participant5>Participant 5</Participant5>
+  <OQDeviationLog>OQ Deviation Log</OQDeviationLog>
+  <DeviationDescription>Deviation Description</DeviationDescription>
+  <CorrectiveAction>Corrective Action</CorrectiveAction>
+  <CustomerComment>Customer Comment</CustomerComment>
+  <IQDeviationLogText>Deviations which occurred during IQ are reported below.</IQDeviationLogText>
+  <OQDeviationLogText>Deviations which occurred during OQ are reported below.</OQDeviationLogText>
+  <OQCompletion>OQ Completion</OQCompletion>
+  <OQCompletionStatement>OQ Completion Statement</OQCompletionStatement>
+  <OQCompletionStatementLabelText>The instrument(s) detailed in section "Instrument Identification" has been successfully qualified for operation.
+The Operational Qualification has been performed according to the procedures outlines in METTLER TOLEDO "SOP EQPac LabTec".
+All results have met the specified parameters.</OQCompletionStatementLabelText>
+  <OQCompletionStatementLabelText_PRINTOUT>The instrument(s) detailed in section "Instrument Identification" has been successfully qualified for operation. The Operational Qualification has been performed according to the procedures outlines in METTLER TOLEDO "SOP EQPac LabTec". All results have met the specified parameters.</OQCompletionStatementLabelText_PRINTOUT>
+  <OQCompletionRepresentativeStatement>You hereby confirm that the Operational Qualification Section is completed and correct.</OQCompletionRepresentativeStatement>
+  <OQCompletionCustomerRepresentativeStatement>The customer hereby confirms that the Operational Qualification Section is completed and correct.</OQCompletionCustomerRepresentativeStatement>
+  <Interface1NA>N/A</Interface1NA>
+  <RoutineTestsPage>Performance Qualification (PQ)</RoutineTestsPage>
+  <RoutineTestsPage_PRINTOUT>Performance Qualification (PQ)</RoutineTestsPage_PRINTOUT>
+  <RoutineTestsSection>Routine tests by Balance User</RoutineTestsSection>
+  <RoutineTestsText>This section details the procedures for the ongoing process of demonstrating the consistent performance of the balance through its life cycle. To ensure accuracy and traceability of results, METTLER TOLEDO recommends periodical Routine Tests to be performed by the user.</RoutineTestsText>
+  <RoutineTest>Routine Test by User</RoutineTest>
+  <RoutineTestName>Routine Test Name</RoutineTestName>
+  <RoutineTestSopName>Routine Test SOP Name</RoutineTestSopName>
+  <RoutineTestSopId>Routine Test SOP ID / Version</RoutineTestSopId>
+  <RoutineTestFrequencyPlan>Routine Test Plan Name</RoutineTestFrequencyPlan>
+  <RoutineTestPlanId>Routine Test Plan ID</RoutineTestPlanId>
+  <RoutineTestsNumber>Please Identify the routine tests that are planned for this device.</RoutineTestsNumber>
+  <RoutineTestsNumberCombo>Select Number of Routine tests</RoutineTestsNumberCombo>
+  <RoutineTestsNumberCombo_PRINTOUT>No Routine Tests are Performed</RoutineTestsNumberCombo_PRINTOUT>
+  <Calibration>Calibration</Calibration>
+  <Calibration_PRINTOUT>Calibration by Service Provider</Calibration_PRINTOUT>
+  <CalibrationNumber>Please identify the calibrations that are planned for this device.</CalibrationNumber>
+  <CalibrationNumberCombo>Select number of calibrations</CalibrationNumberCombo>
+  <CalibrationNumberCombo_PRINTOUT>No calibrations planned</CalibrationNumberCombo_PRINTOUT>
+  <CalibrationName>Calibration Performed By</CalibrationName>
+  <CalibrationSopName>Calibration SOP Name</CalibrationSopName>
+  <CalibrationSopId>Calibration SOP ID / Version</CalibrationSopId>
+  <CalibrationFrequencyPlan>Calibration Frequency Plan Name</CalibrationFrequencyPlan>
+  <CalibrationPlanId>Calibration Frequency Plan ID</CalibrationPlanId>
+  <PQDeviationLog>PQ Deviation Log</PQDeviationLog>
+  <PQDeviationLogText>Deviations which occurred during PQ are reported below. The "Status History" fields details whether the status before and after the corrective action.</PQDeviationLogText>
+  <PQCompletion>PQ Completion</PQCompletion>
+  <PQCompletionStatement>PQ Completion Statement</PQCompletionStatement>
+  <PQCompletionStatementLabelText>Monitoring of Equipment during Routine Operation has been reviewed and approved according to the procedures outlined in METTLER TOLEDO "SOP EQPac LabTec" .</PQCompletionStatementLabelText>
+  <PQCompletionStatementLabelText_PRINTOUT>Routine operating tests and procedures have been reviewed and approved.</PQCompletionStatementLabelText_PRINTOUT>
+  <PQCompletionRepresentativeStatement>You hereby confirm that the Performance Qualification (PQ) Section is completed and correct.</PQCompletionRepresentativeStatement>
+  <PQCompletionCustomerRepresentativeStatement>The customer hereby confirms that the Monitoring of Equipment during Routine Operation has been reviewed and approved.</PQCompletionCustomerRepresentativeStatement>
+  <CompletionReleaseText>Installation and Operational Qualification have been performed, reviewed, and approved according to the procedures established by METTLER TOLEDO and outlined in this document. All results, having met the specified parameters, hereby certify that the equipment detailed in section "Instrument Identification", has been successfully qualified and is herewith released for routine operation.</CompletionReleaseText>
+  <CompletionInstallation>Completion of Installation</CompletionInstallation>
+  <CompletionInstallationSubSection>Completion of Installation on Behalf of METTLER TOLEDO</CompletionInstallationSubSection>
+  <ReleaseRoutingOperation>Release for Routine Operation</ReleaseRoutingOperation>
+  <ReleaseRoutingOperationSub>Authorized Reviewer's Signature on Behalf of Device Owner</ReleaseRoutingOperationSub>
+  <ReleaseRoutingOperationSecondSub>Authorized 2nd Reviewer's Signature on Behalf of Device Owner</ReleaseRoutingOperationSecondSub>
+  <MaintenanceCalibrationRecommendation>Maintenance and/or Calibration Recommendation</MaintenanceCalibrationRecommendation>
+  <MaintenanceType>Type of Maintenance</MaintenanceType>
+  <ServiceProductName>Name of Contract</ServiceProductName>
+  <MaintenanceContract>Maintenance Contract</MaintenanceContract>
+  <CalibrationContract>Calibration Contract</CalibrationContract>
+  <ReQualification>Re-Qualification</ReQualification>
+  <ReVerification>Re-Verification</ReVerification>
+  <Annual>Annual</Annual>
+  <BiAnnual>Bi-Annual</BiAnnual>
+  <Quaterly>Quarterly</Quaterly>
+  <Monthly>Monthly</Monthly>
+  <Frequency>Frequency</Frequency>
+  <Balance1ItemDelivery12No>No</Balance1ItemDelivery12No>
+  <Balance1ItemDelivery14No>No</Balance1ItemDelivery14No>
+  <Balance1ItemDelivery15No>No</Balance1ItemDelivery15No>
+  <Balance1ItemDelivery16No>No</Balance1ItemDelivery16No>
+  <Balance1ItemDelivery17No>No</Balance1ItemDelivery17No>
+  <Balance1ItemDelivery18No>No</Balance1ItemDelivery18No>
+  <Balance1ItemDelivery19No>No</Balance1ItemDelivery19No>
+  <Balance1ItemDelivery20No>No</Balance1ItemDelivery20No>
+  <Balance1ItemDelivery21No>No</Balance1ItemDelivery21No>
+  <Balance1ItemDelivery23No>No</Balance1ItemDelivery23No>
+  <ConditionOfDeliveryBox>Condition of Delivery Box</ConditionOfDeliveryBox>
+  <ConditionOfDeliveryBoxRadio>Packaging boxes do not show any signs of transport damages that could cause harm to the equipment?</ConditionOfDeliveryBoxRadio>
+  <ConditionOfDeliveryBoxRadio_PRINTOUT>The packaging of the delivered items listed above was shipped in appropriate condition and does not have signs of transport damages that could cause harm to the equipment.</ConditionOfDeliveryBoxRadio_PRINTOUT>
+  <ConditionOfDeliveredEquipment>Condition of Delivered Equipment</ConditionOfDeliveredEquipment>
+  <ConditionOfDeliveredEquipmentRadio>No physical damage visible on delivered items</ConditionOfDeliveredEquipmentRadio>
+  <ConditionOfDeliveredEquipmentRadio_PRINTOUT>All equipment listed above including power cable(s), external power adaptor(s), peripheral(s) and/or accessories are free of visible physical damage.</ConditionOfDeliveredEquipmentRadio_PRINTOUT>
+  <Peripheral1DeliveredItems>Delivered Items of Peripheral 1</Peripheral1DeliveredItems>
+  <Peripheral2DeliveredItems>Delivered Items of Peripheral 2</Peripheral2DeliveredItems>
+  <Peripheral3DeliveredItems>Delivered Items of Peripheral 3</Peripheral3DeliveredItems>
+  <DeliveredPeripheralItemsLabel>List all items of peripheral as defined in the standard delivery and confirm delivery.</DeliveredPeripheralItemsLabel>
+  <DeliveredPeripheralItemsLabel_PRINTOUT>All items were delivered according to the corresponding documents detailed in section "Documents used for evaluation of completeness".</DeliveredPeripheralItemsLabel_PRINTOUT>
+  <Peripheral1Balance>Balance</Peripheral1Balance>
+  <Peripheral1Terminal>Terminal</Peripheral1Terminal>
+  <Peripheral1PowerSupply>Power Supply &amp; Cable</Peripheral1PowerSupply>
+  <Peripheral1WeighingPan>Weighing Pan</Peripheral1WeighingPan>
+  <Peripheral1SmartPan>Smart Pan</Peripheral1SmartPan>
+  <Peripheral1SmartGrid>Smart Grid</Peripheral1SmartGrid>
+  <Peripheral1SmartGridCover>Smart Grid Cover</Peripheral1SmartGridCover>
+  <Peripheral1DripTray>Drip Tray</Peripheral1DripTray>
+  <Peripheral1ProtectTerminal>Protective Cover Terminal</Peripheral1ProtectTerminal>
+  <Peripheral1ProtectBalance>Protective Cover Balance</Peripheral1ProtectBalance>
+  <Peripheral1DraftShield>Draft Shield</Peripheral1DraftShield>
+  <Peripheral1BalanceNo>No</Peripheral1BalanceNo>
+  <Peripheral1TerminalNo>No</Peripheral1TerminalNo>
+  <Peripheral1PowerSupplyNo>No</Peripheral1PowerSupplyNo>
+  <Peripheral1WeighingPanNo>No</Peripheral1WeighingPanNo>
+  <Peripheral1SmartPanNo>No</Peripheral1SmartPanNo>
+  <Peripheral1SmartGridNo>No</Peripheral1SmartGridNo>
+  <Peripheral1SmartGridCoverNo>No</Peripheral1SmartGridCoverNo>
+  <Peripheral1DripTrayNo>No</Peripheral1DripTrayNo>
+  <Peripheral1ProtectTerminalNo>No</Peripheral1ProtectTerminalNo>
+  <Peripheral1ProtectBalanceNo>No</Peripheral1ProtectBalanceNo>
+  <Peripheral1DraftShieldNo>No</Peripheral1DraftShieldNo>
+  <DeliveredPeripheral1Documents>Delivered Documents of Peripheral 1</DeliveredPeripheral1Documents>
+  <DeliveredPeripheral2Documents>Delivered Documents of Peripheral 2</DeliveredPeripheral2Documents>
+  <DeliveredPeripheral3Documents>Delivered Documents of Peripheral 3</DeliveredPeripheral3Documents>
+  <Peripheral1OperatingInstruction>Reference Manual</Peripheral1OperatingInstruction>
+  <Peripheral1Conformity>Declaration of Conformity</Peripheral1Conformity>
+  <Peripheral1ProductionCertificate>Production Certificate</Peripheral1ProductionCertificate>
+  <Peripheral1QuickGuide>User Manual (Short Instruction)</Peripheral1QuickGuide>
+  <Peripheral1DVDRom>DVD-ROM User Manual</Peripheral1DVDRom>
+  <Peripheral2Balance>Balance</Peripheral2Balance>
+  <Peripheral2Terminal>Terminal</Peripheral2Terminal>
+  <Peripheral2PowerSupply>Power Supply &amp; Cable</Peripheral2PowerSupply>
+  <Peripheral2WeighingPan>Weighing Pan</Peripheral2WeighingPan>
+  <Peripheral2SmartPan>Smart Pan</Peripheral2SmartPan>
+  <Peripheral2SmartGrid>Smart Grid</Peripheral2SmartGrid>
+  <Peripheral2SmartGridCover>Smart Grid Cover</Peripheral2SmartGridCover>
+  <Peripheral2DripTray>Drip Tray</Peripheral2DripTray>
+  <Peripheral2ProtectTerminal>Protective Cover Terminal</Peripheral2ProtectTerminal>
+  <Peripheral2ProtectBalance>Protective Cover Balance</Peripheral2ProtectBalance>
+  <Peripheral2DraftShield>Draft Shield</Peripheral2DraftShield>
+  <Peripheral2BalanceNo>No</Peripheral2BalanceNo>
+  <Peripheral2TerminalNo>No</Peripheral2TerminalNo>
+  <Peripheral2PowerSupplyNo>No</Peripheral2PowerSupplyNo>
+  <Peripheral2WeighingPanNo>No</Peripheral2WeighingPanNo>
+  <Peripheral2SmartPanNo>No</Peripheral2SmartPanNo>
+  <Peripheral2SmartGridNo>No</Peripheral2SmartGridNo>
+  <Peripheral2SmartGridCoverNo>No</Peripheral2SmartGridCoverNo>
+  <Peripheral2DripTrayNo>No</Peripheral2DripTrayNo>
+  <Peripheral2ProtectTerminalNo>No</Peripheral2ProtectTerminalNo>
+  <Peripheral2ProtectBalanceNo>No</Peripheral2ProtectBalanceNo>
+  <Peripheral2DraftShieldNo>No</Peripheral2DraftShieldNo>
+  <DeliveredPeripheralDocumentsLabel>List all documents of peripheral as defined in the standard delivery and confirm delivery.</DeliveredPeripheralDocumentsLabel>
+  <Peripheral2OperatingInstruction>Reference Manual</Peripheral2OperatingInstruction>
+  <Peripheral2Conformity>Declaration of Conformity</Peripheral2Conformity>
+  <Peripheral2ProductionCertificate>Production Certificate</Peripheral2ProductionCertificate>
+  <Peripheral2QuickGuide>User Manual (Short Instruction)</Peripheral2QuickGuide>
+  <Peripheral2DVDRom>DVD-ROM User Manual</Peripheral2DVDRom>
+  <Peripheral3Balance>Balance</Peripheral3Balance>
+  <Peripheral3Terminal>Terminal</Peripheral3Terminal>
+  <Peripheral3PowerSupply>Power Supply &amp; Cable</Peripheral3PowerSupply>
+  <Peripheral3WeighingPan>Weighing Pan</Peripheral3WeighingPan>
+  <Peripheral3SmartPan>Smart Pan</Peripheral3SmartPan>
+  <Peripheral3SmartGrid>Smart Grid</Peripheral3SmartGrid>
+  <Peripheral3SmartGridCover>Smart Grid Cover</Peripheral3SmartGridCover>
+  <Peripheral3DripTray>Drip Tray</Peripheral3DripTray>
+  <Peripheral3ProtectTerminal>Protective Cover Terminal</Peripheral3ProtectTerminal>
+  <Peripheral3ProtectBalance>Protective Cover Balance</Peripheral3ProtectBalance>
+  <Peripheral3DraftShield>Draft Shield</Peripheral3DraftShield>
+  <Peripheral3BalanceNo>No</Peripheral3BalanceNo>
+  <Peripheral3TerminalNo>No</Peripheral3TerminalNo>
+  <Peripheral3PowerSupplyNo>No</Peripheral3PowerSupplyNo>
+  <Peripheral3WeighingPanNo>No</Peripheral3WeighingPanNo>
+  <Peripheral3SmartPanNo>No</Peripheral3SmartPanNo>
+  <Peripheral3SmartGridNo>No</Peripheral3SmartGridNo>
+  <Peripheral3SmartGridCoverNo>No</Peripheral3SmartGridCoverNo>
+  <Peripheral3DripTrayNo>No</Peripheral3DripTrayNo>
+  <Peripheral3ProtectTerminalNo>No</Peripheral3ProtectTerminalNo>
+  <Peripheral3ProtectBalanceNo>No</Peripheral3ProtectBalanceNo>
+  <Peripheral3DraftShieldNo>No</Peripheral3DraftShieldNo>
+  <Peripheral3OperatingInstruction>Reference Manual</Peripheral3OperatingInstruction>
+  <Peripheral3Conformity>Declaration of Conformity</Peripheral3Conformity>
+  <Peripheral3ProductionCertificate>Production Certificate</Peripheral3ProductionCertificate>
+  <Peripheral3QuickGuide>User Manual (Short Instruction)</Peripheral3QuickGuide>
+  <Peripheral3DVDRom>DVD-ROM User Manual</Peripheral3DVDRom>
+  <DeliveredPeripheralDocuments>Delivered Documents of Peripheral 1</DeliveredPeripheralDocuments>
+  <Computer1DeliveredItems>Delivered Items of Computer 1</Computer1DeliveredItems>
+  <Computer2DeliveredItems>Delivered Items of Computer 2</Computer2DeliveredItems>
+  <Computer3DeliveredItems>Delivered Items of Computer 3</Computer3DeliveredItems>
+  <DeliveredComputerItemsLabel>List all items of Computer as defined in the standard delivery and confirm delivery.</DeliveredComputerItemsLabel>
+  <DeliveredComputerItemsLabel_PRINTOUT>All items were delivered according to the corresponding documents detailed in section "Documents used for evaluation of completeness".</DeliveredComputerItemsLabel_PRINTOUT>
+  <Computer1Balance>Balance</Computer1Balance>
+  <Computer1Terminal>Terminal</Computer1Terminal>
+  <Computer1PowerSupply>Power Supply &amp; Cable</Computer1PowerSupply>
+  <Computer1WeighingPan>Weighing Pan</Computer1WeighingPan>
+  <Computer1SmartPan>Smart Pan</Computer1SmartPan>
+  <Computer1SmartGrid>Smart Grid</Computer1SmartGrid>
+  <Computer1SmartGridCover>Smart Grid Cover</Computer1SmartGridCover>
+  <Computer1DripTray>Drip Tray</Computer1DripTray>
+  <Computer1ProtectTerminal>Protective Cover Terminal</Computer1ProtectTerminal>
+  <Computer1ProtectBalance>Protective Cover Balance</Computer1ProtectBalance>
+  <Computer1DraftShield>Draft Shield</Computer1DraftShield>
+  <Computer1BalanceNo>No</Computer1BalanceNo>
+  <Computer1TerminalNo>No</Computer1TerminalNo>
+  <Computer1PowerSupplyNo>No</Computer1PowerSupplyNo>
+  <Computer1WeighingPanNo>No</Computer1WeighingPanNo>
+  <Computer1SmartPanNo>No</Computer1SmartPanNo>
+  <Computer1SmartGridNo>No</Computer1SmartGridNo>
+  <Computer1SmartGridCoverNo>No</Computer1SmartGridCoverNo>
+  <Computer1DripTrayNo>No</Computer1DripTrayNo>
+  <Computer1ProtectTerminalNo>No</Computer1ProtectTerminalNo>
+  <Computer1ProtectBalanceNo>No</Computer1ProtectBalanceNo>
+  <Computer1DraftShieldNo>No</Computer1DraftShieldNo>
+  <DeliveredComputer1Documents>Delivered Documents of Computer 1</DeliveredComputer1Documents>
+  <DeliveredComputer2Documents>Delivered Documents of Computer 2</DeliveredComputer2Documents>
+  <DeliveredComputer3Documents>Delivered Documents of Computer 3</DeliveredComputer3Documents>
+  <DeliveredComputerDocumentsLabel>List all documents of Computer as defined in the standard delivery and confirm delivery.</DeliveredComputerDocumentsLabel>
+  <Computer1OperatingInstruction>Reference Manual</Computer1OperatingInstruction>
+  <Computer1Conformity>Declaration of Conformity</Computer1Conformity>
+  <Computer1ProductionCertificate>Production Certificate</Computer1ProductionCertificate>
+  <Computer1QuickGuide>User Manual (Short Instruction)</Computer1QuickGuide>
+  <Computer1DVDRom>DVD-ROM User Manual</Computer1DVDRom>
+  <Computer2Balance>Balance</Computer2Balance>
+  <Computer2Terminal>Terminal</Computer2Terminal>
+  <Computer2PowerSupply>Power Supply &amp; Cable</Computer2PowerSupply>
+  <Computer2WeighingPan>Weighing Pan</Computer2WeighingPan>
+  <Computer2SmartPan>Smart Pan</Computer2SmartPan>
+  <Computer2SmartGrid>Smart Grid</Computer2SmartGrid>
+  <Computer2SmartGridCover>Smart Grid Cover</Computer2SmartGridCover>
+  <Computer2DripTray>Drip Tray</Computer2DripTray>
+  <Computer2ProtectTerminal>Protective Cover Terminal</Computer2ProtectTerminal>
+  <Computer2ProtectBalance>Protective Cover Balance</Computer2ProtectBalance>
+  <Computer2DraftShield>Draft Shield</Computer2DraftShield>
+  <Computer2BalanceNo>No</Computer2BalanceNo>
+  <Computer2TerminalNo>No</Computer2TerminalNo>
+  <Computer2PowerSupplyNo>No</Computer2PowerSupplyNo>
+  <Computer2WeighingPanNo>No</Computer2WeighingPanNo>
+  <Computer2SmartPanNo>No</Computer2SmartPanNo>
+  <Computer2SmartGridNo>No</Computer2SmartGridNo>
+  <Computer2SmartGridCoverNo>No</Computer2SmartGridCoverNo>
+  <Computer2DripTrayNo>No</Computer2DripTrayNo>
+  <Computer2ProtectTerminalNo>No</Computer2ProtectTerminalNo>
+  <Computer2ProtectBalanceNo>No</Computer2ProtectBalanceNo>
+  <Computer2DraftShieldNo>No</Computer2DraftShieldNo>
+  <Computer2OperatingInstruction>Reference Manual</Computer2OperatingInstruction>
+  <Computer2Conformity>Declaration of Conformity</Computer2Conformity>
+  <Computer2ProductionCertificate>Production Certificate</Computer2ProductionCertificate>
+  <Computer2QuickGuide>User Manual (Short Instruction)</Computer2QuickGuide>
+  <Computer2DVDRom>DVD-ROM User Manual</Computer2DVDRom>
+  <Computer3Balance>Balance</Computer3Balance>
+  <Computer3Terminal>Terminal</Computer3Terminal>
+  <Computer3PowerSupply>Power Supply &amp; Cable</Computer3PowerSupply>
+  <Computer3WeighingPan>Weighing Pan</Computer3WeighingPan>
+  <Computer3SmartPan>Smart Pan</Computer3SmartPan>
+  <Computer3SmartGrid>Smart Grid</Computer3SmartGrid>
+  <Computer3SmartGridCover>Smart Grid Cover</Computer3SmartGridCover>
+  <Computer3DripTray>Drip Tray</Computer3DripTray>
+  <Computer3ProtectTerminal>Protective Cover Terminal</Computer3ProtectTerminal>
+  <Computer3ProtectBalance>Protective Cover Balance</Computer3ProtectBalance>
+  <Computer3DraftShield>Draft Shield</Computer3DraftShield>
+  <Computer3BalanceNo>No</Computer3BalanceNo>
+  <Computer3TerminalNo>No</Computer3TerminalNo>
+  <Computer3PowerSupplyNo>No</Computer3PowerSupplyNo>
+  <Computer3WeighingPanNo>No</Computer3WeighingPanNo>
+  <Computer3SmartPanNo>No</Computer3SmartPanNo>
+  <Computer3SmartGridNo>No</Computer3SmartGridNo>
+  <Computer3SmartGridCoverNo>No</Computer3SmartGridCoverNo>
+  <Computer3DripTrayNo>No</Computer3DripTrayNo>
+  <Computer3ProtectTerminalNo>No</Computer3ProtectTerminalNo>
+  <Computer3ProtectBalanceNo>No</Computer3ProtectBalanceNo>
+  <Computer3DraftShieldNo>No</Computer3DraftShieldNo>
+  <DeliveredComputerDocuments>Delivered Documents of Computer</DeliveredComputerDocuments>
+  <Computer3OperatingInstruction>Reference Manual</Computer3OperatingInstruction>
+  <Computer3Conformity>Declaration of Conformity</Computer3Conformity>
+  <Computer3ProductionCertificate>Production Certificate</Computer3ProductionCertificate>
+  <Computer3QuickGuide>User Manual (Short Instruction)</Computer3QuickGuide>
+  <Computer3DVDRom>DVD-ROM User Manual</Computer3DVDRom>
+  <BalanceMissingDocsItems>Balance Missing Items &amp; Documents</BalanceMissingDocsItems>
+  <Peripheral1MissingDocsItems>Peripheral 1 Missing Items &amp; Documents</Peripheral1MissingDocsItems>
+  <Computer1MissingDocsItems>Computer 1 Missing Items &amp; Documents</Computer1MissingDocsItems>
+  <Computer2MissingDocsItems>Computer 2 Missing Items &amp; Documents</Computer2MissingDocsItems>
+  <Computer3MissingDocsItems>Computer 3 Missing Items &amp; Documents</Computer3MissingDocsItems>
+  <Software1DeliveredItems>Delivered Items of Software 1</Software1DeliveredItems>
+  <Software2DeliveredItems>Delivered Items of Software 2</Software2DeliveredItems>
+  <Software3DeliveredItems>Delivered Items of Software 3</Software3DeliveredItems>
+  <DeliveredSoftwareItemsLabel>List all items of software as defined in the standard delivery and confirm delivery.</DeliveredSoftwareItemsLabel>
+  <DeliveredSoftwareItemsLabel_PRINTOUT>All items were delivered according to the corresponding documents detailed in section "Documents used for evaluation of completeness".</DeliveredSoftwareItemsLabel_PRINTOUT>
+  <Software1Balance>Balance</Software1Balance>
+  <Software1Terminal>Terminal</Software1Terminal>
+  <Software1PowerSupply>Power Supply &amp; Cable</Software1PowerSupply>
+  <Software1WeighingPan>Weighing Pan</Software1WeighingPan>
+  <Software1SmartPan>Smart Pan</Software1SmartPan>
+  <Software1SmartGrid>Smart Grid</Software1SmartGrid>
+  <Software1SmartGridCover>Smart Grid Cover</Software1SmartGridCover>
+  <Software1DripTray>Drip Tray</Software1DripTray>
+  <Software1ProtectTerminal>Protective Cover Terminal</Software1ProtectTerminal>
+  <Software1ProtectBalance>Protective Cover Balance</Software1ProtectBalance>
+  <Software1DraftShield>Draft Shield</Software1DraftShield>
+  <Software1BalanceNo>No</Software1BalanceNo>
+  <Software1TerminalNo>No</Software1TerminalNo>
+  <Software1PowerSupplyNo>No</Software1PowerSupplyNo>
+  <Software1WeighingPanNo>No</Software1WeighingPanNo>
+  <Software1SmartPanNo>No</Software1SmartPanNo>
+  <Software1SmartGridNo>No</Software1SmartGridNo>
+  <Software1SmartGridCoverNo>No</Software1SmartGridCoverNo>
+  <Software1DripTrayNo>No</Software1DripTrayNo>
+  <Software1ProtectTerminalNo>No</Software1ProtectTerminalNo>
+  <Software1ProtectBalanceNo>No</Software1ProtectBalanceNo>
+  <Software1DraftShieldNo>No</Software1DraftShieldNo>
+  <DeliveredSoftware1Documents>Delivered Documents of Software 1</DeliveredSoftware1Documents>
+  <DeliveredSoftware2Documents>Delivered Documents of Software 2</DeliveredSoftware2Documents>
+  <DeliveredSoftware3Documents>Delivered Documents of Software 3</DeliveredSoftware3Documents>
+  <Software1OperatingInstruction>Reference Manual</Software1OperatingInstruction>
+  <Software1Conformity>Declaration of Conformity</Software1Conformity>
+  <Software1ProductionCertificate>Production Certificate</Software1ProductionCertificate>
+  <Software1QuickGuide>User Manual (Short Instruction)</Software1QuickGuide>
+  <Software1DVDRom>DVD-ROM User Manual</Software1DVDRom>
+  <Software2Balance>Balance</Software2Balance>
+  <Software2Terminal>Terminal</Software2Terminal>
+  <Software2PowerSupply>Power Supply &amp; Cable</Software2PowerSupply>
+  <Software2WeighingPan>Weighing Pan</Software2WeighingPan>
+  <Software2SmartPan>Smart Pan</Software2SmartPan>
+  <Software2SmartGrid>Smart Grid</Software2SmartGrid>
+  <Software2SmartGridCover>Smart Grid Cover</Software2SmartGridCover>
+  <Software2DripTray>Drip Tray</Software2DripTray>
+  <Software2ProtectTerminal>Protective Cover Terminal</Software2ProtectTerminal>
+  <Software2ProtectBalance>Protective Cover Balance</Software2ProtectBalance>
+  <Software2DraftShield>Draft Shield</Software2DraftShield>
+  <Software2BalanceNo>No</Software2BalanceNo>
+  <Software2TerminalNo>No</Software2TerminalNo>
+  <Software2PowerSupplyNo>No</Software2PowerSupplyNo>
+  <Software2WeighingPanNo>No</Software2WeighingPanNo>
+  <Software2SmartPanNo>No</Software2SmartPanNo>
+  <Software2SmartGridNo>No</Software2SmartGridNo>
+  <Software2SmartGridCoverNo>No</Software2SmartGridCoverNo>
+  <Software2DripTrayNo>No</Software2DripTrayNo>
+  <Software2ProtectTerminalNo>No</Software2ProtectTerminalNo>
+  <Software2ProtectBalanceNo>No</Software2ProtectBalanceNo>
+  <Software2DraftShieldNo>No</Software2DraftShieldNo>
+  <DeliveredSoftwareDocumentsLabel>List all documents of software as defined in the standard delivery and confirm delivery.</DeliveredSoftwareDocumentsLabel>
+  <Software2OperatingInstruction>Reference Manual</Software2OperatingInstruction>
+  <Software2Conformity>Declaration of Conformity</Software2Conformity>
+  <Software2ProductionCertificate>Production Certificate</Software2ProductionCertificate>
+  <Software2QuickGuide>User Manual (Short Instruction)</Software2QuickGuide>
+  <Software2DVDRom>DVD-ROM User Manual</Software2DVDRom>
+  <Software3Balance>Balance</Software3Balance>
+  <Software3Terminal>Terminal</Software3Terminal>
+  <Software3PowerSupply>Power Supply &amp; Cable</Software3PowerSupply>
+  <Software3WeighingPan>Weighing Pan</Software3WeighingPan>
+  <Software3SmartPan>Smart Pan</Software3SmartPan>
+  <Software3SmartGrid>Smart Grid</Software3SmartGrid>
+  <Software3SmartGridCover>Smart Grid Cover</Software3SmartGridCover>
+  <Software3DripTray>Drip Tray</Software3DripTray>
+  <Software3ProtectTerminal>Protective Cover Terminal</Software3ProtectTerminal>
+  <Software3ProtectBalance>Protective Cover Balance</Software3ProtectBalance>
+  <Software3DraftShield>Draft Shield</Software3DraftShield>
+  <Software3BalanceNo>No</Software3BalanceNo>
+  <Software3TerminalNo>No</Software3TerminalNo>
+  <Software3PowerSupplyNo>No</Software3PowerSupplyNo>
+  <Software3WeighingPanNo>No</Software3WeighingPanNo>
+  <Software3SmartPanNo>No</Software3SmartPanNo>
+  <Software3SmartGridNo>No</Software3SmartGridNo>
+  <Software3SmartGridCoverNo>No</Software3SmartGridCoverNo>
+  <Software3DripTrayNo>No</Software3DripTrayNo>
+  <Software3ProtectTerminalNo>No</Software3ProtectTerminalNo>
+  <Software3ProtectBalanceNo>No</Software3ProtectBalanceNo>
+  <Software3DraftShieldNo>No</Software3DraftShieldNo>
+  <Software3OperatingInstruction>Reference Manual</Software3OperatingInstruction>
+  <Software3Conformity>Declaration of Conformity</Software3Conformity>
+  <Software3ProductionCertificate>Production Certificate</Software3ProductionCertificate>
+  <Software3QuickGuide>User Manual (Short Instruction)</Software3QuickGuide>
+  <Software3DVDRom>DVD-ROM User Manual</Software3DVDRom>
+  <DeliveredSoftwareDocuments>Delivered Documents of Software 1</DeliveredSoftwareDocuments>
+  <SoftwareType>Software Application</SoftwareType>
+  <MissingItemsDocuments>Missing Items &amp; Documents</MissingItemsDocuments>
+  <MissingItemsDocumentsBalance1>Missing Items &amp; Documents of Balance 1</MissingItemsDocumentsBalance1>
+  <MissingItemsDocumentsPeripheral>Missing Items &amp; Documents of Peripheral</MissingItemsDocumentsPeripheral>
+  <MissingItemsDocumentsComputer>Missing Items &amp; Documents of Computer</MissingItemsDocumentsComputer>
+  <MissingItemsDocumentsSoftware>Missing Items &amp; Documents of Software</MissingItemsDocumentsSoftware>
+  <InterfaceRS232>RS232</InterfaceRS232>
+  <InterfaceWireless>Wireless</InterfaceWireless>
+  <DeliveredDocuments>Delivered Documents</DeliveredDocuments>
+  <DateItemReceived>Date Item Received</DateItemReceived>
+  <Signature>Signature</Signature>
+  <Balance1RS232>RS232</Balance1RS232>
+  <Balance1USBDevice>USB Device</Balance1USBDevice>
+  <Balance1USBHost>USB Host</Balance1USBHost>
+  <Balance1Wireless>Wireless</Balance1Wireless>
+  <Balance1RS232Optional>RS232 Optional</Balance1RS232Optional>
+  <Balance1USBOptional>USB Optional</Balance1USBOptional>
+  <Balance1EthernetOptional>Ethernet Optional</Balance1EthernetOptional>
+  <Balance1BluetoothOptional>Bluetooth Optional</Balance1BluetoothOptional>
+  <Balance1WirelessOptional>Wireless Optional</Balance1WirelessOptional>
+  <Balance1Ethernet>Ethernet</Balance1Ethernet>
+  <Balance1Bluetooth>Bluetooth</Balance1Bluetooth>
+  <Balance1Auxiliary>Auxiliary</Balance1Auxiliary>
+  <Balance2RS232>RS232</Balance2RS232>
+  <Balance2USBDevice>USB Device</Balance2USBDevice>
+  <Balance2USBHost>USB Host</Balance2USBHost>
+  <Balance2Wireless>Wireless</Balance2Wireless>
+  <Balance2RS232Optional>RS232 Optional</Balance2RS232Optional>
+  <Balance2USBOptional>USB Optional</Balance2USBOptional>
+  <Balance2EthernetOptional>Ethernet Optional</Balance2EthernetOptional>
+  <Balance2BluetoothOptional>Bluetooth Optional</Balance2BluetoothOptional>
+  <Balance2WirelessOptional>Wireless Optional</Balance2WirelessOptional>
+  <Balance2Ethernet>Ethernet</Balance2Ethernet>
+  <Balance2Bluetooth>Bluetooth</Balance2Bluetooth>
+  <Balance2Auxiliary>Auxiliary</Balance2Auxiliary>
+  <Balance3RS232>RS232</Balance3RS232>
+  <Balance3USBDevice>USB Device</Balance3USBDevice>
+  <Balance3USBHost>USB Host</Balance3USBHost>
+  <Balance3Wireless>Wireless</Balance3Wireless>
+  <Balance3RS232Optional>RS232 Optional</Balance3RS232Optional>
+  <Balance3USBOptional>USB Optional</Balance3USBOptional>
+  <Balance3EthernetOptional>Ethernet Optional</Balance3EthernetOptional>
+  <Balance3BluetoothOptional>Bluetooth Optional</Balance3BluetoothOptional>
+  <Balance3WirelessOptional>Wireless Optional</Balance3WirelessOptional>
+  <Balance3Ethernet>Ethernet</Balance3Ethernet>
+  <Balance3Bluetooth>Bluetooth</Balance3Bluetooth>
+  <Balance3Auxiliary>Auxiliary</Balance3Auxiliary>
+  <Balance4RS232>RS232</Balance4RS232>
+  <Balance4USBDevice>USB Device</Balance4USBDevice>
+  <Balance4USBHost>USB Host</Balance4USBHost>
+  <Balance4Wireless>Wireless</Balance4Wireless>
+  <Balance4RS232Optional>RS232 Optional</Balance4RS232Optional>
+  <Balance4USBOptional>USB Optional</Balance4USBOptional>
+  <Balance4EthernetOptional>Ethernet Optional</Balance4EthernetOptional>
+  <Balance4BluetoothOptional>Bluetooth Optional</Balance4BluetoothOptional>
+  <Balance4WirelessOptional>Wireless Optional</Balance4WirelessOptional>
+  <Balance4Ethernet>Ethernet</Balance4Ethernet>
+  <Balance4Bluetooth>Bluetooth</Balance4Bluetooth>
+  <Balance4Auxiliary>Auxiliary</Balance4Auxiliary>
+  <Balance5RS232>RS232</Balance5RS232>
+  <Balance5USBDevice>USB Device</Balance5USBDevice>
+  <Balance5USBHost>USB Host</Balance5USBHost>
+  <Balance5Wireless>Wireless</Balance5Wireless>
+  <Balance5RS232Optional>RS232 Optional</Balance5RS232Optional>
+  <Balance5USBOptional>USB Optional</Balance5USBOptional>
+  <Balance5EthernetOptional>Ethernet Optional</Balance5EthernetOptional>
+  <Balance5BluetoothOptional>Bluetooth Optional</Balance5BluetoothOptional>
+  <Balance5WirelessOptional>Wireless Optional</Balance5WirelessOptional>
+  <Balance5Ethernet>Ethernet</Balance5Ethernet>
+  <Balance5Bluetooth>Bluetooth</Balance5Bluetooth>
+  <Balance5Auxiliary>Auxiliary</Balance5Auxiliary>
+  <Terminal1RS232>RS232</Terminal1RS232>
+  <Terminal1USBDevice>USB Device</Terminal1USBDevice>
+  <Terminal1USBHost>USB Host</Terminal1USBHost>
+  <Terminal1Wireless>Wireless</Terminal1Wireless>
+  <Terminal1RS232Optional>RS232 Optional</Terminal1RS232Optional>
+  <Terminal1USBOptional>USB Optional</Terminal1USBOptional>
+  <Terminal1EthernetOptional>Ethernet Optional</Terminal1EthernetOptional>
+  <Terminal1BluetoothOptional>Bluetooth Optional</Terminal1BluetoothOptional>
+  <Terminal1WirelessOptional>Wireless Optional</Terminal1WirelessOptional>
+  <Terminal1Ethernet>Ethernet</Terminal1Ethernet>
+  <Terminal1Bluetooth>Bluetooth</Terminal1Bluetooth>
+  <Terminal1Auxiliary>Auxiliary</Terminal1Auxiliary>
+  <Terminal2RS232>RS232</Terminal2RS232>
+  <Terminal2USBDevice>USB Device</Terminal2USBDevice>
+  <Terminal2USBHost>USB Host</Terminal2USBHost>
+  <Terminal2Wireless>Wireless</Terminal2Wireless>
+  <Terminal2RS232Optional>RS232 Optional</Terminal2RS232Optional>
+  <Terminal2USBOptional>USB Optional</Terminal2USBOptional>
+  <Terminal2EthernetOptional>Ethernet Optional</Terminal2EthernetOptional>
+  <Terminal2BluetoothOptional>Bluetooth Optional</Terminal2BluetoothOptional>
+  <Terminal2WirelessOptional>Wireless Optional</Terminal2WirelessOptional>
+  <Terminal2Ethernet>Ethernet</Terminal2Ethernet>
+  <Terminal2Bluetooth>Bluetooth</Terminal2Bluetooth>
+  <Terminal2Auxiliary>Auxiliary</Terminal2Auxiliary>
+  <Terminal3RS232>RS232</Terminal3RS232>
+  <Terminal3USBDevice>USB Device</Terminal3USBDevice>
+  <Terminal3USBHost>USB Host</Terminal3USBHost>
+  <Terminal3Wireless>Wireless</Terminal3Wireless>
+  <Terminal3RS232Optional>RS232 Optional</Terminal3RS232Optional>
+  <Terminal3USBOptional>USB Optional</Terminal3USBOptional>
+  <Terminal3EthernetOptional>Ethernet Optional</Terminal3EthernetOptional>
+  <Terminal3BluetoothOptional>Bluetooth Optional</Terminal3BluetoothOptional>
+  <Terminal3WirelessOptional>Wireless Optional</Terminal3WirelessOptional>
+  <Terminal3Ethernet>Ethernet</Terminal3Ethernet>
+  <Terminal3Bluetooth>Bluetooth</Terminal3Bluetooth>
+  <Terminal3Auxiliary>Auxiliary</Terminal3Auxiliary>
+  <Terminal4RS232>RS232</Terminal4RS232>
+  <Terminal4USBDevice>USB Device</Terminal4USBDevice>
+  <Terminal4USBHost>USB Host</Terminal4USBHost>
+  <Terminal4Wireless>Wireless</Terminal4Wireless>
+  <Terminal4RS232Optional>RS232 Optional</Terminal4RS232Optional>
+  <Terminal4USBOptional>USB Optional</Terminal4USBOptional>
+  <Terminal4EthernetOptional>Ethernet Optional</Terminal4EthernetOptional>
+  <Terminal4BluetoothOptional>Bluetooth Optional</Terminal4BluetoothOptional>
+  <Terminal4WirelessOptional>Wireless Optional</Terminal4WirelessOptional>
+  <Terminal4Ethernet>Ethernet</Terminal4Ethernet>
+  <Terminal4Bluetooth>Bluetooth</Terminal4Bluetooth>
+  <Terminal4Auxiliary>Auxiliary</Terminal4Auxiliary>
+  <Terminal5RS232>RS232</Terminal5RS232>
+  <Terminal5USBDevice>USB Device</Terminal5USBDevice>
+  <Terminal5USBHost>USB Host</Terminal5USBHost>
+  <Terminal5Wireless>Wireless</Terminal5Wireless>
+  <Terminal5RS232Optional>RS232 Optional</Terminal5RS232Optional>
+  <Terminal5USBOptional>USB Optional</Terminal5USBOptional>
+  <Terminal5EthernetOptional>Ethernet Optional</Terminal5EthernetOptional>
+  <Terminal5BluetoothOptional>Bluetooth Optional</Terminal5BluetoothOptional>
+  <Terminal5WirelessOptional>Wireless Optional</Terminal5WirelessOptional>
+  <Terminal5Ethernet>Ethernet</Terminal5Ethernet>
+  <Terminal5Bluetooth>Bluetooth</Terminal5Bluetooth>
+  <Terminal5Auxiliary>Auxiliary</Terminal5Auxiliary>
+  <InterfaceRS232Optional>RS232 Optional</InterfaceRS232Optional>
+  <IQDeviationsLabel>&lt;b;&gt;Deviations:&lt;/b;&gt; If a deviation is detected in any section of the IQ, it is recorded in section "IQ Deviation Log".</IQDeviationsLabel>
+  <OQDeviationsLabel>&lt;b;&gt;Deviations:&lt;/b;&gt; If a deviation is detected in any section of the OQ, it is recorded in section "OQ Deviation Log".</OQDeviationsLabel>
+  <DocumentStorage>Documentation Storage</DocumentStorage>
+  <ReleaseofEQPacCompletion>Release of EQPac for completion</ReleaseofEQPacCompletion>
+  <YesNA>Yes / N/A</YesNA>
+  <DocumentStorageControl>Compiled list of all documents throughout the whole EQ Pac with document name, ID and Storage Place.</DocumentStorageControl>
+  <IssueDate>Issue Date</IssueDate>
+  <TerminalDetails>Terminal Details</TerminalDetails>
+  <TerminalPage>Terminal</TerminalPage>
+  <Printer>Printer</Printer>
+  <Host>Host</Host>
+  <LabX>LabX</LabX>
+  <LabXControlledDevice>LabX controlled device</LabXControlledDevice>
+  <BarCode>BarCode</BarCode>
+  <SecondaryDisplay>Secondary Display</SecondaryDisplay>
+  <RFID>RFID/Quantos</RFID>
+  <LabelPrinter>Label Printer</LabelPrinter>
+  <AsciiAnsiWin>ASCII/AnsiWin</AsciiAnsiWin>
+  <Balance1IntermediateShelf>Intermediate shelf</Balance1IntermediateShelf>
+  <Balance1IntermediateShelfNo>No</Balance1IntermediateShelfNo>
+  <OperatingSystem>Operating System</OperatingSystem>
+  <Version>Version</Version>
+  <SeeRemarks>See Remarks</SeeRemarks>
+  <EthernetCommMode>Communication Mode</EthernetCommMode>
+  <EthernetRemoteHostAddress>Remote Host Address</EthernetRemoteHostAddress>
+  <EthernetRemoteHostPort>Remote Host Port Number</EthernetRemoteHostPort>
+  <EthernetLocalPort>Local Server Port Number</EthernetLocalPort>
+  <EthernetEndLine>End of Line</EthernetEndLine>
+  <UserTrainingEmployeeRecord>If a training was held, it is in the customer's responsibility to document this in the employee's records.</UserTrainingEmployeeRecord>
+  <CalibrationBySP>Calibration by Service Provider</CalibrationBySP>
+  <CoverPageTitle>EQPac</CoverPageTitle>
+  <CoverPageSubtitle>Comprehensive Qualification</CoverPageSubtitle>
+  <SelectServiceEvent>Select Service Event</SelectServiceEvent>
+  <AutomatedDosing>Automated Dosing</AutomatedDosing>
+  <MoistureAnalyzer>Moisture Analyzer</MoistureAnalyzer>
+  <QuantosPeripheral>Peripheral connected to NetcomKit or Dosing Unit</QuantosPeripheral>
+  <SystemElements>System Elements</SystemElements>
+  <SystemElementsDetails>System Elements Details</SystemElementsDetails>
+  <BalanceDetails>Balance Details</BalanceDetails>
+  <MoistureAnalyzerDetails>Moisture Analyzer Details</MoistureAnalyzerDetails>
+  <DosingUnitDetails>Dosing Unit Details </DosingUnitDetails>
+  <NetcomKitDetails>NetcomKit Details</NetcomKitDetails>
+  <DosingUnit>Dosing Unit</DosingUnit>
+  <NetcomKit>NetcomKit</NetcomKit>
+  <MainDevice>Main Device</MainDevice>
+  <SupplierMainDevice>Supplier of the Main Device</SupplierMainDevice>
+  <DeliveredMainDeviceItems>Delivered Main Device Items</DeliveredMainDeviceItems>
+  <DeliveredMainDeviceDocuments>Delivered Main Device Documents</DeliveredMainDeviceDocuments>
+  <ConfigDosingUnit>Configuration Details Dosing Unit</ConfigDosingUnit>
+  <DeviceConnectionDosing>Document connection relation for devices connected to the dosing unit</DeviceConnectionDosing>
+  <DosingUnit1RS232>RS232</DosingUnit1RS232>
+  <DosingUnit1USBDevice>USB Device</DosingUnit1USBDevice>
+  <DosingUnit1USBHost>USB Host</DosingUnit1USBHost>
+  <DosingUnit1Wireless>Wireless</DosingUnit1Wireless>
+  <DosingUnit1RS232Optional>RS232 Optional</DosingUnit1RS232Optional>
+  <DosingUnit1USBOptional>USB Optional</DosingUnit1USBOptional>
+  <DosingUnit1EthernetOptional>Ethernet Optional</DosingUnit1EthernetOptional>
+  <DosingUnit1BluetoothOptional>Bluetooth Optional</DosingUnit1BluetoothOptional>
+  <DosingUnit1WirelessOptional>Wireless Optional</DosingUnit1WirelessOptional>
+  <DosingUnit1Ethernet>Ethernet</DosingUnit1Ethernet>
+  <DosingUnit1Bluetooth>Bluetooth</DosingUnit1Bluetooth>
+  <DosingUnit1Auxiliary>Auxiliary</DosingUnit1Auxiliary>
+  <DosingUnit1CANBus>CAN Bus</DosingUnit1CANBus>
+  <DosingUnit1NA>N/A</DosingUnit1NA>
+  <DosingUnit1DosingPeripheral1>Dosing Peripheral 1</DosingUnit1DosingPeripheral1>
+  <DosingUnit1DosingPeripheral2>Dosing Peripheral 2</DosingUnit1DosingPeripheral2>
+  <DosingUnit1DosingPeripheral3>Dosing Peripheral 3</DosingUnit1DosingPeripheral3>
+  <DosingUnit1DosingPeripheral4>Dosing Peripheral 4</DosingUnit1DosingPeripheral4>
+  <DosingUnit1DosingPeripheral5>Dosing Peripheral 5</DosingUnit1DosingPeripheral5>
+  <DosingUnit1DosingPeripheral6>Dosing Peripheral 6</DosingUnit1DosingPeripheral6>
+  <DosingUnit1DosingPeripheral7>Dosing Peripheral 7</DosingUnit1DosingPeripheral7>
+  <DosingUnit1DosingPeripheral8>Dosing Peripheral 8</DosingUnit1DosingPeripheral8>
+  <DosingUnit1DosingPeripheral9>Dosing Peripheral 9</DosingUnit1DosingPeripheral9>
+  <DosingUnit1DosingPeripheral10>Dosing Peripheral 10</DosingUnit1DosingPeripheral10>
+  <DosingUnit2RS232>RS232</DosingUnit2RS232>
+  <DosingUnit2USBDevice>USB Device</DosingUnit2USBDevice>
+  <DosingUnit2USBHost>USB Host</DosingUnit2USBHost>
+  <DosingUnit2Wireless>Wireless</DosingUnit2Wireless>
+  <DosingUnit2RS232Optional>RS232 Optional</DosingUnit2RS232Optional>
+  <DosingUnit2USBOptional>USB Optional</DosingUnit2USBOptional>
+  <DosingUnit2EthernetOptional>Ethernet Optional</DosingUnit2EthernetOptional>
+  <DosingUnit2BluetoothOptional>Bluetooth Optional</DosingUnit2BluetoothOptional>
+  <DosingUnit2WirelessOptional>Wireless Optional</DosingUnit2WirelessOptional>
+  <DosingUnit2Ethernet>Ethernet</DosingUnit2Ethernet>
+  <DosingUnit2Bluetooth>Bluetooth</DosingUnit2Bluetooth>
+  <DosingUnit2Auxiliary>Auxiliary</DosingUnit2Auxiliary>
+  <DosingUnit2CANBus>CAN Bus</DosingUnit2CANBus>
+  <DosingUnit2NA>N/A</DosingUnit2NA>
+  <DosingUnit2DosingPeripheral1>Dosing Peripheral 1</DosingUnit2DosingPeripheral1>
+  <DosingUnit2DosingPeripheral2>Dosing Peripheral 2</DosingUnit2DosingPeripheral2>
+  <DosingUnit2DosingPeripheral3>Dosing Peripheral 3</DosingUnit2DosingPeripheral3>
+  <DosingUnit2DosingPeripheral4>Dosing Peripheral 4</DosingUnit2DosingPeripheral4>
+  <DosingUnit2DosingPeripheral5>Dosing Peripheral 5</DosingUnit2DosingPeripheral5>
+  <DosingUnit2DosingPeripheral6>Dosing Peripheral 6</DosingUnit2DosingPeripheral6>
+  <DosingUnit2DosingPeripheral7>Dosing Peripheral 7</DosingUnit2DosingPeripheral7>
+  <DosingUnit2DosingPeripheral8>Dosing Peripheral 8</DosingUnit2DosingPeripheral8>
+  <DosingUnit2DosingPeripheral9>Dosing Peripheral 9</DosingUnit2DosingPeripheral9>
+  <DosingUnit2DosingPeripheral10>Dosing Peripheral 10</DosingUnit2DosingPeripheral10>
+  <DosingUnit3RS232>RS232</DosingUnit3RS232>
+  <DosingUnit3USBDevice>USB Device</DosingUnit3USBDevice>
+  <DosingUnit3USBHost>USB Host</DosingUnit3USBHost>
+  <DosingUnit3Wireless>Wireless</DosingUnit3Wireless>
+  <DosingUnit3RS232Optional>RS232 Optional</DosingUnit3RS232Optional>
+  <DosingUnit3USBOptional>USB Optional</DosingUnit3USBOptional>
+  <DosingUnit3EthernetOptional>Ethernet Optional</DosingUnit3EthernetOptional>
+  <DosingUnit3BluetoothOptional>Bluetooth Optional</DosingUnit3BluetoothOptional>
+  <DosingUnit3WirelessOptional>Wireless Optional</DosingUnit3WirelessOptional>
+  <DosingUnit3Ethernet>Ethernet</DosingUnit3Ethernet>
+  <DosingUnit3Bluetooth>Bluetooth</DosingUnit3Bluetooth>
+  <DosingUnit3Auxiliary>Auxiliary</DosingUnit3Auxiliary>
+  <DosingUnit3CANBus>CAN Bus</DosingUnit3CANBus>
+  <DosingUnit3NA>N/A</DosingUnit3NA>
+  <DosingUnit3DosingPeripheral1>Dosing Peripheral 1</DosingUnit3DosingPeripheral1>
+  <DosingUnit3DosingPeripheral2>Dosing Peripheral 2</DosingUnit3DosingPeripheral2>
+  <DosingUnit3DosingPeripheral3>Dosing Peripheral 3</DosingUnit3DosingPeripheral3>
+  <DosingUnit3DosingPeripheral4>Dosing Peripheral 4</DosingUnit3DosingPeripheral4>
+  <DosingUnit3DosingPeripheral5>Dosing Peripheral 5</DosingUnit3DosingPeripheral5>
+  <DosingUnit3DosingPeripheral6>Dosing Peripheral 6</DosingUnit3DosingPeripheral6>
+  <DosingUnit3DosingPeripheral7>Dosing Peripheral 7</DosingUnit3DosingPeripheral7>
+  <DosingUnit3DosingPeripheral8>Dosing Peripheral 8</DosingUnit3DosingPeripheral8>
+  <DosingUnit3DosingPeripheral9>Dosing Peripheral 9</DosingUnit3DosingPeripheral9>
+  <DosingUnit3DosingPeripheral10>Dosing Peripheral 10</DosingUnit3DosingPeripheral10>
+  <DosingUnit4RS232>RS232</DosingUnit4RS232>
+  <DosingUnit4USBDevice>USB Device</DosingUnit4USBDevice>
+  <DosingUnit4USBHost>USB Host</DosingUnit4USBHost>
+  <DosingUnit4Wireless>Wireless</DosingUnit4Wireless>
+  <DosingUnit4RS232Optional>RS232 Optional</DosingUnit4RS232Optional>
+  <DosingUnit4USBOptional>USB Optional</DosingUnit4USBOptional>
+  <DosingUnit4EthernetOptional>Ethernet Optional</DosingUnit4EthernetOptional>
+  <DosingUnit4BluetoothOptional>Bluetooth Optional</DosingUnit4BluetoothOptional>
+  <DosingUnit4WirelessOptional>Wireless Optional</DosingUnit4WirelessOptional>
+  <DosingUnit4Ethernet>Ethernet</DosingUnit4Ethernet>
+  <DosingUnit4Bluetooth>Bluetooth</DosingUnit4Bluetooth>
+  <DosingUnit4Auxiliary>Auxiliary</DosingUnit4Auxiliary>
+  <DosingUnit4CANBus>CAN Bus</DosingUnit4CANBus>
+  <DosingUnit4NA>N/A</DosingUnit4NA>
+  <DosingUnit4DosingPeripheral1>Dosing Peripheral 1</DosingUnit4DosingPeripheral1>
+  <DosingUnit4DosingPeripheral2>Dosing Peripheral 2</DosingUnit4DosingPeripheral2>
+  <DosingUnit4DosingPeripheral3>Dosing Peripheral 3</DosingUnit4DosingPeripheral3>
+  <DosingUnit4DosingPeripheral4>Dosing Peripheral 4</DosingUnit4DosingPeripheral4>
+  <DosingUnit4DosingPeripheral5>Dosing Peripheral 5</DosingUnit4DosingPeripheral5>
+  <DosingUnit4DosingPeripheral6>Dosing Peripheral 6</DosingUnit4DosingPeripheral6>
+  <DosingUnit4DosingPeripheral7>Dosing Peripheral 7</DosingUnit4DosingPeripheral7>
+  <DosingUnit4DosingPeripheral8>Dosing Peripheral 8</DosingUnit4DosingPeripheral8>
+  <DosingUnit4DosingPeripheral9>Dosing Peripheral 9</DosingUnit4DosingPeripheral9>
+  <DosingUnit4DosingPeripheral10>Dosing Peripheral 10</DosingUnit4DosingPeripheral10>
+  <DosingUnit5RS232>RS232</DosingUnit5RS232>
+  <DosingUnit5USBDevice>USB Device</DosingUnit5USBDevice>
+  <DosingUnit5USBHost>USB Host</DosingUnit5USBHost>
+  <DosingUnit5Wireless>Wireless</DosingUnit5Wireless>
+  <DosingUnit5RS232Optional>RS232 Optional</DosingUnit5RS232Optional>
+  <DosingUnit5USBOptional>USB Optional</DosingUnit5USBOptional>
+  <DosingUnit5EthernetOptional>Ethernet Optional</DosingUnit5EthernetOptional>
+  <DosingUnit5BluetoothOptional>Bluetooth Optional</DosingUnit5BluetoothOptional>
+  <DosingUnit5WirelessOptional>Wireless Optional</DosingUnit5WirelessOptional>
+  <DosingUnit5Ethernet>Ethernet</DosingUnit5Ethernet>
+  <DosingUnit5Bluetooth>Bluetooth</DosingUnit5Bluetooth>
+  <DosingUnit5Auxiliary>Auxiliary</DosingUnit5Auxiliary>
+  <DosingUnit5CANBus>CAN Bus</DosingUnit5CANBus>
+  <DosingUnit5NA>N/A</DosingUnit5NA>
+  <DosingUnit5DosingPeripheral1>Dosing Peripheral 1</DosingUnit5DosingPeripheral1>
+  <DosingUnit5DosingPeripheral2>Dosing Peripheral 2</DosingUnit5DosingPeripheral2>
+  <DosingUnit5DosingPeripheral3>Dosing Peripheral 3</DosingUnit5DosingPeripheral3>
+  <DosingUnit5DosingPeripheral4>Dosing Peripheral 4</DosingUnit5DosingPeripheral4>
+  <DosingUnit5DosingPeripheral5>Dosing Peripheral 5</DosingUnit5DosingPeripheral5>
+  <DosingUnit5DosingPeripheral6>Dosing Peripheral 6</DosingUnit5DosingPeripheral6>
+  <DosingUnit5DosingPeripheral7>Dosing Peripheral 7</DosingUnit5DosingPeripheral7>
+  <DosingUnit5DosingPeripheral8>Dosing Peripheral 8</DosingUnit5DosingPeripheral8>
+  <DosingUnit5DosingPeripheral9>Dosing Peripheral 9</DosingUnit5DosingPeripheral9>
+  <DosingUnit5DosingPeripheral10>Dosing Peripheral 10</DosingUnit5DosingPeripheral10>
+  <DosingUnit1Peripheral1>Peripheral 1</DosingUnit1Peripheral1>
+  <DosingUnit1Peripheral2>Peripheral 2</DosingUnit1Peripheral2>
+  <DosingUnit1Peripheral3>Peripheral 3</DosingUnit1Peripheral3>
+  <DosingUnit1Computer1>Computer 1</DosingUnit1Computer1>
+  <DosingUnit1Computer2>Computer 2</DosingUnit1Computer2>
+  <DosingUnit1Computer3>Computer 3</DosingUnit1Computer3>
+  <DosingUnit1Software1>Software 1</DosingUnit1Software1>
+  <DosingUnit1Software2>Software 2</DosingUnit1Software2>
+  <DosingUnit1Software3>Software 3</DosingUnit1Software3>
+  <DosingUnit2Peripheral1>Peripheral 1</DosingUnit2Peripheral1>
+  <DosingUnit2Peripheral2>Peripheral 2</DosingUnit2Peripheral2>
+  <DosingUnit2Peripheral3>Peripheral 3</DosingUnit2Peripheral3>
+  <DosingUnit2Computer1>Computer 1</DosingUnit2Computer1>
+  <DosingUnit2Computer2>Computer 2</DosingUnit2Computer2>
+  <DosingUnit2Computer3>Computer 3</DosingUnit2Computer3>
+  <DosingUnit2Software1>Software 1</DosingUnit2Software1>
+  <DosingUnit2Software2>Software 2</DosingUnit2Software2>
+  <DosingUnit2Software3>Software 3</DosingUnit2Software3>
+  <DosingUnit3Peripheral1>Peripheral 1</DosingUnit3Peripheral1>
+  <DosingUnit3Peripheral2>Peripheral 2</DosingUnit3Peripheral2>
+  <DosingUnit3Peripheral3>Peripheral 3</DosingUnit3Peripheral3>
+  <DosingUnit3Computer1>Computer 1</DosingUnit3Computer1>
+  <DosingUnit3Computer2>Computer 2</DosingUnit3Computer2>
+  <DosingUnit3Computer3>Computer 3</DosingUnit3Computer3>
+  <DosingUnit3Software1>Software 1</DosingUnit3Software1>
+  <DosingUnit3Software2>Software 2</DosingUnit3Software2>
+  <DosingUnit3Software3>Software 3</DosingUnit3Software3>
+  <DosingUnit4Peripheral1>Peripheral 1</DosingUnit4Peripheral1>
+  <DosingUnit4Peripheral2>Peripheral 2</DosingUnit4Peripheral2>
+  <DosingUnit4Peripheral3>Peripheral 3</DosingUnit4Peripheral3>
+  <DosingUnit4Computer1>Computer 1</DosingUnit4Computer1>
+  <DosingUnit4Computer2>Computer 2</DosingUnit4Computer2>
+  <DosingUnit4Computer3>Computer 3</DosingUnit4Computer3>
+  <DosingUnit4Software1>Software 1</DosingUnit4Software1>
+  <DosingUnit4Software2>Software 2</DosingUnit4Software2>
+  <DosingUnit4Software3>Software 3</DosingUnit4Software3>
+  <DosingUnit5Peripheral1>Peripheral 1</DosingUnit5Peripheral1>
+  <DosingUnit5Peripheral2>Peripheral 2</DosingUnit5Peripheral2>
+  <DosingUnit5Peripheral3>Peripheral 3</DosingUnit5Peripheral3>
+  <DosingUnit5Computer1>Computer 1</DosingUnit5Computer1>
+  <DosingUnit5Computer2>Computer 2</DosingUnit5Computer2>
+  <DosingUnit5Computer3>Computer 3</DosingUnit5Computer3>
+  <DosingUnit5Software1>Software 1</DosingUnit5Software1>
+  <DosingUnit5Software2>Software 2</DosingUnit5Software2>
+  <DosingUnit5Software3>Software 3</DosingUnit5Software3>
+  <Balance1CANBus>CAN Bus</Balance1CANBus>
+  <Balance2CANBus>CAN Bus</Balance2CANBus>
+  <Balance3CANBus>CAN Bus</Balance3CANBus>
+  <Balance4CANBus>CAN Bus</Balance4CANBus>
+  <Balance5CANBus>CAN Bus</Balance5CANBus>
+  <Terminal1CANBus>CAN Bus</Terminal1CANBus>
+  <Terminal2CANBus>CAN Bus</Terminal2CANBus>
+  <Terminal3CANBus>CAN Bus</Terminal3CANBus>
+  <Terminal4CANBus>CAN Bus</Terminal4CANBus>
+  <Terminal5CANBus>CAN Bus</Terminal5CANBus>
+  <Quantos1RS232>RS232</Quantos1RS232>
+  <Quantos1USBDevice>USB Device</Quantos1USBDevice>
+  <Quantos1USBHost>USB Host</Quantos1USBHost>
+  <Quantos1Wireless>Wireless</Quantos1Wireless>
+  <Quantos1RS232Optional>RS232 Optional</Quantos1RS232Optional>
+  <Quantos1USBOptional>USB Optional</Quantos1USBOptional>
+  <Quantos1EthernetOptional>Ethernet Optional</Quantos1EthernetOptional>
+  <Quantos1BluetoothOptional>Bluetooth Optional</Quantos1BluetoothOptional>
+  <Quantos1WirelessOptional>Wireless Optional</Quantos1WirelessOptional>
+  <Quantos1Ethernet>Ethernet</Quantos1Ethernet>
+  <Quantos1Bluetooth>Bluetooth</Quantos1Bluetooth>
+  <Quantos1Auxiliary>Auxiliary</Quantos1Auxiliary>
+  <Quantos1CANBus>CAN Bus</Quantos1CANBus>
+  <Quantos1NetcomKit>NetcomKit</Quantos1NetcomKit>
+  <Quantos1NA>N/A</Quantos1NA>
+  <Quantos1DosingPeripheral1>Dosing Peripheral 1</Quantos1DosingPeripheral1>
+  <Quantos1DosingPeripheral2>Dosing Peripheral 2</Quantos1DosingPeripheral2>
+  <Quantos1DosingPeripheral3>Dosing Peripheral 3</Quantos1DosingPeripheral3>
+  <Quantos1DosingPeripheral4>Dosing Peripheral 4</Quantos1DosingPeripheral4>
+  <Quantos1DosingPeripheral5>Dosing Peripheral 5</Quantos1DosingPeripheral5>
+  <Quantos1DosingPeripheral6>Dosing Peripheral 6</Quantos1DosingPeripheral6>
+  <Quantos1DosingPeripheral7>Dosing Peripheral 7</Quantos1DosingPeripheral7>
+  <Quantos1DosingPeripheral8>Dosing Peripheral 8</Quantos1DosingPeripheral8>
+  <Quantos1DosingPeripheral9>Dosing Peripheral 9</Quantos1DosingPeripheral9>
+  <Quantos1DosingPeripheral10>Dosing Peripheral 10</Quantos1DosingPeripheral10>
+  <Quantos2RS232>RS232</Quantos2RS232>
+  <Quantos2USBDevice>USB Device</Quantos2USBDevice>
+  <Quantos2USBHost>USB Host</Quantos2USBHost>
+  <Quantos2Wireless>Wireless</Quantos2Wireless>
+  <Quantos2RS232Optional>RS232 Optional</Quantos2RS232Optional>
+  <Quantos2USBOptional>USB Optional</Quantos2USBOptional>
+  <Quantos2EthernetOptional>Ethernet Optional</Quantos2EthernetOptional>
+  <Quantos2BluetoothOptional>Bluetooth Optional</Quantos2BluetoothOptional>
+  <Quantos2WirelessOptional>Wireless Optional</Quantos2WirelessOptional>
+  <Quantos2Ethernet>Ethernet</Quantos2Ethernet>
+  <Quantos2Bluetooth>Bluetooth</Quantos2Bluetooth>
+  <Quantos2Auxiliary>Auxiliary</Quantos2Auxiliary>
+  <Quantos2CANBus>CAN Bus</Quantos2CANBus>
+  <Quantos2NetcomKit>NetcomKit</Quantos2NetcomKit>
+  <Quantos2NA>N/A</Quantos2NA>
+  <Quantos2DosingPeripheral1>Dosing Peripheral 1</Quantos2DosingPeripheral1>
+  <Quantos2DosingPeripheral2>Dosing Peripheral 2</Quantos2DosingPeripheral2>
+  <Quantos2DosingPeripheral3>Dosing Peripheral 3</Quantos2DosingPeripheral3>
+  <Quantos2DosingPeripheral4>Dosing Peripheral 4</Quantos2DosingPeripheral4>
+  <Quantos2DosingPeripheral5>Dosing Peripheral 5</Quantos2DosingPeripheral5>
+  <Quantos2DosingPeripheral6>Dosing Peripheral 6</Quantos2DosingPeripheral6>
+  <Quantos2DosingPeripheral7>Dosing Peripheral 7</Quantos2DosingPeripheral7>
+  <Quantos2DosingPeripheral8>Dosing Peripheral 8</Quantos2DosingPeripheral8>
+  <Quantos2DosingPeripheral9>Dosing Peripheral 9</Quantos2DosingPeripheral9>
+  <Quantos2DosingPeripheral10>Dosing Peripheral 10</Quantos2DosingPeripheral10>
+  <Quantos3RS232>RS232</Quantos3RS232>
+  <Quantos3USBDevice>USB Device</Quantos3USBDevice>
+  <Quantos3USBHost>USB Host</Quantos3USBHost>
+  <Quantos3Wireless>Wireless</Quantos3Wireless>
+  <Quantos3RS232Optional>RS232 Optional</Quantos3RS232Optional>
+  <Quantos3USBOptional>USB Optional</Quantos3USBOptional>
+  <Quantos3EthernetOptional>Ethernet Optional</Quantos3EthernetOptional>
+  <Quantos3BluetoothOptional>Bluetooth Optional</Quantos3BluetoothOptional>
+  <Quantos3WirelessOptional>Wireless Optional</Quantos3WirelessOptional>
+  <Quantos3Ethernet>Ethernet</Quantos3Ethernet>
+  <Quantos3Bluetooth>Bluetooth</Quantos3Bluetooth>
+  <Quantos3Auxiliary>Auxiliary</Quantos3Auxiliary>
+  <Quantos3CANBus>CAN Bus</Quantos3CANBus>
+  <Quantos3NetcomKit>NetcomKit</Quantos3NetcomKit>
+  <Quantos3NA>N/A</Quantos3NA>
+  <Quantos3DosingPeripheral1>Dosing Peripheral 1</Quantos3DosingPeripheral1>
+  <Quantos3DosingPeripheral2>Dosing Peripheral 2</Quantos3DosingPeripheral2>
+  <Quantos3DosingPeripheral3>Dosing Peripheral 3</Quantos3DosingPeripheral3>
+  <Quantos3DosingPeripheral4>Dosing Peripheral 4</Quantos3DosingPeripheral4>
+  <Quantos3DosingPeripheral5>Dosing Peripheral 5</Quantos3DosingPeripheral5>
+  <Quantos3DosingPeripheral6>Dosing Peripheral 6</Quantos3DosingPeripheral6>
+  <Quantos3DosingPeripheral7>Dosing Peripheral 7</Quantos3DosingPeripheral7>
+  <Quantos3DosingPeripheral8>Dosing Peripheral 8</Quantos3DosingPeripheral8>
+  <Quantos3DosingPeripheral9>Dosing Peripheral 9</Quantos3DosingPeripheral9>
+  <Quantos3DosingPeripheral10>Dosing Peripheral 10</Quantos3DosingPeripheral10>
+  <Quantos4RS232>RS232</Quantos4RS232>
+  <Quantos4USBDevice>USB Device</Quantos4USBDevice>
+  <Quantos4USBHost>USB Host</Quantos4USBHost>
+  <Quantos4Wireless>Wireless</Quantos4Wireless>
+  <Quantos4RS232Optional>RS232 Optional</Quantos4RS232Optional>
+  <Quantos4USBOptional>USB Optional</Quantos4USBOptional>
+  <Quantos4EthernetOptional>Ethernet Optional</Quantos4EthernetOptional>
+  <Quantos4BluetoothOptional>Bluetooth Optional</Quantos4BluetoothOptional>
+  <Quantos4WirelessOptional>Wireless Optional</Quantos4WirelessOptional>
+  <Quantos4Ethernet>Ethernet</Quantos4Ethernet>
+  <Quantos4Bluetooth>Bluetooth</Quantos4Bluetooth>
+  <Quantos4Auxiliary>Auxiliary</Quantos4Auxiliary>
+  <Quantos4CANBus>CAN Bus</Quantos4CANBus>
+  <Quantos4NetcomKit>NetcomKit</Quantos4NetcomKit>
+  <Quantos4NA>N/A</Quantos4NA>
+  <Quantos4DosingPeripheral1>Dosing Peripheral 1</Quantos4DosingPeripheral1>
+  <Quantos4DosingPeripheral2>Dosing Peripheral 2</Quantos4DosingPeripheral2>
+  <Quantos4DosingPeripheral3>Dosing Peripheral 3</Quantos4DosingPeripheral3>
+  <Quantos4DosingPeripheral4>Dosing Peripheral 4</Quantos4DosingPeripheral4>
+  <Quantos4DosingPeripheral5>Dosing Peripheral 5</Quantos4DosingPeripheral5>
+  <Quantos4DosingPeripheral6>Dosing Peripheral 6</Quantos4DosingPeripheral6>
+  <Quantos4DosingPeripheral7>Dosing Peripheral 7</Quantos4DosingPeripheral7>
+  <Quantos4DosingPeripheral8>Dosing Peripheral 8</Quantos4DosingPeripheral8>
+  <Quantos4DosingPeripheral9>Dosing Peripheral 9</Quantos4DosingPeripheral9>
+  <Quantos4DosingPeripheral10>Dosing Peripheral 10</Quantos4DosingPeripheral10>
+  <Quantos5RS232>RS232</Quantos5RS232>
+  <Quantos5USBDevice>USB Device</Quantos5USBDevice>
+  <Quantos5USBHost>USB Host</Quantos5USBHost>
+  <Quantos5Wireless>Wireless</Quantos5Wireless>
+  <Quantos5RS232Optional>RS232 Optional</Quantos5RS232Optional>
+  <Quantos5USBOptional>USB Optional</Quantos5USBOptional>
+  <Quantos5EthernetOptional>Ethernet Optional</Quantos5EthernetOptional>
+  <Quantos5BluetoothOptional>Bluetooth Optional</Quantos5BluetoothOptional>
+  <Quantos5WirelessOptional>Wireless Optional</Quantos5WirelessOptional>
+  <Quantos5Ethernet>Ethernet</Quantos5Ethernet>
+  <Quantos5Bluetooth>Bluetooth</Quantos5Bluetooth>
+  <Quantos5Auxiliary>Auxiliary</Quantos5Auxiliary>
+  <Quantos5CANBus>CAN Bus</Quantos5CANBus>
+  <Quantos5NetcomKit>NetcomKit</Quantos5NetcomKit>
+  <Quantos5NA>N/A</Quantos5NA>
+  <Quantos5DosingPeripheral1>Dosing Peripheral 1</Quantos5DosingPeripheral1>
+  <Quantos5DosingPeripheral2>Dosing Peripheral 2</Quantos5DosingPeripheral2>
+  <Quantos5DosingPeripheral3>Dosing Peripheral 3</Quantos5DosingPeripheral3>
+  <Quantos5DosingPeripheral4>Dosing Peripheral 4</Quantos5DosingPeripheral4>
+  <Quantos5DosingPeripheral5>Dosing Peripheral 5</Quantos5DosingPeripheral5>
+  <Quantos5DosingPeripheral6>Dosing Peripheral 6</Quantos5DosingPeripheral6>
+  <Quantos5DosingPeripheral7>Dosing Peripheral 7</Quantos5DosingPeripheral7>
+  <Quantos5DosingPeripheral8>Dosing Peripheral 8</Quantos5DosingPeripheral8>
+  <Quantos5DosingPeripheral9>Dosing Peripheral 9</Quantos5DosingPeripheral9>
+  <Quantos5DosingPeripheral10>Dosing Peripheral 10</Quantos5DosingPeripheral10>
+  <Quantos1Peripheral1>Peripheral 1</Quantos1Peripheral1>
+  <Quantos1Peripheral2>Peripheral 2</Quantos1Peripheral2>
+  <Quantos1Peripheral3>Peripheral 3</Quantos1Peripheral3>
+  <Quantos1Computer1>Computer 1</Quantos1Computer1>
+  <Quantos1Computer2>Computer 2</Quantos1Computer2>
+  <Quantos1Computer3>Computer 3</Quantos1Computer3>
+  <Quantos1Software1>Software 1</Quantos1Software1>
+  <Quantos1Software2>Software 2</Quantos1Software2>
+  <Quantos1Software3>Software 3</Quantos1Software3>
+  <Quantos2Peripheral1>Peripheral 1</Quantos2Peripheral1>
+  <Quantos2Peripheral2>Peripheral 2</Quantos2Peripheral2>
+  <Quantos2Peripheral3>Peripheral 3</Quantos2Peripheral3>
+  <Quantos2Computer1>Computer 1</Quantos2Computer1>
+  <Quantos2Computer2>Computer 2</Quantos2Computer2>
+  <Quantos2Computer3>Computer 3</Quantos2Computer3>
+  <Quantos2Software1>Software 1</Quantos2Software1>
+  <Quantos2Software2>Software 2</Quantos2Software2>
+  <Quantos2Software3>Software 3</Quantos2Software3>
+  <Quantos3Peripheral1>Peripheral 1</Quantos3Peripheral1>
+  <Quantos3Peripheral2>Peripheral 2</Quantos3Peripheral2>
+  <Quantos3Peripheral3>Peripheral 3</Quantos3Peripheral3>
+  <Quantos3Computer1>Computer 1</Quantos3Computer1>
+  <Quantos3Computer2>Computer 2</Quantos3Computer2>
+  <Quantos3Computer3>Computer 3</Quantos3Computer3>
+  <Quantos3Software1>Software 1</Quantos3Software1>
+  <Quantos3Software2>Software 2</Quantos3Software2>
+  <Quantos3Software3>Software 3</Quantos3Software3>
+  <Quantos4Peripheral1>Peripheral 1</Quantos4Peripheral1>
+  <Quantos4Peripheral2>Peripheral 2</Quantos4Peripheral2>
+  <Quantos4Peripheral3>Peripheral 3</Quantos4Peripheral3>
+  <Quantos4Computer1>Computer 1</Quantos4Computer1>
+  <Quantos4Computer2>Computer 2</Quantos4Computer2>
+  <Quantos4Computer3>Computer 3</Quantos4Computer3>
+  <Quantos4Software1>Software 1</Quantos4Software1>
+  <Quantos4Software2>Software 2</Quantos4Software2>
+  <Quantos4Software3>Software 3</Quantos4Software3>
+  <Quantos5Peripheral1>Peripheral 1</Quantos5Peripheral1>
+  <Quantos5Peripheral2>Peripheral 2</Quantos5Peripheral2>
+  <Quantos5Peripheral3>Peripheral 3</Quantos5Peripheral3>
+  <Quantos5Computer1>Computer 1</Quantos5Computer1>
+  <Quantos5Computer2>Computer 2</Quantos5Computer2>
+  <Quantos5Computer3>Computer 3</Quantos5Computer3>
+  <Quantos5Software1>Software 1</Quantos5Software1>
+  <Quantos5Software2>Software 2</Quantos5Software2>
+  <Quantos5Software3>Software 3</Quantos5Software3>
+  <ConfigNetcomKit>Configuration Details Netcom Kit</ConfigNetcomKit>
+  <DeviceConnectionNetcom>Document connection relation for devices connected to the netcom kit</DeviceConnectionNetcom>
+  <DisplayInternalAdjustmentTriggerTest>Internal Adjustment Trigger Test</DisplayInternalAdjustmentTriggerTest>
+  <InternalAdjustmentTriggerTestsApplicableYes>Yes</InternalAdjustmentTriggerTestsApplicableYes>
+  <InternalAdjustmentTriggerTestsApplicableNo>No</InternalAdjustmentTriggerTestsApplicableNo>
+  <DisplayInternalAdjustmentTriggerTestObjectiveText>Confirm that Adjustment  and internal As Found / As Left Tests trigger works properly (Time Trigger)</DisplayInternalAdjustmentTriggerTestObjectiveText>
+  <DisplayInternalAdjustmentTriggerTestProcedureText>- Schedule internal Adjustment  3 minutes into the future
+  - If applicable setup the internal adjustment with AS Found  and /or As left Test
+  - Save and leave the menu
+  - Make sure the weighing pan is empty
+  - Wait until the scheduled time is reached
+  - The internal tests and adjustment perform successfully
+  - Adjustment  and test records are created / printed and added to the history</DisplayInternalAdjustmentTriggerTestProcedureText>
+  <DisplayInternalAdjustmentTriggerTestAcceptanceCriteriaText>The internal test and adjustment  operates as described above</DisplayInternalAdjustmentTriggerTestAcceptanceCriteriaText>
+  <DisplayPrinterTest>Printer Test</DisplayPrinterTest>
+  <PrinterTestsApplicableYes>Yes</PrinterTestsApplicableYes>
+  <PrinterTestsApplicableNo>No</PrinterTestsApplicableNo>
+  <DisplayPrinterTestObjectiveText>Confirm that the printer is printing results correctly as indicated on the instrument display.</DisplayPrinterTestObjectiveText>
+  <DisplayPrinterTestProcedureText>  - Verify the weighing pan is empty and the display of the instrument shows zero
+  - Arrange for a print out of the unloaded instrument by pressing the appropriate key for print
+  - The printed value and the value displayed on the instrument display must be zero
+  - Load the instrument with a standard weight, and record the displayed weight value
+  - Print the weight by pressing the appropriate key on the instrument
+  - The printed value and the value displayed on the instrument must be identical
+  - Press the Tare button of the instrument
+  - Put another standard weight on the pan, and record the displayed weight value
+  - Print the weight by pressing the appropriate key on the instrument
+  - The printed value and the value displayed on the instrument must be identical
+  - The print quality should be clear and legible</DisplayPrinterTestProcedureText>
+  <DisplayPrinterTestAcceptanceCriteriaText>The weight of the unloaded pan, the first load, and the load after taring the instrument must be printed correctly as defined above.</DisplayPrinterTestAcceptanceCriteriaText>
+  <DisplayQuantosDosingUnitTest>Quantos Dosing Unit Test</DisplayQuantosDosingUnitTest>
+  <QuantosDosingUnitTestsApplicableYes>Yes</QuantosDosingUnitTestsApplicableYes>
+  <QuantosDosingUnitTestsApplicableNo>No</QuantosDosingUnitTestsApplicableNo>
+  <DisplayQuantosDosingUnitTestObjectiveText>This test verifies the correct mechanical and electrical functioning of the dosing unit system.</DisplayQuantosDosingUnitTestObjectiveText>
+  <DisplayQuantosDosingUnitTestProcedureText>  - Insert a powder dosing head.
+  - Put a vessel on weighing pan and adjust the position of dosing head according to the operating instructions.
+  - Start dosing. Observe whether dosing drive pin moves down into the dosing head and starts pushing up and down and rotating
+  - Unlock and remove test head</DisplayQuantosDosingUnitTestProcedureText>
+  <DisplayQuantosDosingUnitTestAcceptanceCriteriaText>The Dosing Unit should operate properly, the head is movable down und up, the drive works properly and the sample is distributed in a circle into the weighing vessel.</DisplayQuantosDosingUnitTestAcceptanceCriteriaText>
+  <DisplayQuantosAutoSamplerTest>Quantos Auto Sampler Test</DisplayQuantosAutoSamplerTest>
+  <QuantosAutoSamplerTestsApplicableYes>Yes</QuantosAutoSamplerTestsApplicableYes>
+  <QuantosAutoSamplerTestsApplicableNo>No</QuantosAutoSamplerTestsApplicableNo>
+  <DisplayQuantosAutoSamplerTestObjectiveText>This test verifies the correct mechanical and electrical functioning of the Quantos dosing system with Auto Sampler.</DisplayQuantosAutoSamplerTestObjectiveText>
+  <DisplayQuantosAutoSamplerTestProcedureText>  - Prepare the Auto Sampler according to operating instructions.
+  - Select function keys "Right", "Left", "Home".
+  - The Auto Sampler turns ant-clockwise when pressing the “Right” function key.
+  - The Auto Sampler turns clockwise when pressing the “Left” function key.
+  - The Auto Sampler moves to initial position when pressing the “Home” function key.
+  - Adjust the Auto Sampler according to operating instructions.
+  - Perform a dosing with substance and Auto Sampler according to operating instructions.</DisplayQuantosAutoSamplerTestProcedureText>
+  <DisplayQuantosAutoSamplerTestAcceptanceCriteriaText>The Auto Sampler should operate and turns properly and can be adjusted.</DisplayQuantosAutoSamplerTestAcceptanceCriteriaText>
+  <DisplayQuantosLiquidModuleTest>Quantos Liquid Module Test</DisplayQuantosLiquidModuleTest>
+  <QuantosLiquidModuleTestsApplicableYes>Yes</QuantosLiquidModuleTestsApplicableYes>
+  <QuantosLiquidModuleTestsApplicableNo>No</QuantosLiquidModuleTestsApplicableNo>
+  <DisplayQuantosLiquidModuleTestObjectiveText>This test verifies the correct mechanical and electrical functioning of the Quantos dosing system with liquid module.</DisplayQuantosLiquidModuleTestObjectiveText>
+  <DisplayQuantosLiquidModuleTestProcedureText>  - Prepare the liquid module according to operating instructions 
+  - Press the function keys “Purge” and give 10 seconds.</DisplayQuantosLiquidModuleTestProcedureText>
+  <DisplayQuantosLiquidModuleTestAcceptanceCriteriaText>Liquid is dispensed and no air bubble is remaining in the liquid tub.</DisplayQuantosLiquidModuleTestAcceptanceCriteriaText>
+  <DisplayMoistureAnalyzerHeatingTest>Moisture Analyzer Heating Test</DisplayMoistureAnalyzerHeatingTest>
+  <MoistureAnalyzerHeatingTestsApplicableYes>Yes</MoistureAnalyzerHeatingTestsApplicableYes>
+  <MoistureAnalyzerHeatingTestsApplicableNo>No</MoistureAnalyzerHeatingTestsApplicableNo>
+  <DisplayMoistureAnalyzerHeatingTestObjectiveText>Confirm that the heating is working.</DisplayMoistureAnalyzerHeatingTestObjectiveText>
+  <DisplayMoistureAnalyzerHeatingTestProcedureText>  - Setup a drying with heating temperature 160 °C
+  - Use a peace of metal (coin , washer or screw) as a drying sample
+  - Start the drying
+  - Observe the heating being regulated
+  	• Heating starts immediately
+  	• High power heating in the beginning
+  	• Heating dims back when reaching the end temperature
+  - Abort the drying
+  	• Heating stops</DisplayMoistureAnalyzerHeatingTestProcedureText>
+  <DisplayMoistureAnalyzerHeatingTestAcceptanceCriteriaText>Heating behaves as described above</DisplayMoistureAnalyzerHeatingTestAcceptanceCriteriaText>
+  <DisplayMoistureAnalyzerFanTest>Moisture Analyzer Fan Test</DisplayMoistureAnalyzerFanTest>
+  <MoistureAnalyzerFanTestsApplicableYes>Yes</MoistureAnalyzerFanTestsApplicableYes>
+  <MoistureAnalyzerFanTestsApplicableNo>No</MoistureAnalyzerFanTestsApplicableNo>
+  <DisplayMoistureAnalyzerFanTestObjectiveText>Confirm that the cooling fan is working properly</DisplayMoistureAnalyzerFanTestObjectiveText>
+  <DisplayMoistureAnalyzerFanTestProcedureText>  - Verify that the fan grid is clean and in proper condition.
+  - Start a drying on the moisture analyzer
+  - Wait until heating temperature is reached
+  - Verify that the fan is turning constantly and even</DisplayMoistureAnalyzerFanTestProcedureText>
+  <DisplayMoistureAnalyzerFanTestAcceptanceCriteriaText>The fan is working as defined above when the heating is on.</DisplayMoistureAnalyzerFanTestAcceptanceCriteriaText>
+  <DisplayMoistureAnalyzerSampleChamberDoorTest>Moisture Analyzer Sample Chamber Door Test</DisplayMoistureAnalyzerSampleChamberDoorTest>
+  <MoistureAnalyzerSampleChamberDoorTestsApplicableYes>Yes</MoistureAnalyzerSampleChamberDoorTestsApplicableYes>
+  <MoistureAnalyzerSampleChamberDoorTestsApplicableNo>No</MoistureAnalyzerSampleChamberDoorTestsApplicableNo>
+  <DisplayMoistureAnalyzerSampleChamberDoorTestObjectiveText>Confirm that sample chamber door operation is correct</DisplayMoistureAnalyzerSampleChamberDoorTestObjectiveText>
+  <DisplayMoistureAnalyzerSampleChamberDoorTestProcedureText>  - Open the sample chamber manually or using the motor function. Then observe if:
+  	• It opens smoothly – no stopping or scratching
+  	• It stays at its end position and does not fall back
+  - Close the sample chamber manually or using the motor function. Then observe if:
+  	• It closes smoothly – no stopping or scratching
+  	• It stays at its end position and does not bounce back towards open</DisplayMoistureAnalyzerSampleChamberDoorTestProcedureText>
+  <DisplayMoistureAnalyzerSampleChamberDoorTestAcceptanceCriteriaText>The door is working as defined above.</DisplayMoistureAnalyzerSampleChamberDoorTestAcceptanceCriteriaText>
+  <MoistureAnalyzer1BalanceNo>No</MoistureAnalyzer1BalanceNo>
+  <MoistureAnalyzer1TerminalNo>No</MoistureAnalyzer1TerminalNo>
+  <MoistureAnalyzer1PowerSupplyNo>No</MoistureAnalyzer1PowerSupplyNo>
+  <MoistureAnalyzer1WeighingPanNo>No</MoistureAnalyzer1WeighingPanNo>
+  <MoistureAnalyzer1SmartPanNo>No</MoistureAnalyzer1SmartPanNo>
+  <MoistureAnalyzer1SmartGridNo>No</MoistureAnalyzer1SmartGridNo>
+  <MoistureAnalyzer1SmartGridCoverNo>No</MoistureAnalyzer1SmartGridCoverNo>
+  <MoistureAnalyzer1DripTrayNo>No</MoistureAnalyzer1DripTrayNo>
+  <MoistureAnalyzer1ProtectTerminalNo>No</MoistureAnalyzer1ProtectTerminalNo>
+  <MoistureAnalyzer1ProtectBalanceNo>No</MoistureAnalyzer1ProtectBalanceNo>
+  <MoistureAnalyzer1DraftShieldNo>No</MoistureAnalyzer1DraftShieldNo>
+  <MoistureAnalyzer1IntermediateShelfNo>No</MoistureAnalyzer1IntermediateShelfNo>
+  <MoistureAnalyzer1ItemDelivery12No>No</MoistureAnalyzer1ItemDelivery12No>
+  <MoistureAnalyzer1ItemDelivery14No>No</MoistureAnalyzer1ItemDelivery14No>
+  <MoistureAnalyzer1ItemDelivery15No>No</MoistureAnalyzer1ItemDelivery15No>
+  <MoistureAnalyzer1ItemDelivery16No>No</MoistureAnalyzer1ItemDelivery16No>
+  <MoistureAnalyzer1ItemDelivery17No>No</MoistureAnalyzer1ItemDelivery17No>
+  <MoistureAnalyzer1ItemDelivery18No>No</MoistureAnalyzer1ItemDelivery18No>
+  <MoistureAnalyzer1ItemDelivery19No>No</MoistureAnalyzer1ItemDelivery19No>
+  <MoistureAnalyzer1ItemDelivery20No>No</MoistureAnalyzer1ItemDelivery20No>
+  <MoistureAnalyzer1ItemDelivery21No>No</MoistureAnalyzer1ItemDelivery21No>
+  <MoistureAnalyzer1ItemDelivery23No>No</MoistureAnalyzer1ItemDelivery23No>
+  <MoistureAnalyzer1Balance>Balance</MoistureAnalyzer1Balance>
+  <MoistureAnalyzer1Terminal>Terminal</MoistureAnalyzer1Terminal>
+  <MoistureAnalyzer1PowerSupply>Power Supply &amp; Cable</MoistureAnalyzer1PowerSupply>
+  <MoistureAnalyzer1WeighingPan>Weighing Pan</MoistureAnalyzer1WeighingPan>
+  <MoistureAnalyzer1SmartPan>Smart Pan</MoistureAnalyzer1SmartPan>
+  <MoistureAnalyzer1SmartGrid>Smart Grid</MoistureAnalyzer1SmartGrid>
+  <MoistureAnalyzer1SmartGridCover>Smart Grid Cover</MoistureAnalyzer1SmartGridCover>
+  <MoistureAnalyzer1DripTray>Drip Tray</MoistureAnalyzer1DripTray>
+  <MoistureAnalyzer1ProtectTerminal>Protective Cover Terminal</MoistureAnalyzer1ProtectTerminal>
+  <MoistureAnalyzer1ProtectBalance>Protective Cover Balance</MoistureAnalyzer1ProtectBalance>
+  <MoistureAnalyzer1DraftShield>Draft Shield</MoistureAnalyzer1DraftShield>
+  <MoistureAnalyzer1IntermediateShelf>Intermediate shelf</MoistureAnalyzer1IntermediateShelf>
+  <MoistureAnalyzer1OperatingInstruction>Reference Manual</MoistureAnalyzer1OperatingInstruction>
+  <MoistureAnalyzer1Conformity>Declaration of Conformity</MoistureAnalyzer1Conformity>
+  <MoistureAnalyzer1ProductionCertificate>Production Certificate</MoistureAnalyzer1ProductionCertificate>
+  <MoistureAnalyzer1QuickGuide>User Manual (Short Instruction)</MoistureAnalyzer1QuickGuide>
+  <MoistureAnalyzer1DVDRom>DVD-ROM User Manual</MoistureAnalyzer1DVDRom>
+  <SupplierMoistureAnalyzer>Moisture Analyzer Supplier</SupplierMoistureAnalyzer>
+  <SupplierMoistureAnalyzerLabel>Please confirm the following supplier details for the moisture analyzer which will appear on the print out:</SupplierMoistureAnalyzerLabel>
+  <MoistureAnalyzer1NA>N/A</MoistureAnalyzer1NA>
+  <MoistureAnalyzer2NA>N/A</MoistureAnalyzer2NA>
+  <MoistureAnalyzer3NA>N/A</MoistureAnalyzer3NA>
+  <MoistureAnalyzer4NA>N/A</MoistureAnalyzer4NA>
+  <MoistureAnalyzer5NA>N/A</MoistureAnalyzer5NA>
+  <MoistureAnalyzer1Peripheral1>Peripheral 1</MoistureAnalyzer1Peripheral1>
+  <MoistureAnalyzer1Peripheral2>Peripheral 2</MoistureAnalyzer1Peripheral2>
+  <MoistureAnalyzer1Peripheral3>Peripheral 3</MoistureAnalyzer1Peripheral3>
+  <MoistureAnalyzer1Computer1>Computer 1</MoistureAnalyzer1Computer1>
+  <MoistureAnalyzer1Computer2>Computer 2</MoistureAnalyzer1Computer2>
+  <MoistureAnalyzer1Computer3>Computer 3</MoistureAnalyzer1Computer3>
+  <MoistureAnalyzer1Software1>Software 1</MoistureAnalyzer1Software1>
+  <MoistureAnalyzer1Software2>Software 2</MoistureAnalyzer1Software2>
+  <MoistureAnalyzer1Software3>Software 3</MoistureAnalyzer1Software3>
+  <MoistureAnalyzer2Peripheral1>Peripheral 1</MoistureAnalyzer2Peripheral1>
+  <MoistureAnalyzer2Peripheral2>Peripheral 2</MoistureAnalyzer2Peripheral2>
+  <MoistureAnalyzer2Peripheral3>Peripheral 3</MoistureAnalyzer2Peripheral3>
+  <MoistureAnalyzer2Computer1>Computer 1</MoistureAnalyzer2Computer1>
+  <MoistureAnalyzer2Computer2>Computer 2</MoistureAnalyzer2Computer2>
+  <MoistureAnalyzer2Computer3>Computer 3</MoistureAnalyzer2Computer3>
+  <MoistureAnalyzer2Software1>Software 1</MoistureAnalyzer2Software1>
+  <MoistureAnalyzer2Software2>Software 2</MoistureAnalyzer2Software2>
+  <MoistureAnalyzer2Software3>Software 3</MoistureAnalyzer2Software3>
+  <MoistureAnalyzer3Peripheral1>Peripheral 1</MoistureAnalyzer3Peripheral1>
+  <MoistureAnalyzer3Peripheral2>Peripheral 2</MoistureAnalyzer3Peripheral2>
+  <MoistureAnalyzer3Peripheral3>Peripheral 3</MoistureAnalyzer3Peripheral3>
+  <MoistureAnalyzer3Computer1>Computer 1</MoistureAnalyzer3Computer1>
+  <MoistureAnalyzer3Computer2>Computer 2</MoistureAnalyzer3Computer2>
+  <MoistureAnalyzer3Computer3>Computer 3</MoistureAnalyzer3Computer3>
+  <MoistureAnalyzer3Software1>Software 1</MoistureAnalyzer3Software1>
+  <MoistureAnalyzer3Software2>Software 2</MoistureAnalyzer3Software2>
+  <MoistureAnalyzer3Software3>Software 3</MoistureAnalyzer3Software3>
+  <MoistureAnalyzer4Peripheral1>Peripheral 1</MoistureAnalyzer4Peripheral1>
+  <MoistureAnalyzer4Peripheral2>Peripheral 2</MoistureAnalyzer4Peripheral2>
+  <MoistureAnalyzer4Peripheral3>Peripheral 3</MoistureAnalyzer4Peripheral3>
+  <MoistureAnalyzer4Computer1>Computer 1</MoistureAnalyzer4Computer1>
+  <MoistureAnalyzer4Computer2>Computer 2</MoistureAnalyzer4Computer2>
+  <MoistureAnalyzer4Computer3>Computer 3</MoistureAnalyzer4Computer3>
+  <MoistureAnalyzer4Software1>Software 1</MoistureAnalyzer4Software1>
+  <MoistureAnalyzer4Software2>Software 2</MoistureAnalyzer4Software2>
+  <MoistureAnalyzer4Software3>Software 3</MoistureAnalyzer4Software3>
+  <MoistureAnalyzer5Peripheral1>Peripheral 1</MoistureAnalyzer5Peripheral1>
+  <MoistureAnalyzer5Peripheral2>Peripheral 2</MoistureAnalyzer5Peripheral2>
+  <MoistureAnalyzer5Peripheral3>Peripheral 3</MoistureAnalyzer5Peripheral3>
+  <MoistureAnalyzer5Computer1>Computer 1</MoistureAnalyzer5Computer1>
+  <MoistureAnalyzer5Computer2>Computer 2</MoistureAnalyzer5Computer2>
+  <MoistureAnalyzer5Computer3>Computer 3</MoistureAnalyzer5Computer3>
+  <MoistureAnalyzer5Software1>Software 1</MoistureAnalyzer5Software1>
+  <MoistureAnalyzer5Software2>Software 2</MoistureAnalyzer5Software2>
+  <MoistureAnalyzer5Software3>Software 3</MoistureAnalyzer5Software3>
+  <MoistureAnalyzer1RS232>RS232</MoistureAnalyzer1RS232>
+  <MoistureAnalyzer1USBDevice>USB Device</MoistureAnalyzer1USBDevice>
+  <MoistureAnalyzer1USBHost>USB Host</MoistureAnalyzer1USBHost>
+  <MoistureAnalyzer1Wireless>Wireless</MoistureAnalyzer1Wireless>
+  <MoistureAnalyzer1RS232Optional>RS232 Optional</MoistureAnalyzer1RS232Optional>
+  <MoistureAnalyzer1USBOptional>USB Optional</MoistureAnalyzer1USBOptional>
+  <MoistureAnalyzer1EthernetOptional>Ethernet Optional</MoistureAnalyzer1EthernetOptional>
+  <MoistureAnalyzer1BluetoothOptional>Bluetooth Optional</MoistureAnalyzer1BluetoothOptional>
+  <MoistureAnalyzer1WirelessOptional>Wireless Optional</MoistureAnalyzer1WirelessOptional>
+  <MoistureAnalyzer1Ethernet>Ethernet</MoistureAnalyzer1Ethernet>
+  <MoistureAnalyzer1Bluetooth>Bluetooth</MoistureAnalyzer1Bluetooth>
+  <MoistureAnalyzer1Auxiliary>Auxiliary</MoistureAnalyzer1Auxiliary>
+  <MoistureAnalyzer2RS232>RS232</MoistureAnalyzer2RS232>
+  <MoistureAnalyzer2USBDevice>USB Device</MoistureAnalyzer2USBDevice>
+  <MoistureAnalyzer2USBHost>USB Host</MoistureAnalyzer2USBHost>
+  <MoistureAnalyzer2Wireless>Wireless</MoistureAnalyzer2Wireless>
+  <MoistureAnalyzer2RS232Optional>RS232 Optional</MoistureAnalyzer2RS232Optional>
+  <MoistureAnalyzer2USBOptional>USB Optional</MoistureAnalyzer2USBOptional>
+  <MoistureAnalyzer2EthernetOptional>Ethernet Optional</MoistureAnalyzer2EthernetOptional>
+  <MoistureAnalyzer2BluetoothOptional>Bluetooth Optional</MoistureAnalyzer2BluetoothOptional>
+  <MoistureAnalyzer2WirelessOptional>Wireless Optional</MoistureAnalyzer2WirelessOptional>
+  <MoistureAnalyzer2Ethernet>Ethernet</MoistureAnalyzer2Ethernet>
+  <MoistureAnalyzer2Bluetooth>Bluetooth</MoistureAnalyzer2Bluetooth>
+  <MoistureAnalyzer2Auxiliary>Auxiliary</MoistureAnalyzer2Auxiliary>
+  <MoistureAnalyzer3RS232>RS232</MoistureAnalyzer3RS232>
+  <MoistureAnalyzer3USBDevice>USB Device</MoistureAnalyzer3USBDevice>
+  <MoistureAnalyzer3USBHost>USB Host</MoistureAnalyzer3USBHost>
+  <MoistureAnalyzer3Wireless>Wireless</MoistureAnalyzer3Wireless>
+  <MoistureAnalyzer3RS232Optional>RS232 Optional</MoistureAnalyzer3RS232Optional>
+  <MoistureAnalyzer3USBOptional>USB Optional</MoistureAnalyzer3USBOptional>
+  <MoistureAnalyzer3EthernetOptional>Ethernet Optional</MoistureAnalyzer3EthernetOptional>
+  <MoistureAnalyzer3BluetoothOptional>Bluetooth Optional</MoistureAnalyzer3BluetoothOptional>
+  <MoistureAnalyzer3WirelessOptional>Wireless Optional</MoistureAnalyzer3WirelessOptional>
+  <MoistureAnalyzer3Ethernet>Ethernet</MoistureAnalyzer3Ethernet>
+  <MoistureAnalyzer3Bluetooth>Bluetooth</MoistureAnalyzer3Bluetooth>
+  <MoistureAnalyzer3Auxiliary>Auxiliary</MoistureAnalyzer3Auxiliary>
+  <MoistureAnalyzer4RS232>RS232</MoistureAnalyzer4RS232>
+  <MoistureAnalyzer4USBDevice>USB Device</MoistureAnalyzer4USBDevice>
+  <MoistureAnalyzer4USBHost>USB Host</MoistureAnalyzer4USBHost>
+  <MoistureAnalyzer4Wireless>Wireless</MoistureAnalyzer4Wireless>
+  <MoistureAnalyzer4RS232Optional>RS232 Optional</MoistureAnalyzer4RS232Optional>
+  <MoistureAnalyzer4USBOptional>USB Optional</MoistureAnalyzer4USBOptional>
+  <MoistureAnalyzer4EthernetOptional>Ethernet Optional</MoistureAnalyzer4EthernetOptional>
+  <MoistureAnalyzer4BluetoothOptional>Bluetooth Optional</MoistureAnalyzer4BluetoothOptional>
+  <MoistureAnalyzer4WirelessOptional>Wireless Optional</MoistureAnalyzer4WirelessOptional>
+  <MoistureAnalyzer4Ethernet>Ethernet</MoistureAnalyzer4Ethernet>
+  <MoistureAnalyzer4Bluetooth>Bluetooth</MoistureAnalyzer4Bluetooth>
+  <MoistureAnalyzer4Auxiliary>Auxiliary</MoistureAnalyzer4Auxiliary>
+  <MoistureAnalyzer5RS232>RS232</MoistureAnalyzer5RS232>
+  <MoistureAnalyzer5USBDevice>USB Device</MoistureAnalyzer5USBDevice>
+  <MoistureAnalyzer5USBHost>USB Host</MoistureAnalyzer5USBHost>
+  <MoistureAnalyzer5Wireless>Wireless</MoistureAnalyzer5Wireless>
+  <MoistureAnalyzer5RS232Optional>RS232 Optional</MoistureAnalyzer5RS232Optional>
+  <MoistureAnalyzer5USBOptional>USB Optional</MoistureAnalyzer5USBOptional>
+  <MoistureAnalyzer5EthernetOptional>Ethernet Optional</MoistureAnalyzer5EthernetOptional>
+  <MoistureAnalyzer5BluetoothOptional>Bluetooth Optional</MoistureAnalyzer5BluetoothOptional>
+  <MoistureAnalyzer5WirelessOptional>Wireless Optional</MoistureAnalyzer5WirelessOptional>
+  <MoistureAnalyzer5Ethernet>Ethernet</MoistureAnalyzer5Ethernet>
+  <MoistureAnalyzer5Bluetooth>Bluetooth</MoistureAnalyzer5Bluetooth>
+  <MoistureAnalyzer5Auxiliary>Auxiliary</MoistureAnalyzer5Auxiliary>
+  <MoistureAnalyzer1CANBus>CAN Bus</MoistureAnalyzer1CANBus>
+  <MoistureAnalyzer2CANBus>CAN Bus</MoistureAnalyzer2CANBus>
+  <MoistureAnalyzer3CANBus>CAN Bus</MoistureAnalyzer3CANBus>
+  <MoistureAnalyzer4CANBus>CAN Bus</MoistureAnalyzer4CANBus>
+  <MoistureAnalyzer5CANBus>CAN Bus</MoistureAnalyzer5CANBus>
+  <SupplierNetcomKit>Netcom Kit Supplier</SupplierNetcomKit>
+  <SupplierNetcomKitLabel>Please confirm the following supplier details for the Netcom Kit which will appear on the print out:</SupplierNetcomKitLabel>
+  <DeliveredNetcomKitItems>Delivered Netcom Kit Items</DeliveredNetcomKitItems>
+  <DeliveredNetcomKitItemsLabel>List all Netcom Kit items as defined in the standard delivery and confirm delivery.</DeliveredNetcomKitItemsLabel>
+  <DeliveredNetcomKitItemsLabel_PRINTOUT>All items were delivered according to the corresponding documents detailed in section "Documents used for evaluation of completeness".</DeliveredNetcomKitItemsLabel_PRINTOUT>
+  <NetcomKit1NetcomKit>NetcomKit</NetcomKit1NetcomKit>
+  <NetcomKit1NetcomKitNo>No</NetcomKit1NetcomKitNo>
+  <NetcomKit1ItemDelivery13No>No</NetcomKit1ItemDelivery13No>
+  <NetcomKit1ItemDelivery14No>No</NetcomKit1ItemDelivery14No>
+  <NetcomKit1ItemDelivery15No>No</NetcomKit1ItemDelivery15No>
+  <NetcomKit1ItemDelivery16No>No</NetcomKit1ItemDelivery16No>
+  <NetcomKit1ItemDelivery17No>No</NetcomKit1ItemDelivery17No>
+  <NetcomKit1ItemDelivery18No>No</NetcomKit1ItemDelivery18No>
+  <NetcomKit1ItemDelivery19No>No</NetcomKit1ItemDelivery19No>
+  <NetcomKit1ItemDelivery20No>No</NetcomKit1ItemDelivery20No>
+  <NetcomKit1ItemDelivery21No>No</NetcomKit1ItemDelivery21No>
+  <DeliveredNetcomKitDocuments>Delivered Netcom Kit Documents</DeliveredNetcomKitDocuments>
+  <NetcomKit1OperatingInstruction>Reference Manual</NetcomKit1OperatingInstruction>
+  <SupplierDosingUnit>Dosing Unit Supplier</SupplierDosingUnit>
+  <DeliveredDosingUnitItems>Delivered Dosing Unit Items</DeliveredDosingUnitItems>
+  <DeliveredDosingUnitItemsLabel>List all Dosing Unit items as defined in the standard delivery and confirm delivery.</DeliveredDosingUnitItemsLabel>
+  <DeliveredDosingUnitItemsLabel_PRINTOUT>All items were delivered according to the corresponding documents detailed in section "Documents used for evaluation of completeness".</DeliveredDosingUnitItemsLabel_PRINTOUT>
+  <DosingUnit1DosingUnit>Dosing Unit</DosingUnit1DosingUnit>
+  <DosingUnit1OperatingInstruction>Reference Manual</DosingUnit1OperatingInstruction>
+  <DosingUnit1DosingUnitNo>No</DosingUnit1DosingUnitNo>
+  <DosingUnit1ItemDelivery13No>No</DosingUnit1ItemDelivery13No>
+  <DosingUnit1ItemDelivery14No>No</DosingUnit1ItemDelivery14No>
+  <DosingUnit1ItemDelivery15No>No</DosingUnit1ItemDelivery15No>
+  <DosingUnit1ItemDelivery16No>No</DosingUnit1ItemDelivery16No>
+  <DosingUnit1ItemDelivery17No>No</DosingUnit1ItemDelivery17No>
+  <DosingUnit1ItemDelivery18No>No</DosingUnit1ItemDelivery18No>
+  <DosingUnit1ItemDelivery19No>No</DosingUnit1ItemDelivery19No>
+  <DosingUnit1ItemDelivery20No>No</DosingUnit1ItemDelivery20No>
+  <DosingUnit1ItemDelivery21No>No</DosingUnit1ItemDelivery21No>
+  <DeliveredDosingUnitDocuments>Delivered Dosing Unit Documents</DeliveredDosingUnitDocuments>
+  <SupplierSupplierDosingUnitLabel>Please confirm the following supplier details for the Dosing Unit which will appear on the print out:</SupplierSupplierDosingUnitLabel>
+  <SupplierQuantosPeripheral>Supplier of the Peripheral Equipment connected to NetcomKit or Dosing Unit</SupplierQuantosPeripheral>
+  <SupplierQuantosPeripheralLabel>Please confirm the following supplier details for the Peripheral Equipment connected to NetcomKit or Dosing Unit which will appear on the print out:</SupplierQuantosPeripheralLabel>
+  <QuantosPeripheral1DeliveredItems>Delivered Items of Quantos Peripheral 1</QuantosPeripheral1DeliveredItems>
+  <QuantosPeripheral2DeliveredItems>Delivered Items of Quantos Peripheral 2</QuantosPeripheral2DeliveredItems>
+  <QuantosPeripheral3DeliveredItems>Delivered Items of Quantos Peripheral 3</QuantosPeripheral3DeliveredItems>
+  <QuantosPeripheral4DeliveredItems>Delivered Items of Quantos Peripheral 4</QuantosPeripheral4DeliveredItems>
+  <QuantosPeripheral5DeliveredItems>Delivered Items of Quantos Peripheral 5</QuantosPeripheral5DeliveredItems>
+  <QuantosPeripheral6DeliveredItems>Delivered Items of Quantos Peripheral 6</QuantosPeripheral6DeliveredItems>
+  <QuantosPeripheral7DeliveredItems>Delivered Items of Quantos Peripheral 7</QuantosPeripheral7DeliveredItems>
+  <QuantosPeripheral8DeliveredItems>Delivered Items of Quantos Peripheral 8</QuantosPeripheral8DeliveredItems>
+  <QuantosPeripheral9DeliveredItems>Delivered Items of Quantos Peripheral 9</QuantosPeripheral9DeliveredItems>
+  <QuantosPeripheral10DeliveredItems>Delivered Items of Quantos Peripheral 10</QuantosPeripheral10DeliveredItems>
+  <DeliveredQuantosPeripheral1Documents>Delivered Documents of Quantos Peripheral 1</DeliveredQuantosPeripheral1Documents>
+  <DeliveredQuantosPeripheral2Documents>Delivered Documents of Quantos Peripheral 2</DeliveredQuantosPeripheral2Documents>
+  <DeliveredQuantosPeripheral3Documents>Delivered Documents of Quantos Peripheral 3</DeliveredQuantosPeripheral3Documents>
+  <DeliveredQuantosPeripheral4Documents>Delivered Documents of Quantos Peripheral 4</DeliveredQuantosPeripheral4Documents>
+  <DeliveredQuantosPeripheral5Documents>Delivered Documents of Quantos Peripheral 5</DeliveredQuantosPeripheral5Documents>
+  <DeliveredQuantosPeripheral6Documents>Delivered Documents of Quantos Peripheral 6</DeliveredQuantosPeripheral6Documents>
+  <DeliveredQuantosPeripheral7Documents>Delivered Documents of Quantos Peripheral 7</DeliveredQuantosPeripheral7Documents>
+  <DeliveredQuantosPeripheral8Documents>Delivered Documents of Quantos Peripheral 8</DeliveredQuantosPeripheral8Documents>
+  <DeliveredQuantosPeripheral9Documents>Delivered Documents of Quantos Peripheral 9</DeliveredQuantosPeripheral9Documents>
+  <DeliveredQuantosPeripheral10Documents>Delivered Documents of Quantos Peripheral 10</DeliveredQuantosPeripheral10Documents>
+  <QuantosPeripheral1OperatingInstruction>Reference Manual</QuantosPeripheral1OperatingInstruction>
+  <QuantosPeripheral2OperatingInstruction>Reference Manual</QuantosPeripheral2OperatingInstruction>
+  <QuantosPeripheral3OperatingInstruction>Reference Manual</QuantosPeripheral3OperatingInstruction>
+  <QuantosPeripheral4OperatingInstruction>Reference Manual</QuantosPeripheral4OperatingInstruction>
+  <QuantosPeripheral5OperatingInstruction>Reference Manual</QuantosPeripheral5OperatingInstruction>
+  <QuantosPeripheral6OperatingInstruction>Reference Manual</QuantosPeripheral6OperatingInstruction>
+  <QuantosPeripheral7OperatingInstruction>Reference Manual</QuantosPeripheral7OperatingInstruction>
+  <QuantosPeripheral8OperatingInstruction>Reference Manual</QuantosPeripheral8OperatingInstruction>
+  <QuantosPeripheral9OperatingInstruction>Reference Manual</QuantosPeripheral9OperatingInstruction>
+  <QuantosPeripheral10OperatingInstruction>Reference Manual</QuantosPeripheral10OperatingInstruction>
+  <QuantosPeripheral1Conformity>Declaration of Conformity</QuantosPeripheral1Conformity>
+  <QuantosPeripheral2Conformity>Declaration of Conformity</QuantosPeripheral2Conformity>
+  <QuantosPeripheral3Conformity>Declaration of Conformity</QuantosPeripheral3Conformity>
+  <QuantosPeripheral4Conformity>Declaration of Conformity</QuantosPeripheral4Conformity>
+  <QuantosPeripheral5Conformity>Declaration of Conformity</QuantosPeripheral5Conformity>
+  <QuantosPeripheral6Conformity>Declaration of Conformity</QuantosPeripheral6Conformity>
+  <QuantosPeripheral7Conformity>Declaration of Conformity</QuantosPeripheral7Conformity>
+  <QuantosPeripheral8Conformity>Declaration of Conformity</QuantosPeripheral8Conformity>
+  <QuantosPeripheral9Conformity>Declaration of Conformity</QuantosPeripheral9Conformity>
+  <QuantosPeripheral10Conformity>Declaration of Conformity</QuantosPeripheral10Conformity>
+  <Balance1NetcomKit1>NetcomKit</Balance1NetcomKit1>
+  <Balance2NetcomKit1>NetcomKit</Balance2NetcomKit1>
+  <Balance3NetcomKit1>NetcomKit</Balance3NetcomKit1>
+  <Balance4NetcomKit1>NetcomKit</Balance4NetcomKit1>
+  <Balance5NetcomKit1>NetcomKit</Balance5NetcomKit1>
+  <Balance1DosingUnit1>Dosing Unit</Balance1DosingUnit1>
+  <Balance2DosingUnit1>Dosing Unit</Balance2DosingUnit1>
+  <Balance3DosingUnit1>Dosing Unit</Balance3DosingUnit1>
+  <Balance4DosingUnit1>Dosing Unit</Balance4DosingUnit1>
+  <Balance5DosingUnit1>Dosing Unit</Balance5DosingUnit1>
+  <ConfigurationPicture>System Configuration Picture</ConfigurationPicture>
+  <FastAndReliable>Reliable and Fast</FastAndReliable>
+  <ServiceEventReportName>Report Name</ServiceEventReportName>
+  <ServiceEventReportNumber>Report ID</ServiceEventReportNumber>
+  <YesNoDamages>Pass - no damages</YesNoDamages>
+  <METTLERToledoOrderNumberEQ>METTLER TOLEDO Order Number:</METTLERToledoOrderNumberEQ>
+  <CustomerPurchaseOrderNumberEQ>Customer Purchase Order Number:</CustomerPurchaseOrderNumberEQ>
+  <LegalNotice>This document is issued to record completion of the work performed by METTLER TOLEDO on the subject device in accordance with agreed standards. It does not guarantee the continued performance of the subject device. Any measurements recorded are based on the subject device's performance at a given time as tested by METTLER TOLEDO and, except where explicitly stated otherwise, do not express an opinion as to the sufficiency of any customer designed procedures used to test the device. This document is not a warranty, either implied or express. METTLER TOLEDO expressly disclaims any liability arising from the use of the information in this document for any purpose other than as specified herein.</LegalNotice>
+  <FullPreventiveMaintenanceOnsit>Full Preventive Maintenance OnSite EA</FullPreventiveMaintenanceOnsit>
+  <BasicPreventiveMaintenanceEA>Basic Preventive Maintenance EA</BasicPreventiveMaintenanceEA>
+  <FullPreventiveMaintenanceOnsit1>Full Preventive Maintenance OnSite HR</FullPreventiveMaintenanceOnsit1>
+  <CalibrateACC>Calibrate ACC</CalibrateACC>
+  <CalibrateCTR>Calibrate CTR</CalibrateCTR>
+  <CalibrateGWPAnnex>Calibrate GWP Annex</CalibrateGWPAnnex>
+  <CalibrateVerificationAnnexOIML>Calibrate Verification Annex (OIML/HB44)</CalibrateVerificationAnnexOIML>
+  <CalibrateMinWeightAnnex>Calibrate Min Weight Annex</CalibrateMinWeightAnnex>
+  <CalibrateManufacturerAnnex>Calibrate Manufacturer Annex</CalibrateManufacturerAnnex>
+  <CalibrateSCCAnnex>Calibrate SCC Annex</CalibrateSCCAnnex>
+  <CalibrateCustomAnnex>Calibrate Custom Annex</CalibrateCustomAnnex>
+  <CalibrateISO17025>Calibrate ISO17025</CalibrateISO17025>
+  <CalibrateMinWeightUSP>Calibrate Min Weight USP</CalibrateMinWeightUSP>
+  <CalibrateMinWeight>Calibrate Min Weight</CalibrateMinWeight>
+  <CalibrateMCC>Calibrate MCC</CalibrateMCC>
+  <CalibrateCustomCertificate>Calibrate Custom Certificate</CalibrateCustomCertificate>
+  <CertifyABA>Certify ABA</CertifyABA>
+  <CalibrateSCC>Calibrate SCC</CalibrateSCC>
+  <CertifyInitialEA>Certify Initial EA</CertifyInitialEA>
+  <BasicTestReport1Point>Basic Test Report (1 Point)</BasicTestReport1Point>
+  <CalibrateLocal>Calibrate Local</CalibrateLocal>
+  <CalibrateMoistureAnnex>Calibrate Moisture Annex</CalibrateMoistureAnnex>
+  <CalibratePhEur>Calibrate Ph. Eur.</CalibratePhEur>
+  <SystemLocationLabel>Select one of the below options. At lease one must be "Yes".</SystemLocationLabel>
+  <NotProtected>Not protected</NotProtected>
+  <FailVisibleDamage>Fail - visible damages</FailVisibleDamage>
+  <NotINstalled>Not Installed</NotINstalled>
+  <NotActive>Not Active</NotActive>
+  <DocumentNumber>Document Number</DocumentNumber>
+  <ReportVersion>Report Version</ReportVersion>
+  <SoftwareVersion>Software Version</SoftwareVersion>
+  <Page>Page</Page>
+  <Active>Active</Active>
+  <Inactive>Inactive</Inactive>
+  <DateAndTime>Date and Time</DateAndTime>
+  <DateAndTimeTestAcceptanceCriteria>Data and Time is set correctly</DateAndTimeTestAcceptanceCriteria>
+  <Balance1TerminalCable>Terminal Cable</Balance1TerminalCable>
+  <Balance1TerminalCableNo>No</Balance1TerminalCableNo>
+  <MoistureAnalyzer1TerminalCable>Terminal Cable</MoistureAnalyzer1TerminalCable>
+  <MoistureAnalyzer1TerminalCableNo>No</MoistureAnalyzer1TerminalCableNo>
+  <AlibiMemory>Alibi Memory</AlibiMemory>
+  <SignatureDateRemark>If sign by hand is selected, a date will not be displayed on the printout</SignatureDateRemark>
+</translation>

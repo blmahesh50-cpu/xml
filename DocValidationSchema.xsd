@@ -1,0 +1,396 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="report">  
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="TemplateName" type="xs:string" />
+        <xs:element name="ReportName" type="xs:string" />
+        <xs:element name="DeviceTypes" minOccurs="0" maxOccurs="1">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element maxOccurs="unbounded" name="DeviceType">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="Name" type="xs:string" />
+                    <xs:element name="MaxNumber" type="xs:unsignedByte" />
+                    <xs:element name="DefaultValue" type="xs:int" minOccurs="0"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ReviewCustomerScreen" type="xs:boolean" minOccurs="0" />
+        <xs:element name="DefineSystemScreen" type="xs:boolean" minOccurs="0"/>
+        <xs:element name="DefineSystemSpecification" type="xs:boolean" minOccurs="0"/>
+        <xs:element name="AddDevicesScreen" type="xs:boolean" />
+        <xs:element name="AddDevicesSpecification" type="xs:boolean" minOccurs="0" />
+        <xs:element name="AddDevicesRemarks" type="xs:boolean"/>
+		    <xs:element name="UsePageBreaks" type="xs:boolean" />
+		    <xs:element name="DisplayCustomerName2Field" type="xs:boolean" minOccurs="0" />
+		    <xs:element name="DisplayCustomerContactField" type="xs:boolean" minOccurs="0" />
+        <xs:element name="DisplayDeviceInfo" type="xs:boolean" minOccurs="0" />
+        <xs:element name="DisplaySystemName" type="xs:boolean" minOccurs="0" />
+        <xs:element name="IsSystemNameInDocDefinition" type="xs:boolean" minOccurs="0" />
+        <xs:element name="SystemNameTextboxId" type="xs:string" minOccurs="0" />
+        <xs:element name="DefaultDevice" type="xs:string" minOccurs="0" />
+        <xs:element name="FollowingCerts" type="xs:string" minOccurs="0" />
+        <xs:element name="SpecificationType" type="specificationType" minOccurs="0" nillable="true" />
+        <xs:element maxOccurs="unbounded" name="page">
+           <xs:complexType>
+           <xs:complexContent>
+             <xs:extension base="page">
+               <xs:sequence>
+                 <xs:element maxOccurs="unbounded" name="section">
+                   <xs:complexType>
+                     <xs:complexContent>
+                       <xs:extension base="section">
+                         <xs:sequence>
+                           <xs:element maxOccurs="unbounded" name="subsection">
+                             <xs:complexType>
+                               <xs:complexContent>
+                                 <xs:extension base="subsection">
+                                   <xs:sequence>
+                                     <xs:choice maxOccurs="unbounded">
+                                       <xs:element maxOccurs="unbounded" name="label" minOccurs="0" type="label" />
+                                       <xs:element maxOccurs="unbounded" name="video" minOccurs="0" type="video" />
+                                       <xs:element name="textbox" minOccurs="0" maxOccurs="unbounded" type="textbox" />
+                                       <xs:element name="numeric" minOccurs="0" maxOccurs="unbounded" type="numeric" />
+                                       <xs:element name="comparableNumeric" minOccurs="0" maxOccurs="unbounded" type="comparableNumeric" />
+                                       <xs:element name="applyAllControl" minOccurs="0" maxOccurs="unbounded" type="applyAll" />
+                                       <xs:element name="calculateButton" minOccurs="0" maxOccurs="unbounded" type="calculateButton" />
+                                       <xs:element name="comparableButton" minOccurs="0" maxOccurs="unbounded" type="comparableButton" />
+                                       <xs:element name="photo" minOccurs="0" maxOccurs="unbounded" type="photo" />
+                                       <xs:element name="hyperlink" minOccurs="0" maxOccurs="unbounded" type="hyperlink" />
+                                       <xs:element name="image" minOccurs="0" maxOccurs="unbounded" type="image" />
+                                       <xs:element name="date" minOccurs="0" maxOccurs="unbounded" type="date" />
+                                       <xs:element name="button" minOccurs="0" maxOccurs="unbounded" type="button" />
+                                       <xs:element name="signature" minOccurs="0" maxOccurs="unbounded" type="signature" />
+                                       <xs:element name="radiobuttons" minOccurs="0" maxOccurs="unbounded" type="radiobutton" />
+                                       <xs:element name="combobox" minOccurs="0" maxOccurs="unbounded" type="combobox" />
+                                       <xs:element name="devicecombobox" minOccurs="0" maxOccurs="unbounded" type="devicecombobox" />
+                                       <xs:element name="equationcombobox" minOccurs="0" maxOccurs="unbounded" type="equationcombobox" />
+                                       <xs:element name="checkboxes" minOccurs="0" maxOccurs="unbounded" type="checkbox" />
+                                       <xs:element name="showHideButton" minOccurs="0" maxOccurs="unbounded" type="showHideButton" />
+
+                                       
+                                     </xs:choice>
+                                   </xs:sequence>
+                                 </xs:extension>
+                               </xs:complexContent>
+                             </xs:complexType>
+                           </xs:element>
+                         </xs:sequence>
+                       </xs:extension>
+                     </xs:complexContent>
+                   </xs:complexType>
+                 </xs:element>
+               </xs:sequence>
+             </xs:extension>
+           </xs:complexContent>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  <xs:unique name="comboNameKey">
+    <xs:selector xpath="combobox/option"/>
+    <xs:field xpath="@name"/>
+  </xs:unique>
+  </xs:element> 
+  <xs:complexType name="basic">
+    <xs:attribute name="name" type="xs:string" use="required" />
+    <xs:attribute name="label" type="xs:string" use="optional" />
+    <xs:attribute name="isVisible" type="xs:boolean" use="optional" default="true" />
+    <xs:attribute name="enabled" type="xs:boolean" use="optional" default="true" />
+    <xs:attribute name="affectedBy"  type="xs:string" use="optional" />
+    <xs:attribute name="affectedByGroup"  type="xs:string" use="optional" />
+
+  </xs:complexType>
+  <xs:complexType name="page">
+    <xs:complexContent>
+      <xs:extension base="basic">
+        <xs:attribute name="printPreview" type="xs:boolean" use="optional" />
+        <xs:attribute name="isPrintable" type="xs:boolean" use="optional" />
+        <xs:attribute name="contentLock" type="xs:boolean" use="optional" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="section">
+    <xs:complexContent>
+      <xs:extension base="basic">
+                  <xs:attribute name="type" type="xs:string" use="optional" />
+                  <xs:attribute name="isemptylabel" type="xs:boolean" use="optional" />
+                  <!-- <xs:attribute name="label" type="xs:string" use="optional" /> -->
+                  <xs:attribute name="isPrintable" type="xs:boolean" use="optional" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="subsection">
+    <xs:complexContent>
+      <xs:extension base="basic">
+          <xs:attribute name="showLabel" type="xs:boolean" use="optional" />
+          <xs:attribute name="isemptylabel" type="xs:boolean" use="optional" />
+          <xs:attribute name="printAsRangeTable" type="xs:boolean" use="optional" />
+          <xs:attribute name="visibilityBindedToType" type="xs:boolean" use="optional" />
+          <xs:attribute name="type" type="xs:string" use="optional" />
+          <xs:attribute name="isPrintable" type="xs:boolean" use="optional" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>                       
+  <xs:complexType name="label">
+    <xs:complexContent>
+      <xs:extension base="basic">
+        <xs:attribute name="showLabel" type="xs:boolean" use="optional" />
+        <xs:attribute name="grid-row" type="xs:unsignedByte" use="optional" />
+        <xs:attribute name="grid-col" type="xs:unsignedByte" use="optional" />
+        <xs:attribute name="table" type="xs:string" use="optional" />
+        <xs:attribute name="width" type="xs:int" use="optional" />
+        <xs:attribute name="type" type="xs:string" use="optional" />
+        <xs:attribute name="field" type="xs:string" use="optional" />
+        <xs:attribute name="visibilityBindedToType" type="xs:boolean" use="optional" />
+        <xs:attribute name="isPrintable" type="xs:boolean" use="optional" />
+        <xs:attribute name="visibleifLessThan" type="xs:unsignedByte" use="optional" />
+        <xs:attribute name="bold" type="xs:boolean" use="optional" />
+        <xs:attribute name="specData" type="xs:boolean" use="optional" />
+        <xs:attribute name="printWhenEmpty" type="xs:boolean" use="optional" />
+        <xs:attribute name="onlyVisibleOnPrintout" type="xs:boolean" use="optional" />
+        <xs:attribute name="useIndent" type="xs:boolean" use="optional" />
+        <xs:attribute name="printAsTextbox" type="xs:boolean" use="optional" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="dependent">
+    <xs:attribute name="control" type="xs:string" />
+    <xs:attribute name="controlValue" type="xs:string" />
+    <xs:attribute name="separate" type="xs:boolean" />
+  </xs:complexType>
+  <xs:complexType name="defaultValue">
+          <xs:sequence>
+            <xs:element maxOccurs="unbounded" minOccurs="0" name="dependent" type="dependent" />
+          </xs:sequence>
+          <xs:attribute name="value" type="xs:string" />
+  </xs:complexType>
+  <xs:complexType name="control">
+      <xs:complexContent>
+        <xs:extension base="label">
+         <xs:sequence>
+            <xs:element maxOccurs="unbounded" minOccurs="0" name="defaultValue" type="defaultValue" />             
+          </xs:sequence>
+          <xs:attribute name="required" type="xs:boolean" use="optional" />
+          <xs:attribute name="affectsOn" type="xs:string" use="optional" />
+          <xs:attribute name="tabIndex" type="xs:int" use="optional" />
+          <!-- <xs:attribute name="specData" type="xs:boolean" use="optional" /> -->
+          <xs:attribute name="minlength" type="xs:unsignedShort" use="optional" />
+          <xs:attribute name="maxlength" type="xs:unsignedShort" use="optional" />
+          <xs:attribute name="height" type="xs:unsignedByte" use="optional" />
+          <xs:attribute name="isMultiLine" type="xs:boolean" use="optional" />
+          <xs:attribute name="lettersOnly" type="xs:boolean" use="optional" />
+          <xs:attribute name="noPunctuation" type="xs:boolean"  use="optional"/>
+          <xs:attribute name="textType" type="xs:string" use="optional" />
+          <xs:attribute name="neverPrint" type="xs:boolean" use="optional" />
+          <xs:attribute name="alwaysLeftBlank" type="xs:boolean" use="optional" />
+          <xs:attribute name="passFailGroup" type="xs:string" use="optional" />
+          <xs:attribute name="group" type="xs:string" use="optional" />
+          <xs:attribute name="controlsDependent" type="xs:boolean" use="optional" />
+          <xs:attribute name="valueAffectedBy" type="xs:string" use="optional" />
+
+        </xs:extension>
+     </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="video">
+    <xs:complexContent>
+      <xs:extension base="label">
+       <xs:attribute name="serviceLibraryFile" type="xs:string" use="optional" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="textbox">
+    <xs:complexContent>
+      <xs:extension base="control">
+       <!-- <xs:attribute name="textType" type="xs:string" use="optional" /> -->
+       <!-- <xs:attribute name="passFailGroup" type="xs:string" use="optional" /> -->
+        <xs:attribute name="value" type="xs:string" use="optional" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="numeric">
+    <xs:complexContent >
+      <xs:extension base="control">
+        <xs:attribute name="minvalue" type="xs:decimal" use="optional" />
+        <xs:attribute name="maxvalue" type="xs:decimal" use="optional" />
+        <xs:attribute name="value" type="xs:decimal" use="optional" />
+        <xs:attribute name="increment" type="xs:decimal" use="optional" />
+        <xs:attribute name="variable" type="xs:string" use="optional" />
+        <xs:attribute name="action" type="xs:string" use="optional" />
+        <xs:attribute name="variableDependent" type="xs:string" use="optional" />
+        <!-- <xs:attribute name="controlsDependent" type="xs:boolean" use="optional" /> -->
+        <xs:attribute name="precision" type="xs:string" use="optional" />
+        <xs:attribute name="autoCalculate" type="xs:boolean" use="optional" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="comparableNumeric">
+    <xs:complexContent>
+      <xs:extension base="numeric">
+        <xs:attribute name="greaterThen" type="xs:string" use="optional" />
+        <xs:attribute name="greaterOrEqualThen" type="xs:string" use="optional" />
+        <xs:attribute name="lessThen" type="xs:string" use="optional" />
+        <xs:attribute name="lessOrEqualThen" type="xs:string" use="optional" />
+        <xs:attribute name="autoCompare" type="xs:boolean" use="optional" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="applyAll">
+    <xs:complexContent>
+      <xs:extension base="label">
+        <xs:attribute name="applyToGroup" type="xs:string" use="optional" />
+        <xs:attribute name="applyFrom" type="xs:string" use="optional" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="showHideButton">
+    <xs:complexContent>
+      <xs:extension base="label">
+        <xs:attribute name="mode" type="xs:string" use="optional" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="calculateButton">
+    <xs:complexContent>
+      <xs:extension base="label">
+        <xs:attribute name="calculateField" type="xs:string" use="optional" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  
+  <xs:complexType name="comparableButton">
+    <xs:complexContent>
+      <xs:extension base="label">
+        <xs:attribute name="compareField" type="xs:string" use="optional" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="photo">
+    <xs:complexContent>
+      <xs:extension base="label">
+        <xs:attribute name="pixelWidth" type="xs:int" use="optional" />
+        <xs:attribute name="value" type="xs:string" use="optional" />
+        <xs:attribute name="maxSize" type="xs:int" use="optional" />
+
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="hyperlink">
+    <xs:complexContent>
+      <xs:extension base="control">
+         <xs:attribute name="hyperlink" type="xs:string" use="optional" />
+         <xs:attribute name="value" type="xs:string" use="optional" />
+         <xs:attribute name="serviceLibraryFile" type="xs:string" use="optional" />
+         <xs:attribute name="useButtonLayout" type="xs:boolean" use="optional" />   
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>          
+  <xs:complexType name="image">
+    <xs:complexContent>
+      <xs:extension base="hyperlink">
+        <xs:attribute name="source" type="xs:string" use="optional" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>   
+  <xs:complexType name="date">
+    <xs:complexContent>
+      <xs:extension base="control">
+        <xs:attribute name="useTodayDate" type="xs:boolean" use="optional" />
+        <xs:attribute name="allowPastDates" type="xs:boolean" use="optional" />
+        <xs:attribute name="value" type="xs:string" use="optional" />
+        <xs:attribute name="showTime" type="xs:boolean" use="optional" />
+        <xs:attribute name="daysAdd" type="xs:int" use="optional" />
+        <xs:attribute name="addMonthBegin" type="xs:int" use="optional" />
+        <xs:attribute name="addMonthEnd" type="xs:int" use="optional" />
+        <xs:attribute name="addMonth" type="xs:int" use="optional" />
+
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="button">
+    <xs:complexContent>
+      <xs:extension base="control">
+        <xs:attribute name="buttontype" type="xs:string" use="required" />
+        <xs:attribute name="serviceEventIndex" type="xs:unsignedByte" use="required" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="signature">
+    <xs:complexContent>
+      <xs:extension base="control">
+        <xs:attribute name="value" type="xs:string" use="optional" />
+        <xs:attribute name="signature-type" type="xs:string" use="required" />
+        <xs:attribute name="useDefault" type="xs:boolean" use="optional" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="list">
+    <xs:complexContent>
+      <xs:extension base="control">
+         <xs:sequence>
+          <xs:element maxOccurs="unbounded" minOccurs="0" name="option">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element maxOccurs="unbounded" minOccurs="0" name="dependent" type="dependent" />
+              </xs:sequence>
+              <xs:attribute name="name" type="xs:string" use="required" />
+              <xs:attribute name="checked" type="xs:boolean" use="optional" />
+              <xs:attribute name="label" type="xs:string" use="optional" />
+              <xs:attribute name="affectsOn" type="xs:string" use="optional" />
+              <xs:attribute name="group" type="xs:string" use="optional" />
+              <xs:attribute name="defaultFor" type="xs:string" use="optional" />
+              <xs:attribute name="displayFor" type="xs:string" use="optional" />
+            </xs:complexType>
+          </xs:element>
+         </xs:sequence>
+         <xs:attribute name="value" type="xs:string" use="optional" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="radiobutton">
+    <xs:complexContent>
+      <xs:extension base="list" />
+    </xs:complexContent>
+  </xs:complexType>   
+  <xs:complexType name="combobox">
+    <xs:complexContent>
+      <xs:extension base="list">
+            <xs:attribute name="clearItems" type="xs:boolean" use="optional" />
+            <xs:attribute name="autoComplete" type="xs:boolean" use="optional" />
+            <xs:attribute name="dependentFrom" type="xs:string" use="optional" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>    
+  <xs:complexType name="equationcombobox">
+    <xs:complexContent>
+      <xs:extension base="combobox">
+        <xs:attribute name="allowedOperations" type="xs:string" use="required" />
+        <xs:attribute name="variableDependent" type="xs:string" use="optional" />
+        <xs:attribute name="variables" type="xs:string" use="optional" />
+
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>                             
+  <xs:complexType name="devicecombobox">
+    <xs:complexContent>
+      <xs:extension base="combobox" />
+    </xs:complexContent>
+  </xs:complexType>    
+  <xs:complexType name="checkbox">
+    <xs:complexContent>
+      <xs:extension base="list" />
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:simpleType name="specificationType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Disabled" />
+      <xs:enumeration value="Import" />
+      <xs:enumeration value="ImportAny" />
+    </xs:restriction>
+  </xs:simpleType>
+</xs:schema>

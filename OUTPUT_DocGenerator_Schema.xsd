@@ -1,0 +1,435 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:p3="http://www.w3.org/2001/XMLSchema-instance" attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="Certificate">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="Header"/>
+				<xs:element ref="ServiceProvider"/>
+				<xs:element ref="ServicesProvidedBy"/>
+				<xs:element ref="Accredidation"/>
+				<xs:element ref="Customer"/>
+				<xs:element ref="Device"/>
+				<xs:element ref="ReportData"/>
+				<xs:element ref="ReportXml"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="Header">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="DateGenerated"/>
+				<xs:element ref="TechnicianID"/>
+				<xs:element ref="TechnicianName"/>
+				<xs:element ref="CertificateID"/>
+				<xs:element ref="ServiceDocumentType"/>
+				<xs:element ref="ServiceTool"/>
+				<xs:element ref="DocumentLanguage"/>
+				<xs:element ref="DSMVersion"/>
+				<xs:element ref="DocGenVersion"/>
+				<xs:element ref="FormVersion"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="DateGenerated" type="xs:string"/>
+	<xs:element name="TechnicianID" type="xs:string"/>
+	<xs:element name="TechnicianName" type="xs:string"/>
+	<xs:element name="CertificateID" type="xs:string"/>
+	<xs:element name="ServiceDocumentType" type="xs:string"/>
+	<xs:element name="ServiceTool" type="xs:string"/>
+	<xs:element name="DocumentLanguage" type="xs:string"/>
+	<xs:element name="DSMVersion" type="xs:string"/>
+	<xs:element name="DocGenVersion" type="xs:string"/>
+	<xs:element name="FormVersion" type="xs:string"/>
+	<xs:element name="ServiceProvider">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="ID"/>
+				<xs:element ref="ReportAddressTitle"/>
+				<xs:element ref="ReportAddress1"/>
+				<xs:element ref="ReportAddress2"/>
+				<xs:element ref="ReportAddress3"/>
+				<xs:element ref="ReportAddress4"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="ID" type="xs:string"/>
+	<xs:element name="ReportAddressTitle" type="xs:string"/>
+	<xs:element name="ReportAddress1" type="xs:string"/>
+	<xs:element name="ReportAddress2" type="xs:string"/>
+	<xs:element name="ReportAddress3" type="xs:string"/>
+	<xs:element name="ReportAddress4" type="xs:string"/>
+	<xs:element name="ServicesProvidedBy" >
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="Company" type="xs:string" minOccurs="0"/>
+				<xs:element name="Address1" type="xs:string" minOccurs="0"/>
+				<xs:element name="Address2" type="xs:string" minOccurs="0"/>
+				<xs:element name="City" type="xs:string" minOccurs="0"/>
+				<xs:element name="State" type="xs:string" minOccurs="0"/>
+				<xs:element name="PostalCode" type="xs:string" minOccurs="0"/>
+				<xs:element name="Phone" type="xs:string" minOccurs="0"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="Accredidation">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="ISO9001"/>
+				<xs:element ref="ISO9001Year"/>
+				<xs:element ref="ISO17025"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="ISO9001" type="xs:string"/>
+	<xs:element name="ISO9001Year" type="xs:string"/>
+	<xs:element name="ISO17025" type="xs:string"/>
+	<xs:element name="Customer">
+		<xs:complexType>
+			<xs:all>
+				<xs:element ref="CustomerID" minOccurs="0"/>
+				<xs:element ref="Name" minOccurs="0"/>
+				<xs:element ref="Name2" minOccurs="0"/>
+				<xs:element ref="Name3" minOccurs="0"/>
+				<xs:element ref="Name4" minOccurs="0"/>
+				<xs:element ref="Address1" minOccurs="0"/>
+				<xs:element ref="Address2" minOccurs="0" />
+				<xs:element ref="Address3" minOccurs="0" />
+				<xs:element ref="Address4" minOccurs="0" />
+				<xs:element ref="Address5" minOccurs="0" />
+				<xs:element ref="City" minOccurs="0"/>
+				<xs:element ref="StateProvince" minOccurs="0"/>
+				<xs:element ref="PostalCode" minOccurs="0"/>
+				<xs:element ref="Country" minOccurs="0"/>
+				<xs:element ref="Email" minOccurs="0"/>
+				<xs:element ref="LocationNumber" minOccurs="0"/>
+				<xs:element ref="State" minOccurs="0"/>
+				<xs:element ref="PhoneNumber" minOccurs="0"/>
+				<xs:element ref="Contact" minOccurs="0"/>
+				<xs:element ref="Building" minOccurs="0"/>
+				<xs:element ref="Room" minOccurs="0"/>
+				<xs:element ref="Floor" minOccurs="0"/>
+				<xs:element ref="OrderNumber" minOccurs="0"/>
+			</xs:all>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="CustomerID" type="xs:string"/>
+	<xs:element name="Name" type="xs:string"/>
+	<xs:element name="Name2" type="xs:string" nillable="true"/>
+	<xs:element name="Name3" type="xs:string" nillable="true"/>
+	<xs:element name="Name4" type="xs:string" nillable="true"/>
+	<xs:element name="Address1" type="xs:string"/>
+	<xs:element name="Address2" type="xs:string" nillable="true" />
+	<xs:element name="Address3" type="xs:string" nillable="true" />
+	<xs:element name="Address4" type="xs:string" nillable="true" />
+	<xs:element name="Address5" type="xs:string" nillable="true" />
+	<xs:element name="City" type="xs:string"/>
+	<xs:element name="StateProvince" type="xs:string"/>
+	<xs:element name="PostalCode" type="xs:string"/>
+	<xs:element name="Country" type="xs:string"/>
+	<xs:element name="Email" type="xs:string" nillable="true"/>
+	<xs:element name="LocationNumber" type="xs:string"/>
+	<xs:element name="State" type="xs:string"/>
+	<xs:element name="PhoneNumber" type="xs:string"/>
+	<xs:element name="Contact" type="xs:string"/>
+	<xs:element name="Building" type="xs:string"/>
+	<xs:element name="Room" type="xs:string"/>
+	<xs:element name="Floor" type="xs:string"/>
+	<xs:element name="OrderNumber" type="xs:string"/>
+	<xs:element name="Device">
+		<xs:complexType>
+			<xs:all>
+				<xs:element ref="SerialNumber"/>
+				<xs:element ref="ModelType"  minOccurs="0"/>
+				<xs:element ref="Manufacturer"/>
+				<xs:element ref="ModelName" minOccurs="0"/>
+				<xs:element ref="ConfigurationName" minOccurs="0" />
+				<xs:element ref="RangeType" minOccurs="0" />
+				<xs:element ref="Capacity1" minOccurs="0"/>
+				<xs:element ref="Capacity2" minOccurs="0"/>
+				<xs:element ref="Capacity3" minOccurs="0"/>
+				<xs:element ref="Capacity4" minOccurs="0"/>
+				<xs:element ref="D1" minOccurs="0"/>
+				<xs:element ref="D2" minOccurs="0"/>
+				<xs:element ref="D3" minOccurs="0"/>
+				<xs:element ref="D4" minOccurs="0"/>
+				<xs:element ref="E1" minOccurs="0"/>
+				<xs:element ref="E2" minOccurs="0"/>
+				<xs:element ref="E3" minOccurs="0"/>
+				<xs:element ref="E4" minOccurs="0"/>
+				<xs:element ref="Class" minOccurs="0" />
+				<xs:element ref="UnitOfMeasure" minOccurs="0" />
+				<xs:element ref="Description"  minOccurs="0"/>
+				<xs:element ref="ServiceData"  minOccurs="0"/>
+				<xs:element ref="Model" minOccurs="0"/>
+				<xs:element ref="TerminalAssetNumber" minOccurs="0"/>
+				<xs:element ref="TerminalModel" minOccurs="0"/>
+				<xs:element ref="TerminalSerialNumber" minOccurs="0"/>
+				<xs:element ref="AssetNumber" minOccurs="0"/>
+				<xs:element ref="Location" minOccurs="0"/>
+				<xs:element ref="AlternateAssetID" minOccurs="0"/>
+				<xs:element ref="Ranges" minOccurs="0"/>
+				<xs:element ref="InstrumentType" minOccurs="0"/>
+				<xs:element ref="NumberOfRanges" minOccurs="0"/>
+			</xs:all>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="SerialNumber" type="xs:string"/>
+	<xs:element name="ModelType" type="xs:string"/>
+	<xs:element name="Manufacturer" type="xs:string"/>
+	<xs:element name="ModelName" type="xs:string"/>
+	<xs:element name="ConfigurationName" type="xs:string"/>
+	<xs:element name="RangeType" type="xs:string"/>
+	<xs:element name="Capacity1" type="xs:string"/>
+	<xs:element name="Capacity2" type="xs:string"/>
+	<xs:element name="Capacity3" type="xs:string"/>
+	<xs:element name="Capacity4" type="xs:string"/>
+	<xs:element name="D1" type="xs:string"/>
+	<xs:element name="D2" type="xs:string"/>
+	<xs:element name="D3" type="xs:string"/>
+	<xs:element name="D4" type="xs:string"/>
+	<xs:element name="E1" type="xs:string"/>
+	<xs:element name="E2" type="xs:string"/>
+	<xs:element name="E3" type="xs:string"/>
+	<xs:element name="E4" type="xs:string"/>
+	<xs:element name="Class" type="xs:string"/>
+	<xs:element name="UnitOfMeasure" type="xs:string"/>
+	<xs:element name="Description" type="xs:string"/>
+	<xs:element name="ServiceData" type="xs:string"/>
+	<xs:element name="Model" type="xs:string"/>
+	<xs:element name="TerminalAssetNumber" type="xs:string"/>
+	<xs:element name="TerminalModel" type="xs:string"/>
+	<xs:element name="TerminalSerialNumber" type="xs:string"/>
+	<xs:element name="AssetNumber" type="xs:string"/>
+	<xs:element name="Location" type="xs:string"/>
+	<xs:element name="AlternateAssetID" type="xs:string"/>
+	<xs:element name="Ranges">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="Range" maxOccurs="unbounded"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="Range">
+		<xs:complexType>
+			<xs:all>
+				<xs:element ref="MaxCapacity"/>
+				<xs:element ref="Readability"/>
+				<xs:element ref="Verification" minOccurs="0"/>
+				<xs:element ref="Number"/>
+			</xs:all>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="MaxCapacity" type="xs:string" />
+	<xs:element name="Readability" type="xs:string" />
+	<xs:element name="Verification" nillable="true" type="xs:string" />
+	<xs:element name="Number" type="xs:int"/>
+	<xs:element name="InstrumentType" type="xs:string"/>
+	<xs:element name="NumberOfRanges" type="xs:int"/>
+	<xs:element name="ReportData">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="ReportDateFormat"/>
+				<xs:element ref="ReportDateTimeFormat" minOccurs="0"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="ReportDateFormat" type="xs:string"/>
+	<xs:element name="ReportDateTimeFormat" type="xs:string"/>
+	<xs:element name="ReportXml">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="report">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="TemplateName" type="xs:string" />
+							<xs:element name="ReportName" type="xs:string" />
+							<xs:element name="DocumentId" type="xs:string" />
+							<xs:element name="CreateDate" type="xs:dateTime" />
+							<xs:element name="MTOrderNumber" type="xs:string" />
+							<xs:element name="CPOrderNumber" type="xs:string" />
+							<xs:element name="CustomerContact" type="xs:string" />
+							<xs:element name="SystemName" type="xs:string" minOccurs="0" />
+							<xs:element name="UsePageBreaks" type="xs:boolean" />
+							<xs:element maxOccurs="unbounded" name="page">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element maxOccurs="unbounded" name="section">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element maxOccurs="unbounded" name="subsection">
+														<xs:complexType>
+															<xs:sequence>
+																<xs:element maxOccurs="unbounded" name="control" minOccurs="0">
+																	<xs:complexType>
+																		<xs:sequence minOccurs="0">
+																			<xs:element minOccurs="0" name="itemHeader0">
+																				<xs:complexType>
+																					<xs:attribute name="grid-col" type="xs:unsignedByte" use="optional" />
+																					<xs:attribute name="name" type="xs:string" use="optional" />
+																					<xs:attribute name="value" type="xs:string" use="required" />
+																				</xs:complexType>
+																			</xs:element>
+																			<xs:element minOccurs="0" name="itemHeader1">
+																				<xs:complexType>
+																					<xs:attribute name="grid-col" type="xs:unsignedByte" use="optional" />
+																					<xs:attribute name="name" type="xs:string" use="optional" />
+																					<xs:attribute name="value" type="xs:string" use="required" />
+																				</xs:complexType>
+																			</xs:element>
+																			<xs:element minOccurs="0" name="itemHeader2">
+																				<xs:complexType>
+																					<xs:attribute name="grid-col" type="xs:unsignedByte" use="optional" />
+																					<xs:attribute name="name" type="xs:string" use="optional" />
+																					<xs:attribute name="value" type="xs:string" use="required" />
+																				</xs:complexType>
+																			</xs:element>
+																			<xs:element minOccurs="0" name="itemHeader3">
+																				<xs:complexType>
+																					<xs:attribute name="grid-col" type="xs:unsignedByte" use="optional" />
+																					<xs:attribute name="name" type="xs:string" use="optional" />
+																					<xs:attribute name="value" type="xs:string" use="required" />
+																				</xs:complexType>
+																			</xs:element>
+																			<xs:element minOccurs="0" name="itemHeader4">
+																				<xs:complexType>
+																					<xs:attribute name="grid-col" type="xs:unsignedByte" use="optional" />
+																					<xs:attribute name="name" type="xs:string" use="optional" />
+																					<xs:attribute name="value" type="xs:string" use="required" />
+																				</xs:complexType>
+																			</xs:element>
+																			<xs:element minOccurs="0" name="MTSignature" />
+																			<xs:element minOccurs="0" name="MTName" />
+																			<xs:element minOccurs="0" name="MTFunction" />
+																			<xs:element minOccurs="0" name="MTDate" />
+																			<xs:element minOccurs="0" name="CustomerSignature" />
+																			<xs:element minOccurs="0" name="CustomerName" />
+																			<xs:element minOccurs="0" name="CustomerFunction" />
+																			<xs:element minOccurs="0" name="CustomerDate" />
+																			<xs:element minOccurs="0" name="MTRepresantiveLabel" />
+																			<xs:element minOccurs="0" name="CustomerRepresantiveLabel" />
+																			<xs:element minOccurs="0" name="SignatureLabel" />
+																			<xs:element minOccurs="0" name="NameLabel" />
+																			<xs:element minOccurs="0" name="FunctionLabel" />
+																			<xs:element minOccurs="0" name="DateLabel" />
+																			<xs:element minOccurs="0" maxOccurs="unbounded" name="row">
+																				<xs:complexType>
+																					<xs:sequence>
+																						<xs:element name="item0" minOccurs="0">
+																							<xs:complexType>
+																								<xs:attribute name="grid-col" type="xs:unsignedByte" use="optional" />
+																								<xs:attribute name="name" type="xs:string" use="optional" />
+																								<xs:attribute name="value" type="xs:string" use="required" />
+																								<xs:attribute name="isoValue" type="xs:string" use="optional" />
+																								<xs:attribute name="dataType" type="xs:string" use="optional" />
+																								<xs:attribute name="controlType" type="xs:string" use="optional" />
+																								<xs:attribute name="type" type="xs:string" use="optional" />
+																								<xs:attribute name="passFail" type="xs:string" use="optional" />
+																							</xs:complexType>
+																						</xs:element>
+																						<xs:element name="item1" minOccurs="0">
+																							<xs:complexType>
+																								<xs:attribute name="grid-col" type="xs:unsignedByte" use="optional" />
+																								<xs:attribute name="name" type="xs:string" use="optional" />
+																								<xs:attribute name="value" type="xs:string" use="required" />
+																								<xs:attribute name="isoValue" type="xs:string" use="optional" />
+																								<xs:attribute name="dataType" type="xs:string" use="optional" />
+																								<xs:attribute name="controlType" type="xs:string" use="optional" />
+																								<xs:attribute name="type" type="xs:string" use="optional" />
+																								<xs:attribute name="passFail" type="xs:string" use="optional" />
+																							</xs:complexType>
+																						</xs:element>
+																						<xs:element name="item2" minOccurs="0">
+																							<xs:complexType>
+																								<xs:attribute name="grid-col" type="xs:unsignedByte" use="optional" />
+																								<xs:attribute name="name" type="xs:string" use="optional" />
+																								<xs:attribute name="value" type="xs:string" use="required" />
+																								<xs:attribute name="isoValue" type="xs:string" use="optional" />
+																								<xs:attribute name="dataType" type="xs:string" use="optional" />
+																								<xs:attribute name="controlType" type="xs:string" use="optional" />
+																								<xs:attribute name="type" type="xs:string" use="optional" />
+																								<xs:attribute name="passFail" type="xs:string" use="optional" />
+																							</xs:complexType>
+																						</xs:element>
+																						<xs:element name="item3" minOccurs="0">
+																							<xs:complexType>
+																								<xs:attribute name="grid-col" type="xs:unsignedByte" use="optional" />
+																								<xs:attribute name="name" type="xs:string" use="optional" />
+																								<xs:attribute name="value" type="xs:string" use="required" />
+																								<xs:attribute name="isoValue" type="xs:string" use="optional" />
+																								<xs:attribute name="dataType" type="xs:string" use="optional" />
+																								<xs:attribute name="controlType" type="xs:string" use="optional" />
+																								<xs:attribute name="type" type="xs:string" use="optional" />
+																								<xs:attribute name="passFail" type="xs:string" use="optional" />
+																							</xs:complexType>
+																						</xs:element>
+																						<xs:element name="item4" minOccurs="0">
+																							<xs:complexType>
+																								<xs:attribute name="grid-col" type="xs:unsignedByte" use="optional" />
+																								<xs:attribute name="name" type="xs:string" use="optional" />
+																								<xs:attribute name="value" type="xs:string" use="required" />
+																								<xs:attribute name="isoValue" type="xs:string" use="optional" />
+																								<xs:attribute name="dataType" type="xs:string" use="optional" />
+																								<xs:attribute name="controlType" type="xs:string" use="optional" />
+																								<xs:attribute name="type" type="xs:string" use="optional" />
+																								<xs:attribute name="passFail" type="xs:string" use="optional" />
+																							</xs:complexType>
+																						</xs:element>
+																					</xs:sequence>
+																					<xs:attribute name="grid-row" type="xs:unsignedByte" use="optional" />
+																				</xs:complexType>
+																			</xs:element>
+																			<xs:element minOccurs="0" maxOccurs="unbounded" name="item">
+																				<xs:complexType>
+																					<xs:attribute name="name" type="xs:string" use="required" />
+																					<xs:attribute name="checked" type="xs:boolean" use="required" />
+																				</xs:complexType>
+																			</xs:element>
+																		</xs:sequence>
+																		<xs:attribute name="label" type="xs:string" use="optional" />
+																		<xs:attribute name="grid-col" type="xs:unsignedByte" use="optional" />
+																		<xs:attribute name="grid-row" type="xs:unsignedByte" use="optional" />
+																		<xs:attribute name="name" type="xs:string" use="optional" />
+																		<xs:attribute name="dataType" type="xs:string" use="optional" />
+																		<xs:attribute name="controlType" type="xs:string" use="optional" />
+																		<xs:attribute name="type" type="xs:string" use="optional" />
+																		<xs:attribute name="isoValue" type="xs:string" use="optional" />
+																		<xs:attribute name="value" type="xs:string" use="optional" />
+																		<xs:attribute name="enabled" type="xs:boolean" use="optional" />
+																		<xs:attribute name="gridColsCount" type="xs:int" use="optional" />
+																		<xs:attribute name="bold" type="xs:boolean" use="optional" />
+																		<xs:attribute name="MTSignaturebyteVal" type="xs:base64Binary" use="optional" />
+																		<xs:attribute name="CustomerSignaturebyteVal" type="xs:base64Binary" use="optional" />
+																		<xs:attribute name="byteVal" type="xs:base64Binary" use="optional" />
+																		<xs:attribute name="useIndent" type="xs:boolean" use="optional" />
+																		<xs:attribute name="alwaysLeftBlank" type="xs:boolean" use="optional" />
+																		<xs:attribute name="passFail" type="xs:string" use="optional" />
+																	</xs:complexType>
+																</xs:element>
+															</xs:sequence>
+															<xs:attribute name="name" type="xs:string" use="required" />
+															<xs:attribute name="label" type="xs:string" use="required" />
+															<xs:attribute name="enabled" type="xs:boolean" use="required" />
+															<xs:attribute name="isemptylabel" type="xs:boolean" use="required" />
+														</xs:complexType>
+													</xs:element>
+												</xs:sequence>
+												<xs:attribute name="name" type="xs:string" use="required" />
+												<xs:attribute name="label" type="xs:string" use="required" />
+												<xs:attribute name="enabled" type="xs:boolean" use="required" />
+												<xs:attribute name="isemptylabel" type="xs:boolean" use="optional" />
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+									<xs:attribute name="name" type="xs:string" use="required" />
+									<xs:attribute name="label" type="xs:string" use="required" />
+									<xs:attribute name="enabled" type="xs:boolean" use="required" />
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+						<xs:anyAttribute namespace="##any" processContents="skip"/>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

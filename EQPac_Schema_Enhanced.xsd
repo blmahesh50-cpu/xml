@@ -1,79 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
-    <xs:element name="ReportMetadata">
+
+    <xs:element name="Report">
         <xs:complexType>
             <xs:sequence>
-                <xs:element name="Status" type="xs:string" minOccurs="0"/>
-                <xs:element name="Priority" type="xs:string" minOccurs="0"/>
-                <xs:element name="Department" type="xs:string" minOccurs="0"/>
+                <xs:element name="ReportMetadata" minOccurs="0">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="Status" type="xs:string" minOccurs="0"/>
+                            <xs:element name="Priority" type="xs:string" minOccurs="0"/>
+                            <xs:element name="Department" type="xs:string" minOccurs="0"/>
+                            <xs:element name="Version" type="xs:string" minOccurs="0"/>
+                            <xs:element name="IsConfidential" type="xs:boolean" minOccurs="0"/>
+                            <xs:element name="ExpirationDate" type="xs:date" minOccurs="0"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+
+                <xs:element name="ApprovalWorkflow" minOccurs="0">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="Approver" minOccurs="0" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="Name" type="xs:string" minOccurs="0"/>
+                                        <xs:element name="Signature" type="xs:string" minOccurs="0"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+
+                <xs:element name="Attachments" minOccurs="0">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="File" minOccurs="0" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="FileName" type="xs:string" minOccurs="0"/>
+                                        <xs:element name="FileSize" type="xs:integer" minOccurs="0"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+
+                <xs:element name="Comments" minOccurs="0">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="Comment" minOccurs="0" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="User" type="xs:string" minOccurs="0"/>
+                                        <xs:element name="Text" type="xs:string" minOccurs="0"/>
+                                        <xs:element name="Replies" minOccurs="0" maxOccurs="unbounded">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="Reply" type="xs:string" minOccurs="0"/>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+
+                <xs:element name="Grid" minOccurs="0">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="Header" minOccurs="0">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="itemHeader1" type="xs:string" minOccurs="0"/>
+                                        <xs:element name="itemHeader2" type="xs:string" minOccurs="0"/>
+                                        <xs:element name="itemHeader3" type="xs:string" minOccurs="0"/>
+                                        <xs:element name="itemHeader4" type="xs:string" minOccurs="0"/>
+                                        <xs:element name="itemHeader5" type="xs:string" minOccurs="0"/>
+                                        <xs:element name="itemHeader6" type="xs:string" minOccurs="0"/>
+                                        <xs:element name="itemHeader7" type="xs:string" minOccurs="0"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="Items" minOccurs="0">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="item1" type="xs:string" minOccurs="0"/>
+                                        <xs:element name="item2" type="xs:string" minOccurs="0"/>
+                                        <xs:element name="item3" type="xs:string" minOccurs="0"/>
+                                        <xs:element name="item4" type="xs:string" minOccurs="0"/>
+                                        <xs:element name="item5" type="xs:string" minOccurs="0"/>
+                                        <xs:element name="item6" type="xs:string" minOccurs="0"/>
+                                        <xs:element name="item7" type="xs:string" minOccurs="0"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+
+                <xs:element name="UIControls" minOccurs="0">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="CheckboxGroup" type="xs:string" minOccurs="0"/>
+                            <xs:element name="RadioButtonGroup" type="xs:string" minOccurs="0"/>
+                            <xs:element name="Dropdown" type="xs:string" minOccurs="0"/>
+                            <xs:element name="Slider" type="xs:string" minOccurs="0"/>
+                            <xs:element name="DateTimePicker" type="xs:string" minOccurs="0"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+
+                <xs:element name="PageHeader" minOccurs="0">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="LogoImage" type="xs:string" minOccurs="0"/>
+                            <xs:element name="CompanyName" type="xs:string" minOccurs="0"/>
+                            <xs:element name="HeaderText" type="xs:string" minOccurs="0"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+
+                <xs:element name="Sidebar" minOccurs="0">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="SidebarItems" minOccurs="0" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="Item" type="xs:string" minOccurs="0"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+
+                <xs:element name="PageFooter" minOccurs="0">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="FooterText" type="xs:string" minOccurs="0"/>
+                            <xs:element name="ContactInfo" type="xs:string" minOccurs="0"/>
+                            <xs:element name="LegalNotice" type="xs:string" minOccurs="0"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+
             </xs:sequence>
         </xs:complexType>
     </xs:element>
-    
-    <xs:element name="ApprovalWorkflow">
-        <xs:complexType>
-            <xs:sequence>
-                <xs:element name="Approver" type="xs:string" minOccurs="0" maxOccurs="unbounded"/>
-                <xs:element name="Level" type="xs:int" minOccurs="0"/>
-            </xs:sequence>
-        </xs:complexType>
-    </xs:element>
-    
-    <xs:element name="Attachments">
-        <xs:complexType>
-            <xs:sequence>
-                <xs:element name="Attachment" type="xs:string" minOccurs="0" maxOccurs="unbounded"/>
-            </xs:sequence>
-        </xs:complexType>
-    </xs:element>
-    
-    <xs:element name="Comments">
-        <xs:complexType>
-            <xs:sequence>
-                <xs:element name="Comment" type="xs:string" minOccurs="0" maxOccurs="unbounded"/>
-                <xs:element name="ThreadedComment" type="xs:string" minOccurs="0"/>
-            </xs:sequence>
-        </xs:complexType>
-    </xs:element>
-    
-    <xs:element name="ExtendedGrid">
-        <xs:complexType>
-            <xs:sequence>
-                <xs:element name="ItemHeader6" type="xs:string" minOccurs="0"/>
-                <xs:element name="ItemHeader7" type="xs:string" minOccurs="0"/>
-                <xs:element name="Item6" type="xs:string" minOccurs="0"/>
-                <xs:element name="Item7" type="xs:string" minOccurs="0"/>
-            </xs:sequence>
-        </xs:complexType>
-    </xs:element>
-    
-    <xs:element name="UIControls">
-        <xs:complexType>
-            <xs:sequence>
-                <xs:element name="CheckboxGroup" type="xs:string" minOccurs="0"/>
-                <xs:element name="RadioButtonGroup" type="xs:string" minOccurs="0"/>
-                <xs:element name="Dropdown" type="xs:string" minOccurs="0"/>
-                <xs:element name="Slider" type="xs:string" minOccurs="0"/>
-                <xs:element name="DateTimePicker" type="xs:string" minOccurs="0"/>
-            </xs:sequence>
-        </xs:complexType>
-    </xs:element>
-    
-    <xs:element name="PageLayout">
-        <xs:complexType>
-            <xs:sequence>
-                <xs:element name="PageHeader" type="xs:string" minOccurs="0"/>
-                <xs:element name="Sidebar" type="xs:string" minOccurs="0"/>
-                <xs:element name="PageFooter" type="xs:string" minOccurs="0"/>
-            </xs:sequence>
-        </xs:complexType>
-    </xs:element>
-    
-    <xs:element name="EnhancedAttributes">
-        <xs:complexType>
-            <xs:sequence>
-                <xs:element name="Validation" type="xs:string" minOccurs="0"/>
-                <xs:element name="Styling" type="xs:string" minOccurs="0"/>
-            </xs:sequence>
-        </xs:complexType>
-    </xs:element>
+
 </xs:schema>

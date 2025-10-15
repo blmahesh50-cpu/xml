@@ -1,0 +1,79 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="ReportMetadata">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="Status" type="xs:string" minOccurs="0"/>
+                <xs:element name="Priority" type="xs:string" minOccurs="0"/>
+                <xs:element name="Department" type="xs:string" minOccurs="0"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    
+    <xs:element name="ApprovalWorkflow">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="Approver" type="xs:string" minOccurs="0" maxOccurs="unbounded"/>
+                <xs:element name="Level" type="xs:int" minOccurs="0"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    
+    <xs:element name="Attachments">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="Attachment" type="xs:string" minOccurs="0" maxOccurs="unbounded"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    
+    <xs:element name="Comments">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="Comment" type="xs:string" minOccurs="0" maxOccurs="unbounded"/>
+                <xs:element name="ThreadedComment" type="xs:string" minOccurs="0"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    
+    <xs:element name="ExtendedGrid">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="ItemHeader6" type="xs:string" minOccurs="0"/>
+                <xs:element name="ItemHeader7" type="xs:string" minOccurs="0"/>
+                <xs:element name="Item6" type="xs:string" minOccurs="0"/>
+                <xs:element name="Item7" type="xs:string" minOccurs="0"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    
+    <xs:element name="UIControls">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="CheckboxGroup" type="xs:string" minOccurs="0"/>
+                <xs:element name="RadioButtonGroup" type="xs:string" minOccurs="0"/>
+                <xs:element name="Dropdown" type="xs:string" minOccurs="0"/>
+                <xs:element name="Slider" type="xs:string" minOccurs="0"/>
+                <xs:element name="DateTimePicker" type="xs:string" minOccurs="0"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    
+    <xs:element name="PageLayout">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="PageHeader" type="xs:string" minOccurs="0"/>
+                <xs:element name="Sidebar" type="xs:string" minOccurs="0"/>
+                <xs:element name="PageFooter" type="xs:string" minOccurs="0"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    
+    <xs:element name="EnhancedAttributes">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="Validation" type="xs:string" minOccurs="0"/>
+                <xs:element name="Styling" type="xs:string" minOccurs="0"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
